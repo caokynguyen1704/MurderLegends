@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_dirt"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/dirt_dirt.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/dirt_dirt.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/dirt_dirt.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/dirt_dirt.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/dirt_dirt.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/dirt_top.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "fc9f17a00d6cf64acb0751c468e1dd72",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

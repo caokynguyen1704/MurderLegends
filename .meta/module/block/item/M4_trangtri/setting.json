@@ -1,0 +1,42 @@
+{
+  "data": {
+    "canBreak": false,
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "359df136-0369-4a8f-b35b-cd169e12fe92"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map4/trangtri.png",
+        "selector": "editor/PF/asset/map4/trangtri.png"
+      },
+      "down": {
+        "asset": "asset/map4/trangtri.png",
+        "selector": "editor/PF/asset/map4/trangtri.png"
+      },
+      "front": {
+        "asset": "asset/map4/trangtri.png",
+        "selector": "editor/PF/asset/map4/trangtri.png"
+      },
+      "left": {
+        "asset": "asset/map4/trangtri.png",
+        "selector": "editor/PF/asset/map4/trangtri.png"
+      },
+      "right": {
+        "asset": "asset/map4/trangtri.png",
+        "selector": "editor/PF/asset/map4/trangtri.png"
+      },
+      "up": {
+        "asset": "asset/map4/trangtri.png",
+        "selector": "editor/PF/asset/map4/trangtri.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "03a89c7fc471220dc9302b29afea63e5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

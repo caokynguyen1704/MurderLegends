@@ -1,0 +1,29 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_carrots_stage_3"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ff8f85100255c95ca7bc46d472828c63",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_brick_block"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/brick.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/brick.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/brick.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/brick.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/brick.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/brick.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ea9c627669b7208cc5f9720ea67f576a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

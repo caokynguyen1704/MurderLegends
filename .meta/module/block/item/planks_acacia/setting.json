@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_planks_acacia"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/planks_acacia_planks_acacia.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/planks_acacia_planks_acacia.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/planks_acacia_planks_acacia.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/planks_acacia_planks_acacia.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/planks_acacia_planks_acacia.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/planks_acacia_planks_acacia.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5a53d0c3248b7e34b7ba2e0813dc8125",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

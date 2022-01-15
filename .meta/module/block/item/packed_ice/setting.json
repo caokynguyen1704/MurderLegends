@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_packed_ice"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/ice_packed.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/ice_packed.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/ice_packed.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/ice_packed.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/ice_packed.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/ice_packed.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "594bd188e6797b42afea92c5414e8f52",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

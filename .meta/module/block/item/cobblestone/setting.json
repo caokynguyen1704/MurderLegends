@@ -1,0 +1,39 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "fall": true,
+    "name": {
+      "value": "block_cobblestone"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/cobblestone.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/cobblestone.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/cobblestone.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/cobblestone.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/cobblestone.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/cobblestone.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7482f518c0f506ee72dc64407f3eee74",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

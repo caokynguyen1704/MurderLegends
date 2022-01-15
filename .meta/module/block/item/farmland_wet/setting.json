@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_farmland_wet"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/farmland_wet.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/farmland_wet.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/farmland_wet.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/farmland_wet.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/farmland_wet.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/farmland_wet.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ffafdc95607597861567b854ac029758",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

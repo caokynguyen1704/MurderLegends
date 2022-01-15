@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_M4_Hangdao"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map4/go2.png",
+        "selector": "editor/PF/asset/map4/go2.png"
+      },
+      "down": {
+        "asset": "asset/map4/go2.png",
+        "selector": "editor/PF/asset/map4/go2.png"
+      },
+      "front": {
+        "asset": "asset/map4/go2.png",
+        "selector": "editor/PF/asset/map4/go2.png"
+      },
+      "left": {
+        "asset": "asset/map4/go2.png",
+        "selector": "editor/PF/asset/map4/go2.png"
+      },
+      "right": {
+        "asset": "asset/map4/go2.png",
+        "selector": "editor/PF/asset/map4/go2.png"
+      },
+      "up": {
+        "asset": "asset/map4/go2.png",
+        "selector": "editor/PF/asset/map4/go2.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "dbdd9d67472928371d1caf91ab95178c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

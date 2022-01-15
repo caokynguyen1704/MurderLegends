@@ -1,0 +1,74 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/f7d0ee18-975c-489c-a64f-17d56a6ce82c",
+        "id": "8448557855384059905",
+        "name": "TV",
+        "position": {
+          "x": 40.92085647583,
+          "y": 53.419982910156,
+          "z": 44.969493865967
+        },
+        "rotation": {
+          "y": -179.99995422363
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/7ad52f45-81ff-4d61-abb4-e4c3c46ad841",
+        "id": "8448559133222862849",
+        "name": "speaker",
+        "position": {
+          "x": 44.545745849609,
+          "y": 53.415153503418,
+          "z": 43.69522857666
+        },
+        "rotation": {
+          "y": -179.99995422363
+        },
+        "scale": {
+          "y": 2
+        },
+        "size": {
+          "y": 2
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/7ad52f45-81ff-4d61-abb4-e4c3c46ad841",
+        "id": "8448559589177475073",
+        "name": "speaker",
+        "position": {
+          "x": 37.545753479004,
+          "y": 53.415153503418,
+          "z": 43.69522857666
+        },
+        "rotation": {
+          "y": -179.99995422363
+        },
+        "scale": {
+          "y": 2
+        },
+        "size": {
+          "y": 2
+        }
+      }
+    ],
+    "name": {
+      "value": "map_b6ebc878-d0f5-41da-a48d-4ef7c3aef44d"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b5171d63780510baf72678eaa8233f39"
+    },
+    "VERSION": "0.18"
+  }
+}

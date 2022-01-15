@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_a8e4e433-cfe9-4687-bf89-7b986a272912"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/1/prismarine3.png",
+        "selector": "editor/PF/asset/1/prismarine3.png"
+      },
+      "down": {
+        "asset": "asset/1/prismarine3.png",
+        "selector": "editor/PF/asset/1/prismarine3.png"
+      },
+      "front": {
+        "asset": "asset/1/prismarine3.png",
+        "selector": "editor/PF/asset/1/prismarine3.png"
+      },
+      "left": {
+        "asset": "asset/1/prismarine3.png",
+        "selector": "editor/PF/asset/1/prismarine3.png"
+      },
+      "right": {
+        "asset": "asset/1/prismarine3.png",
+        "selector": "editor/PF/asset/1/prismarine3.png"
+      },
+      "up": {
+        "asset": "asset/1/prismarine3.png",
+        "selector": "editor/PF/asset/1/prismarine3.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "09a5212db7573d628fde93a55e631d06",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

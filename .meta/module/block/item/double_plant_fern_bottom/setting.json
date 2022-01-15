@@ -1,0 +1,29 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_double_plant_fern_bottom"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e477ec3cb29c0c2fbc5280f1e39e3d45",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

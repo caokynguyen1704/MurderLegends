@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_concrete_purple"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/concrete_purple.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/concrete_purple.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/concrete_purple.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/concrete_purple.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/concrete_purple.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/concrete_purple.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7dd9ed0fc097c27488e8962f4b9da1a8",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

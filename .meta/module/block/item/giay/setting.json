@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_giay"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map1/giay.png",
+        "selector": "editor/PF/asset/map1/giay.png"
+      },
+      "down": {
+        "asset": "asset/map1/giay.png",
+        "selector": "editor/PF/asset/map1/giay.png"
+      },
+      "front": {
+        "asset": "asset/map1/giay.png",
+        "selector": "editor/PF/asset/map1/giay.png"
+      },
+      "left": {
+        "asset": "asset/map1/giay.png",
+        "selector": "editor/PF/asset/map1/giay.png"
+      },
+      "right": {
+        "asset": "asset/map1/giay.png",
+        "selector": "editor/PF/asset/map1/giay.png"
+      },
+      "up": {
+        "asset": "asset/map1/giay.png",
+        "selector": "editor/PF/asset/map1/giay.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0b77d1647f5ddf29f251c0c205efce20",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

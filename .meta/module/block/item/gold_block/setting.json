@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_gold_block"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/gold_block.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/gold_block.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/gold_block.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/gold_block.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/gold_block.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/gold_block.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7110d9aff3cd910e2bc4400596bff2f2",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

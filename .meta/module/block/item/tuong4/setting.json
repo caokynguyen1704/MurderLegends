@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_tuong4"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map1/tuong2.png",
+        "selector": "editor/PF/asset/map1/tuong2.png"
+      },
+      "down": {
+        "asset": "asset/map1/concrete_silver.png",
+        "selector": "editor/PF/asset/map1/concrete_silver.png"
+      },
+      "front": {
+        "asset": "asset/map1/tuong1.png",
+        "selector": "editor/PF/asset/map1/tuong1.png"
+      },
+      "left": {
+        "asset": "asset/map1/concrete_silver.png",
+        "selector": "editor/PF/asset/map1/concrete_silver.png"
+      },
+      "right": {
+        "asset": "asset/map1/concrete_silver.png",
+        "selector": "editor/PF/asset/map1/concrete_silver.png"
+      },
+      "up": {
+        "asset": "asset/map1/concrete_silver.png",
+        "selector": "editor/PF/asset/map1/concrete_silver.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "49f427f6fad8025e9d35d424cd3464fa",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

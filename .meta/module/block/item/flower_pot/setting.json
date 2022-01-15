@@ -1,0 +1,21 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_flower_pot"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "97c6ea18be0895ffa3769b8d2d83a918",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

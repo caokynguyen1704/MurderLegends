@@ -1,0 +1,29 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_double_plant_grass_bottom"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1ecef563dc2686b6706c529315dfb1db",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

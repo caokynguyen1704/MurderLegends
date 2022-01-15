@@ -1,0 +1,41 @@
+{
+  "data": {
+    "_serverScript": [
+      {
+        "path": "server/server_script"
+      }
+    ],
+    "actorName": {
+      "asset": "asset/Mesh/jinbi/Bcoin.actor",
+      "selector": "editor/Murder Legends/asset/Mesh/jinbi/Bcoin.actor"
+    },
+    "autoMove": true,
+    "boundingVolume": {
+      "params": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+      },
+      "radius": 0.25,
+      "type": "Sphere"
+    },
+    "collision": true,
+    "eyeHeight": 1,
+    "girlactor": {
+      "asset": "asset/Mesh/jinbi/Bcoin.actor",
+      "selector": "editor/Murder Legends/asset/Mesh/jinbi/Bcoin.actor"
+    },
+    "gravity": 10000,
+    "hideName": true,
+    "name": {
+      "value": "entity_d5e881ee-c53e-4d4a-9235-4b98d5dae561"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4e14ed4cf09b99eb2dcf64e8262db1cf",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

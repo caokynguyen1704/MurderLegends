@@ -1,0 +1,47 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "min": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "2fc31c34-6bc6-44ce-9df0-2aa66db5f150"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/M3_banTrang"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/M3_banTrang"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/M3_banTrang"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/M3_banTrang"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/M3_banTrang"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/M3_banTrang"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c123844822b356e29f0c199ce5bf1449",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

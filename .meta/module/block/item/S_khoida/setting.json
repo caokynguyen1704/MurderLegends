@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_S_khoida"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/sanh/1231231.png",
+        "selector": "editor/PF/asset/sanh/1231231.png"
+      },
+      "down": {
+        "asset": "asset/sanh/1231231.png",
+        "selector": "editor/PF/asset/sanh/1231231.png"
+      },
+      "front": {
+        "asset": "asset/sanh/1231231.png",
+        "selector": "editor/PF/asset/sanh/1231231.png"
+      },
+      "left": {
+        "asset": "asset/sanh/1231231.png",
+        "selector": "editor/PF/asset/sanh/1231231.png"
+      },
+      "right": {
+        "asset": "asset/sanh/1231231.png",
+        "selector": "editor/PF/asset/sanh/1231231.png"
+      },
+      "up": {
+        "asset": "asset/sanh/1231231.png",
+        "selector": "editor/PF/asset/sanh/1231231.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b6335817efa89f916d47bfa854bc493a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

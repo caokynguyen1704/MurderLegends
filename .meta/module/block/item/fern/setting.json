@@ -1,0 +1,29 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_fern"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a98f6f57d283f2ac19b126c5d5b5ca1e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

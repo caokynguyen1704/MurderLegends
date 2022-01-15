@@ -1,0 +1,27 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_stone_slab"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "071862fdcc65a6913c9d1107a59b4b34",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

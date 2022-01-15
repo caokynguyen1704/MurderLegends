@@ -1,0 +1,33 @@
+{
+  "data": {
+    "canBreak": false,
+    "climbSpeed": 5,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0.55,
+          "z": 0.55
+        },
+        "min": {
+          "x": 0.45,
+          "z": 0.45
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_glass_pane_top"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c01428c2df980764f4c8bb327047f3ec",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

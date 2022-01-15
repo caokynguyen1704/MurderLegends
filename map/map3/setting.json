@@ -1,0 +1,62 @@
+{
+  "canBreak": true,
+  "hideCloud": true,
+  "scene": [
+    {
+      "class": "Entity",
+      "config": "myplugin/player1",
+      "properties": {
+        "id": "8430324301062258689",
+        "name": "player1",
+        "position": "x:21.732776641846 y:52.949993133545 z:16.776679992676",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/f7d0ee18-975c-489c-a64f-17d56a6ce82c",
+      "properties": {
+        "id": "8437496431884091393",
+        "name": "tv",
+        "position": "x:22.518270492554 y:53.999996185303 z:23.211875915527",
+        "rotation": "x:0 y:-179.99995422363 z:0",
+        "scale": "x:1 y:1 z:1"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/f7d0ee18-975c-489c-a64f-17d56a6ce82c",
+      "properties": {
+        "id": "8437499833041010689",
+        "name": "tv",
+        "position": "x:66.050064086914 y:66.000061035156 z:56.851306915283",
+        "rotation": "x:0 y:-179.99995422363 z:0",
+        "scale": "x:1 y:1 z:1"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 720.0
+  }
+}

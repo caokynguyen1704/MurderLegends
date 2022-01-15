@@ -1,0 +1,33 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5,
+          "z": 0.5
+        }
+      },
+      {
+        "min": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_bone_block_8"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e7fe9c7a765a72a6989710cc1041b8c6",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

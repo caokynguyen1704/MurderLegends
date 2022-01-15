@@ -1,0 +1,29 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_deadbush"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "dc13ed7147e22fccb493cbb5fd341b48",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "244ee9a7-0886-4597-94e6-96d5febb1329"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/sanh/DP3d6D5XUAATfYT.png",
+        "selector": "editor/PF/asset/sanh/DP3d6D5XUAATfYT.png"
+      },
+      "down": {
+        "asset": "asset/sanh/DP3d6D5XUAATfYT.png",
+        "selector": "editor/PF/asset/sanh/DP3d6D5XUAATfYT.png"
+      },
+      "front": {
+        "asset": "asset/sanh/DP3d6D5XUAATfYT.png",
+        "selector": "editor/PF/asset/sanh/DP3d6D5XUAATfYT.png"
+      },
+      "left": {
+        "asset": "asset/sanh/DP3d6D5XUAATfYT.png",
+        "selector": "editor/PF/asset/sanh/DP3d6D5XUAATfYT.png"
+      },
+      "right": {
+        "asset": "asset/sanh/DP3d6D5XUAATfYT.png",
+        "selector": "editor/PF/asset/sanh/DP3d6D5XUAATfYT.png"
+      },
+      "up": {
+        "asset": "asset/sanh/DP3d6D5XUAATfYT.png",
+        "selector": "editor/PF/asset/sanh/DP3d6D5XUAATfYT.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c45cc96d56c0edddb20e11cb63826f50",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

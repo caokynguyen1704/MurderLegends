@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "f67b3401-37ff-44c6-8869-54518c4ee078"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/sanh/DQG5hE9XkAAgnOT.png",
+        "selector": "editor/PF/asset/sanh/DQG5hE9XkAAgnOT.png"
+      },
+      "down": {
+        "asset": "asset/sanh/DQG5hE9XkAAgnOT.png",
+        "selector": "editor/PF/asset/sanh/DQG5hE9XkAAgnOT.png"
+      },
+      "front": {
+        "asset": "asset/sanh/DQG5hE9XkAAgnOT.png",
+        "selector": "editor/PF/asset/sanh/DQG5hE9XkAAgnOT.png"
+      },
+      "left": {
+        "asset": "asset/sanh/DQG5hE9XkAAgnOT.png",
+        "selector": "editor/PF/asset/sanh/DQG5hE9XkAAgnOT.png"
+      },
+      "right": {
+        "asset": "asset/sanh/DQG5hE9XkAAgnOT.png",
+        "selector": "editor/PF/asset/sanh/DQG5hE9XkAAgnOT.png"
+      },
+      "up": {
+        "asset": "asset/sanh/DQG5hE9XkAAgnOT.png",
+        "selector": "editor/PF/asset/sanh/DQG5hE9XkAAgnOT.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a5d46a2143d5a0d533c20e1ff5815397",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

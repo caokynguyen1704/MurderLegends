@@ -1,0 +1,27 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/charactor/charactor_boy/fridge.actor",
+      "selector": "editor/PF/asset/Actor/charactor/charactor_boy/fridge.actor"
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "maxHp": 22,
+    "name": {
+      "value": "entity_f4e7383c-228b-4337-8dc9-d81aa572922b"
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "507789b76c04d70aa1b43802762f6203",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

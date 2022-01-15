@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_gravel"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/gravel.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/gravel.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/gravel.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/gravel.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/gravel.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/gravel.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "76daa32428396991084b4ca4fcd1e77c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

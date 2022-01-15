@@ -1,0 +1,51 @@
+{
+  "canBreak": true,
+  "hideCloud": true,
+  "scene": [
+    {
+      "class": "Entity",
+      "config": "myplugin/f4e7383c-228b-4337-8dc9-d81aa572922b",
+      "properties": {
+        "id": "8444806293340454913",
+        "name": "entity_f4e7383c-228b-4337-8dc9-d81aa572922b",
+        "position": "x:30.588798522949 y:53.999996185303 z:53.980354309082",
+        "rotation": "x:0 y:90.0 z:0",
+        "scale": "x:1 y:1 z:1"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/f7d0ee18-975c-489c-a64f-17d56a6ce82c",
+      "properties": {
+        "id": "8444817685533065217",
+        "name": "entity_f7d0ee18-975c-489c-a64f-17d56a6ce82c",
+        "position": "x:11 y:54.936958312988 z:31.62801361084",
+        "rotation": "x:0 y:-90.00008392334 z:0",
+        "scale": "x:1 y:1 z:1"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 720.0
+  }
+}

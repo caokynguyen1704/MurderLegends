@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_afde7605-90a9-445a-af4f-54a78c21516d"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/03.60060.png",
+        "selector": "editor/PF/asset/03.60060.png"
+      },
+      "down": {
+        "asset": "asset/03.60060.png",
+        "selector": "editor/PF/asset/03.60060.png"
+      },
+      "front": {
+        "asset": "asset/03.60060.png",
+        "selector": "editor/PF/asset/03.60060.png"
+      },
+      "left": {
+        "asset": "asset/03.60060.png",
+        "selector": "editor/PF/asset/03.60060.png"
+      },
+      "right": {
+        "asset": "asset/03.60060.png",
+        "selector": "editor/PF/asset/03.60060.png"
+      },
+      "up": {
+        "asset": "asset/03.60060.png",
+        "selector": "editor/PF/asset/03.60060.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4c7d0a70da22bad63b4718a83a80285c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

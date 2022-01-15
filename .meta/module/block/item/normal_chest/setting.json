@@ -1,0 +1,20 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_normal_chest"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7b0bd058a9351da346e076fb3ee1aada",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

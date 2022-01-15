@@ -1,0 +1,32 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0.6,
+          "z": 0.6
+        },
+        "min": {
+          "x": 0.4,
+          "z": 0.4
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_fence"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "acd4ae11a7d1f4e706a3df0008ea2090",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

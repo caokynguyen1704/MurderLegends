@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_green_shulker_box"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/shulker_top_green.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/shulker_top_green.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/shulker_top_green.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/shulker_top_green.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/shulker_top_green.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/shulker_top_green.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ff9d8debe059e72800f2fbec78e1f721",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_acacia_wood_slab"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "979e52e325bf3952f8a8c0038c05eab9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

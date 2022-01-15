@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_d67716c1-b476-451c-aecb-f8f51129cc65"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/1/bedrock2.png",
+        "selector": "editor/PF/asset/1/bedrock2.png"
+      },
+      "down": {
+        "asset": "asset/1/bedrock2.png",
+        "selector": "editor/PF/asset/1/bedrock2.png"
+      },
+      "front": {
+        "asset": "asset/1/bedrock2.png",
+        "selector": "editor/PF/asset/1/bedrock2.png"
+      },
+      "left": {
+        "asset": "asset/1/bedrock2.png",
+        "selector": "editor/PF/asset/1/bedrock2.png"
+      },
+      "right": {
+        "asset": "asset/1/bedrock2.png",
+        "selector": "editor/PF/asset/1/bedrock2.png"
+      },
+      "up": {
+        "asset": "asset/1/bedrock2.png",
+        "selector": "editor/PF/asset/1/bedrock2.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5dfccf04caa738259cf05f1f30d0c503",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_red_mushroom"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "cd3a0a2548a8b4e5aeca1a148cf5ebde",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

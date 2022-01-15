@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_double_wooden_slab_1"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/planks_spruce.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/planks_spruce.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/planks_spruce.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/planks_spruce.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/planks_spruce.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/planks_spruce.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "208aa7a381d59aa85449ad49ab806743",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

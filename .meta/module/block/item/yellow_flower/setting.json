@@ -1,0 +1,29 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_yellow_flower"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2262e810360707259bb3fcff521a8ffc",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

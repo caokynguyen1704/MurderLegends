@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_bedrock"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "65015feda85fe8dd146d14deb953e57d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/TV Set/g2020_fru_chairs3.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_f7d0ee18-975c-489c-a64f-17d56a6ce82c"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "14b332ec1e4ec0816f93a1e263c7572a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

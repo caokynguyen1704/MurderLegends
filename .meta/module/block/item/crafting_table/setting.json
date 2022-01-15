@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_crafting_table"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/crafting_table_side.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/crafting_table_top.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/crafting_table_front.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/crafting_table_side.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/crafting_table_side.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/crafting_table_top.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d1ada0809ae2acb10231b4c95cab9cff",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

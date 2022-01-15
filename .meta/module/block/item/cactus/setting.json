@@ -1,0 +1,32 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0.75,
+          "z": 0.75
+        },
+        "min": {
+          "x": 0.25,
+          "z": 0.25
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_cactus"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4fb4c684a834c8ffb35203aa6661c655",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

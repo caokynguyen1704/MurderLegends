@@ -1,0 +1,21 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_blue_orchid"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4ca0c7de7cb2113d18422ecc6d42d111",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

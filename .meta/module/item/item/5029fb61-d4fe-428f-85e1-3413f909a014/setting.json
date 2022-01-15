@@ -1,0 +1,26 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "itemintroduction": {
+      "value": "9df576c2-a35f-4790-9959-ea1d7562002c"
+    },
+    "mesh": {
+      "asset": "asset/Green Tailed Pickaxe/g1008_pickaxe_17.mesh",
+      "selector": "editor/Murder Legends/asset/Green Tailed Pickaxe/g1008_pickaxe_17.mesh"
+    },
+    "name": {
+      "value": "item_5029fb61-d4fe-428f-85e1-3413f909a014"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8d4f22a1e355c7d1f6de31450145916e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

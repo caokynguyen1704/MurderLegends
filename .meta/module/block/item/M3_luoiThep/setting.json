@@ -1,0 +1,42 @@
+{
+  "data": {
+    "canBreak": false,
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_M3_luoiThep"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map3/luoiThep.png",
+        "selector": "editor/PF/asset/map3/luoiThep.png"
+      },
+      "down": {
+        "asset": "asset/map3/luoiThep.png",
+        "selector": "editor/PF/asset/map3/luoiThep.png"
+      },
+      "front": {
+        "asset": "asset/map3/luoiThep.png",
+        "selector": "editor/PF/asset/map3/luoiThep.png"
+      },
+      "left": {
+        "asset": "asset/map3/luoiThep.png",
+        "selector": "editor/PF/asset/map3/luoiThep.png"
+      },
+      "right": {
+        "asset": "asset/map3/luoiThep.png",
+        "selector": "editor/PF/asset/map3/luoiThep.png"
+      },
+      "up": {
+        "asset": "asset/map3/luoiThep.png",
+        "selector": "editor/PF/asset/map3/luoiThep.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e4bc857ab77df92be0ddf44aa8d4e25e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

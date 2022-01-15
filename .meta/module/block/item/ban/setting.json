@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_ban"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map1/ban1.png",
+        "selector": "editor/PF/asset/map1/ban1.png"
+      },
+      "down": {
+        "asset": "asset/map1/ban2.png",
+        "selector": "editor/PF/asset/map1/ban2.png"
+      },
+      "front": {
+        "asset": "asset/map1/ban1.png",
+        "selector": "editor/PF/asset/map1/ban1.png"
+      },
+      "left": {
+        "asset": "asset/map1/ban1.png",
+        "selector": "editor/PF/asset/map1/ban1.png"
+      },
+      "right": {
+        "asset": "asset/map1/ban1.png",
+        "selector": "editor/PF/asset/map1/ban1.png"
+      },
+      "up": {
+        "asset": "asset/map1/ban2.png",
+        "selector": "editor/PF/asset/map1/ban2.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a6d5998444369c79ebdc88b0f82fe431",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

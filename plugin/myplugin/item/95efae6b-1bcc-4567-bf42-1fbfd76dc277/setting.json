@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "equip_skill": [],
+  "equip_skin": {
+    "": ""
+  },
+  "icon": "",
+  "itemintroduction": "1c3049e6-0ae6-46e0-8810-b0fb27297c06",
+  "itemname": "item_95efae6b-1bcc-4567-bf42-1fbfd76dc277",
+  "mesh": "asset/Battle Streamer Bow/g1008_bow_03_pulling_0.mesh",
+  "needSave": false,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "tray": []
+}

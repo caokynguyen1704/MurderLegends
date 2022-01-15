@@ -1,0 +1,27 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_birch_wood_slab"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "99f15864c0fcf0e443f61d8414f92801",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

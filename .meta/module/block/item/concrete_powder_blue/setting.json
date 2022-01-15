@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_concrete_powder_blue"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/concrete_powder_blue.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/concrete_powder_blue.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/concrete_powder_blue.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/concrete_powder_blue.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/concrete_powder_blue.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/concrete_powder_blue.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "798daece69cc201ed05b584593047c04",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

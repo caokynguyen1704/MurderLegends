@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_snow_0"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/snow.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/snow.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/snow.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/snow.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/snow.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/snow.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1d37d56a06f423747f8a1897fd3d3d52",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

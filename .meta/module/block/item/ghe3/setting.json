@@ -1,0 +1,34 @@
+{
+  "data": {
+    "canBreak": false,
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_ghe3"
+    },
+    "textures": {
+      "down": {
+        "asset": "asset/map1/ghe2.png",
+        "selector": "editor/PF/asset/map1/ghe2.png"
+      },
+      "front": {
+        "asset": "asset/map1/ghe4.png",
+        "selector": "editor/PF/asset/map1/ghe4.png"
+      },
+      "left": {
+        "asset": "asset/map1/ghe3.png",
+        "selector": "editor/PF/asset/map1/ghe3.png"
+      },
+      "right": {
+        "asset": "asset/map1/ghe3.png",
+        "selector": "editor/PF/asset/map1/ghe3.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "fe8eb5212ebb39ae7b6f741e323ac327",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

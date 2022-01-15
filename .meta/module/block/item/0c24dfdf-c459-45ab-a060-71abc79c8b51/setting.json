@@ -1,0 +1,34 @@
+{
+  "data": {
+    "canBreak": false,
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_0c24dfdf-c459-45ab-a060-71abc79c8b51"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map1/ghe3.png",
+        "selector": "editor/PF/asset/map1/ghe3.png"
+      },
+      "down": {
+        "asset": "asset/map1/ghe2.png",
+        "selector": "editor/PF/asset/map1/ghe2.png"
+      },
+      "front": {
+        "asset": "asset/map1/ghe3.png",
+        "selector": "editor/PF/asset/map1/ghe3.png"
+      },
+      "left": {
+        "asset": "asset/map1/ghe4.png",
+        "selector": "editor/PF/asset/map1/ghe4.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "41ec3e4c0e4885c5fdbb23c628bba539",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

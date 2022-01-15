@@ -1,0 +1,29 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_4"
+    },
+    "textures": {
+      "down": {
+        "asset": "asset/4.png",
+        "selector": "editor/PF/asset/4.png"
+      },
+      "front": {
+        "asset": "asset/4.png",
+        "selector": "editor/PF/asset/4.png"
+      },
+      "up": {
+        "asset": "asset/4.png",
+        "selector": "editor/PF/asset/4.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "36d365aca069ba0eaf1c270e0968f198",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

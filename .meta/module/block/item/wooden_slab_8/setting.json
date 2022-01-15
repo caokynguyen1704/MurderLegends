@@ -1,0 +1,27 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "min": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_wooden_slab_8"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "da93eced325f6029b2194ff0dd0a9d9c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

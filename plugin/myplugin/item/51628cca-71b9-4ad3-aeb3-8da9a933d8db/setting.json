@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "equip_skill": [],
+  "equip_skin": {
+    "": ""
+  },
+  "icon": "",
+  "itemintroduction": "8d6073e1-bbd9-49c2-908c-ac35778c68c2",
+  "itemname": "item_51628cca-71b9-4ad3-aeb3-8da9a933d8db",
+  "mesh": "asset/Battle Golden Bow/g1008_bow_01_pulling_0.mesh",
+  "needSave": false,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "tray": []
+}

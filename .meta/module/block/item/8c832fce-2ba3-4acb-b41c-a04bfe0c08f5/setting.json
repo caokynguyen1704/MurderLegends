@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_8c832fce-2ba3-4acb-b41c-a04bfe0c08f5"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map3/nenNha.png",
+        "selector": "editor/PF/asset/map3/nenNha.png"
+      },
+      "down": {
+        "asset": "asset/map3/nenNha.png",
+        "selector": "editor/PF/asset/map3/nenNha.png"
+      },
+      "front": {
+        "asset": "asset/map3/nenNha.png",
+        "selector": "editor/PF/asset/map3/nenNha.png"
+      },
+      "left": {
+        "asset": "asset/map3/nenNha.png",
+        "selector": "editor/PF/asset/map3/nenNha.png"
+      },
+      "right": {
+        "asset": "asset/map3/nenNha.png",
+        "selector": "editor/PF/asset/map3/nenNha.png"
+      },
+      "up": {
+        "asset": "asset/map3/nenNha.png",
+        "selector": "editor/PF/asset/map3/nenNha.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3a54c224601143958bd465ae0600d2ee",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

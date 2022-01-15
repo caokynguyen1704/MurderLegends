@@ -1,0 +1,29 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_double_plant_sunflower_back"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c571530c99f1ee233e71095f5e4253b7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

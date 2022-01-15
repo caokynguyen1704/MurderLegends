@@ -1,0 +1,39 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_leaves_oak_opaque"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/leaves_oak_opaque.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/leaves_oak_opaque.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/leaves_oak_opaque.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/leaves_oak_opaque.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/leaves_oak_opaque.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/leaves_oak_opaque.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "baf9eca95dfb3591ff3529a39909f977",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

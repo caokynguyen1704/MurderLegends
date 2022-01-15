@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_concrete_lime"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/concrete_lime.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/concrete_lime.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/concrete_lime.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/concrete_lime.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/concrete_lime.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/concrete_lime.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d567565ced46c98cb63f1c97c5b17c67",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

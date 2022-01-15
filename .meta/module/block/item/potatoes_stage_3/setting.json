@@ -1,0 +1,29 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_potatoes_stage_3"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "580e0dd199a7373bd984daaa05b59539",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

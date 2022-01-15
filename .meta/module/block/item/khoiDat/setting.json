@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_khoiDat"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/grass_top.png",
+        "selector": "editor/PF/asset/Texture/Block/grass_top.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/grass_top.png",
+        "selector": "editor/PF/asset/Texture/Block/grass_top.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/grass_top.png",
+        "selector": "editor/PF/asset/Texture/Block/grass_top.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/grass_top.png",
+        "selector": "editor/PF/asset/Texture/Block/grass_top.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/grass_top.png",
+        "selector": "editor/PF/asset/Texture/Block/grass_top.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/grass_top.png",
+        "selector": "editor/PF/asset/Texture/Block/grass_top.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6bb9116699544d7c674053179dbd93a0",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

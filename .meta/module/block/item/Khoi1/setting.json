@@ -1,0 +1,42 @@
+{
+  "data": {
+    "canBreak": false,
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_Khoi1"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map3/anh1.png",
+        "selector": "editor/PF/asset/map3/anh1.png"
+      },
+      "down": {
+        "asset": "asset/map3/anh1.png",
+        "selector": "editor/PF/asset/map3/anh1.png"
+      },
+      "front": {
+        "asset": "asset/map3/anh1.png",
+        "selector": "editor/PF/asset/map3/anh1.png"
+      },
+      "left": {
+        "asset": "asset/map3/anh1.png",
+        "selector": "editor/PF/asset/map3/anh1.png"
+      },
+      "right": {
+        "asset": "asset/map3/anh1.png",
+        "selector": "editor/PF/asset/map3/anh1.png"
+      },
+      "up": {
+        "asset": "asset/map3/anh1.png",
+        "selector": "editor/PF/asset/map3/anh1.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9f4a56823eb0abe3ca5f501c8f2e9a3d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

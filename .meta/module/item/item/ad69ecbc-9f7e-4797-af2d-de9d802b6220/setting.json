@@ -1,0 +1,31 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Texture/Gui/coin1.png",
+      "selector": "editor/Murder Legends/asset/Texture/Gui/coin1.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "itemintroduction": {
+      "value": "7e3f6475-1169-4355-97ac-a4520d9021e2"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/jinbi/jinbi.mesh",
+      "selector": "editor/Murder Legends/asset/Mesh/jinbi/jinbi.mesh"
+    },
+    "name": {
+      "value": "item_ad69ecbc-9f7e-4797-af2d-de9d802b6220"
+    },
+    "stack_count_max": 99
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4959bd72acd2e0842136be8d8252eb11",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

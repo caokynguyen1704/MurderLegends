@@ -1,0 +1,20 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_waterlily"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "eb0ac13265e315a228660cd9c43dc0c1",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

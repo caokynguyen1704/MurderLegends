@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_M4_khoiSanGo"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map4/go1.png",
+        "selector": "editor/PF/asset/map4/go1.png"
+      },
+      "down": {
+        "asset": "asset/map4/go1.png",
+        "selector": "editor/PF/asset/map4/go1.png"
+      },
+      "front": {
+        "asset": "asset/map4/go1.png",
+        "selector": "editor/PF/asset/map4/go1.png"
+      },
+      "left": {
+        "asset": "asset/map4/go1.png",
+        "selector": "editor/PF/asset/map4/go1.png"
+      },
+      "right": {
+        "asset": "asset/map4/go1.png",
+        "selector": "editor/PF/asset/map4/go1.png"
+      },
+      "up": {
+        "asset": "asset/map4/go1.png",
+        "selector": "editor/PF/asset/map4/go1.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "40966081782089eeece8d53200bbaaae",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

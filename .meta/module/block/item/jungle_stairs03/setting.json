@@ -1,0 +1,33 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      },
+      {
+        "min": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_jungle_stairs03"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a6095753825e5687d1ff2019493deb56",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

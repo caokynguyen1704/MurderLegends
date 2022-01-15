@@ -1,0 +1,105 @@
+{
+  "data": {
+    "castSound": {
+      "sound": {
+        "asset": "asset/main/music/Knife Kill 2.mp3",
+        "selector": "editor/Murder Legends/asset/main/music/Knife Kill 2.mp3"
+      },
+      "volume": {
+        "value": 1
+      }
+    },
+    "name": {
+      "value": "skill_4787f15d-7373-40d1-9aa5-a98bdde67149"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack"
+      }
+    },
+    "skillReleaseWay": {
+      "isClick": true,
+      "isClickIcon": false
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KillEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "baf8512e-81d5-4592-aede-3c201388e99e"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c96125e4-2f38-4b08-8404-120e40d776be"
+              },
+              "pos": {
+                "x": 512,
+                "y": 152
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "baf8512e-81d5-4592-aede-3c201388e99e"
+              },
+              "pos": {
+                "x": 841,
+                "y": 146
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "c96125e4-2f38-4b08-8404-120e40d776be"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "2a5a9891-224e-43ea-a9e6-fdcbf4f47a8c"
+            },
+            "pos": {
+              "x": 187,
+              "y": 166
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2730bc3d5ad38dfceb9bd4fa6186f10a",
+      "triggers.bts": "3c419396768d668ef51d0f6df1f38fc9"
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_log_jungle"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/log_jungle.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/log_jungle_top.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/log_jungle.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/log_jungle.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/log_jungle.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/log_jungle_top.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f87d5463833c26447c81b756661c154f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

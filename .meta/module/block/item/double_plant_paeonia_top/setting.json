@@ -1,0 +1,21 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_double_plant_paeonia_top"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8238c47b3a11a7a5edbb842ae823195b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

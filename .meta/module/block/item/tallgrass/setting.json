@@ -1,0 +1,29 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_tallgrass"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5bd4a8b265434d49819d80f0e69cb166",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_strawb_erry_stage_5"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7ff0c129576cd4b3bbba1bf045517f80",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

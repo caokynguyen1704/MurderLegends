@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_concrete_magenta"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/concrete_magenta.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/concrete_magenta.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/concrete_magenta.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/concrete_magenta.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/concrete_magenta.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/concrete_magenta.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "fab609bcdd30e5f3346750e2b1a36769",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

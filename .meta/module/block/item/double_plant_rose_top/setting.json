@@ -1,0 +1,21 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_double_plant_rose_top"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1ee044f335448180196ea6ea8301f4d4",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

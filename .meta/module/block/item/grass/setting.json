@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_grass"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/grass_side.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/dirt.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/grass_side.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/grass_side.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/grass_side.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/grass_top.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d795ef7cdf2760da79fc0ba39315318f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

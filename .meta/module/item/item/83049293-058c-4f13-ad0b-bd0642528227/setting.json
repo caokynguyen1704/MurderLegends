@@ -1,0 +1,26 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "itemintroduction": {
+      "value": "a2a4abe2-3625-460d-a9df-f3a85a4f9dbd"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Assault Sword/gun_134.mesh",
+      "selector": "editor/Murder Legends/asset/Mesh/Assault Sword/gun_134.mesh"
+    },
+    "name": {
+      "value": "item_83049293-058c-4f13-ad0b-bd0642528227"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9eecc016aabb6ff8ae6ee4b2d9610bb7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

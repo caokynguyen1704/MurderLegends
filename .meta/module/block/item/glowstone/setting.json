@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_glowstone"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/glowstone.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/glowstone.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/glowstone.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/glowstone.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/glowstone.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/glowstone.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d552a86ecdb49a6d47e502350ba5a298",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,33 @@
+<ActorTemplates>
+	<ActorTemplate IsShowShadow="true" WoundBone="" IntervalTime="2" AttackScale="1" Originalscale="1 1 1" Skeleton="bone001.skel" SoundName2="" name="111.actor" SoundName1="" WoundAngle="25" SoundName5="" SoundName3="" Volume="0.8" SoundName4="" SelectedRingSize="1" TextHeight="0" SoundFileNum="0" Alpha="1" MinDistance="1" MaxDistance="16">
+		<Anims/>
+		<BodyParts>
+			<BodyPart MasterName="mutex_name_0" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="group0" DefaultUse="true">
+				<StaticMesh type_name="jinbi" DiscardAlpha="0" LocalAlpha="1">
+					<Position_Y value="0"/>
+					<SpecularStrength value="1.0"/>
+					<FileName value="asset/Mesh/jinbi/jinbi.mesh"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<scale value="1"/>
+					<yaw value="0"/>
+					<SpecularCoef value="0.15"/>
+					<UseEdge value="false"/>
+					<UseBloom value="false"/>
+					<Position_X value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<Position_Z value="0"/>
+					<roll value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+					<UseOriginalcolor value="false"/>
+					<pitch value="0"/>
+					<SocketName value="Origin197011"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

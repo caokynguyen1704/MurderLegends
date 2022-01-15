@@ -1,0 +1,19 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "canBreak": false,
+    "name": {
+      "value": "map_7b3"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "99a2bc1b62855d46351b3ef2b947d65f"
+    },
+    "VERSION": "0.18"
+  }
+}

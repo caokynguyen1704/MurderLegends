@@ -1,0 +1,35 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_M3_demcua"
+    },
+    "textures": {
+      "down": {
+        "asset": "asset/map3/demcua.png",
+        "selector": "editor/PF/asset/map3/demcua.png"
+      },
+      "left": {
+        "asset": "asset/map3/demcua.png",
+        "selector": "editor/PF/asset/map3/demcua.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b5acd24286a36ceb4a434e91a1b1fc89",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

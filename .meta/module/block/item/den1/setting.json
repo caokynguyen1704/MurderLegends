@@ -1,0 +1,47 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "min": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "dc47cf65-7e88-40d8-9e4e-a438ce959916"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/den1"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/den1"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/den1"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/den1"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/den1"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/den1"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "fbc464826df0b8815f43d5e9f01107db",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

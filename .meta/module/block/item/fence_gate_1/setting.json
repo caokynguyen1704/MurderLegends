@@ -1,0 +1,20 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_fence_gate_1"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "10b9e02a9a2ec9901ae4ef817015820d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

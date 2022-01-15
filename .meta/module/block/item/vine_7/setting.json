@@ -1,0 +1,20 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_vine_7"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "66189540ffa9a37219f824cc7b6eecbd",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

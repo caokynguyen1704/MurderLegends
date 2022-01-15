@@ -1,0 +1,47 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "e90274aa-396c-4ec2-8725-71b917a84e96"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/S_Nendo"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/S_Nendo"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/S_Nendo"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/S_Nendo"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/S_Nendo"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/S_Nendo"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ef56d56a65345affdd66c8ec5d9dd7f1",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

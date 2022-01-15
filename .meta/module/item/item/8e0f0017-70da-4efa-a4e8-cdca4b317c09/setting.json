@@ -1,0 +1,35 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Texture/Gui/knife2.png",
+      "selector": "editor/Murder Legends/asset/Texture/Gui/knife2.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/743be559-126a-4df4-b362-153af4b50f95",
+          "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149"
+        ]
+      },
+      "type": "InHand"
+    },
+    "itemintroduction": {
+      "value": "30959589-01da-444c-892b-4be48e3213dc"
+    },
+    "mesh": {
+      "asset": "asset/main/knife/kukri_grip_low.mesh",
+      "selector": "editor/Murder Legends/asset/main/knife/kukri_grip_low.mesh"
+    },
+    "name": {
+      "value": "item_8e0f0017-70da-4efa-a4e8-cdca4b317c09"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a1204b51af63c9699d666fbff1b18233",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

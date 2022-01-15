@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_M3_tuongBlue"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map3/tuongblue.png",
+        "selector": "editor/PF/asset/map3/tuongblue.png"
+      },
+      "down": {
+        "asset": "asset/map3/tuongblue.png",
+        "selector": "editor/PF/asset/map3/tuongblue.png"
+      },
+      "front": {
+        "asset": "asset/map3/tuongblue.png",
+        "selector": "editor/PF/asset/map3/tuongblue.png"
+      },
+      "left": {
+        "asset": "asset/map3/tuongblue.png",
+        "selector": "editor/PF/asset/map3/tuongblue.png"
+      },
+      "right": {
+        "asset": "asset/map3/tuongblue.png",
+        "selector": "editor/PF/asset/map3/tuongblue.png"
+      },
+      "up": {
+        "asset": "asset/map3/tuongblue.png",
+        "selector": "editor/PF/asset/map3/tuongblue.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8bc6f9837192db906dd9fefcc32fe7a4",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

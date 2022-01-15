@@ -1,0 +1,27 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "ce87e4e9-2723-4931-97ec-7025d73d5e02"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "989fc33845803008eb9fbb1449b686f6",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "167c3672-8257-49e2-bde3-9ef885e38980"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map4/banM4.png",
+        "selector": "editor/PF/asset/map4/banM4.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_white.png"
+      },
+      "front": {
+        "asset": "asset/map4/banM4.png",
+        "selector": "editor/PF/asset/map4/banM4.png"
+      },
+      "left": {
+        "asset": "asset/map4/banM4.png",
+        "selector": "editor/PF/asset/map4/banM4.png"
+      },
+      "right": {
+        "asset": "asset/map4/banM4.png",
+        "selector": "editor/PF/asset/map4/banM4.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_white.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "516a2488374d13bcfe15b51538dc0083",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

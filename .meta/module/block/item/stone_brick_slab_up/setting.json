@@ -1,0 +1,27 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "min": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_stone_brick_slab_up"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e9ee8d26b0db6ff62b4737ab09ae107a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

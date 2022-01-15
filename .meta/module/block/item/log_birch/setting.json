@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_log_birch"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/log_birch.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/log_birch_top.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/log_birch.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/log_birch.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/log_birch.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/log_birch_top.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "cb08b767fc67a378bc11e7bbabe7fec7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

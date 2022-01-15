@@ -1,0 +1,37 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "00386948-55b2-48f6-99d3-5e0d36503c71"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map4/qua/qua8.png",
+        "selector": "editor/PF/asset/map4/qua/qua8.png"
+      },
+      "front": {
+        "asset": "asset/map4/qua/qua8.png",
+        "selector": "editor/PF/asset/map4/qua/qua8.png"
+      },
+      "left": {
+        "asset": "asset/map4/qua/qua8.png",
+        "selector": "editor/PF/asset/map4/qua/qua8.png"
+      },
+      "right": {
+        "asset": "asset/map4/qua/qua8.png",
+        "selector": "editor/PF/asset/map4/qua/qua8.png"
+      },
+      "up": {
+        "asset": "asset/map4/qua/qua9.png",
+        "selector": "editor/PF/asset/map4/qua/qua9.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b6f36da80059799d6fb3aaadd1e2feee",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Texture/Gui/knife2.png",
+  "itemintroduction": "30959589-01da-444c-892b-4be48e3213dc",
+  "itemname": "item_8e0f0017-70da-4efa-a4e8-cdca4b317c09",
+  "mesh": "asset/main/knife/kukri_grip_low.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/743be559-126a-4df4-b362-153af4b50f95",
+    "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_clay_0"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/clay.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/clay.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/clay.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/clay.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/clay.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/clay.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "46eb920a11ae4c7bb59178a9df812d82",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

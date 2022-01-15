@@ -1,0 +1,128 @@
+{
+  "data": {
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "lobby2",
+      "pos": {
+        "x": 34,
+        "y": 58,
+        "z": 32
+      }
+    },
+    "nowTime": {
+      "h": 16,
+      "m": 40
+    },
+    "player_range": {
+      "max": 15,
+      "min": 1
+    },
+    "startPos": {
+      "map": "lobby2",
+      "pos": {
+        "x": 33,
+        "y": 58,
+        "z": 31
+      }
+    },
+    "team": {
+      "showTeamStatusBar": false,
+      "team": [
+        {
+          "ignorePlayerSkinEditor": false,
+          "initPos": {
+            "map": "map001",
+            "pos": {
+              "x": 28,
+              "y": 54,
+              "z": 34
+            }
+          },
+          "name": "murder",
+          "startPos": {
+            "map": "map001",
+            "pos": {
+              "x": 28,
+              "y": 54,
+              "z": 34
+            }
+          },
+          "use_init_pos": false,
+          "use_start_pos": false
+        },
+        {
+          "id": 2,
+          "ignorePlayerSkinEditor": false,
+          "initPos": {
+            "map": "map001",
+            "pos": {
+              "x": 28,
+              "y": 54,
+              "z": 34
+            }
+          },
+          "name": "sheriff",
+          "startPos": {
+            "map": "map001",
+            "pos": {
+              "x": 28,
+              "y": 54,
+              "z": 34
+            }
+          },
+          "use_init_pos": false,
+          "use_start_pos": false
+        },
+        {
+          "id": 3,
+          "ignorePlayerSkinEditor": false,
+          "initPos": {
+            "map": "map001",
+            "pos": {
+              "x": 28,
+              "y": 54,
+              "z": 34
+            }
+          },
+          "name": "survivor",
+          "startPos": {
+            "map": "map001",
+            "pos": {
+              "x": 28,
+              "y": 54,
+              "z": 34
+            }
+          },
+          "use_start_pos": false
+        }
+      ]
+    },
+    "ui_enable": {
+      "appMainRole": false,
+      "playerinfo": false,
+      "toolbar": false
+    },
+    "unlimitedPlayTime": true,
+    "waitGoTime": {
+      "value": 20
+    },
+    "waitPlayerTime": {
+      "value": 20
+    },
+    "waitStartTime": {
+      "value": 20
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "135b1fee67b53f6dfc07d830c53fd5c2",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

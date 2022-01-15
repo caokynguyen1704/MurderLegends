@@ -1,0 +1,22 @@
+{
+  "data": {
+    "canBreak": false,
+    "canSwim": true,
+    "collisionBoxes": [],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_water_4"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6117945663e7ab5e45526efdf8901e57",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

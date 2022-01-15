@@ -1,0 +1,29 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_flower_tulip_red"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "eab3b453ea9bb009f758be581b1e9987",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

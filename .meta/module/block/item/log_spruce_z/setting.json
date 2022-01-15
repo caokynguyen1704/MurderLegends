@@ -1,0 +1,20 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_log_spruce_z"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e3700d872cd04de820696df37daf173f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

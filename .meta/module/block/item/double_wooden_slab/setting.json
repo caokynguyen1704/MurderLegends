@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_double_wooden_slab"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/planks_oak_double_wooden_slab.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/planks_oak_double_wooden_slab.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/planks_oak_double_wooden_slab.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/planks_oak_double_wooden_slab.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/planks_oak_double_wooden_slab.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/planks_oak_double_wooden_slab.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3ef422ca432b4455afda3db87cd0fd76",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

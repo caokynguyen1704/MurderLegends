@@ -1,0 +1,39 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_bone_block"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/bone_block_side.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/bone_block_top.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/bone_block_side.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/bone_block_side.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/bone_block_side.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/bone_block_top.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f8f66c7924328f2cf5c6897877d61012",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "ebac4142-f245-4a65-aa11-0bb4134b1b41"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map1/tuong3.png",
+        "selector": "editor/PF/asset/map1/tuong3.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/concrete_silver.png"
+      },
+      "front": {
+        "asset": "asset/map1/tuong3.png",
+        "selector": "editor/PF/asset/map1/tuong3.png"
+      },
+      "left": {
+        "asset": "asset/map1/tuong3.png",
+        "selector": "editor/PF/asset/map1/tuong3.png"
+      },
+      "right": {
+        "asset": "asset/map1/tuong3.png",
+        "selector": "editor/PF/asset/map1/tuong3.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/concrete_silver.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "087330e52f73742c83dee49d22b6ea2d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

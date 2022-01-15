@@ -1,0 +1,39 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_stained_glass"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/glass_new.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/glass_new.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/glass_new.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/glass_new.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/glass_new.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/glass_new.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a18647b8bcab1fc9f6f5102a67985498",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

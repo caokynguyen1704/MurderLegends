@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_concrete_red"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "43c235d65c7589c14dbd3d89104dcc96",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

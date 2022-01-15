@@ -1,0 +1,24 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/charactor/charactor_boy/ballons.actor",
+      "selector": "editor/PF/asset/Actor/charactor/charactor_boy/ballons.actor"
+    },
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "name": {
+      "value": "588d7cc0-45f7-4744-9e01-0ff7a1a000e6"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "757e0f46c88ae8ed06e58343cfd8e048",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

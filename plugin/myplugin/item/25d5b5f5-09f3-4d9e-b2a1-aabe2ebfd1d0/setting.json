@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "equip_skill": [],
+  "equip_skin": {
+    "": ""
+  },
+  "icon": "",
+  "itemintroduction": "afe475d3-086b-4e8e-acba-4a986850fca9",
+  "itemname": "item_25d5b5f5-09f3-4d9e-b2a1-aabe2ebfd1d0",
+  "mesh": "asset/Awesome Axe/g1008_axe_03.mesh",
+  "needSave": false,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "tray": []
+}

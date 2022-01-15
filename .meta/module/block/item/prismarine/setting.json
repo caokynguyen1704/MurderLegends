@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_prismarine"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/prismarine.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/prismarine.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/prismarine.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/prismarine.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/prismarine.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/prismarine.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0f03a03088a25468e399cbffc17b22dc",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

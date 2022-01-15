@@ -1,0 +1,19 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_air_wall"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a1591fca7839288bfe1ba8d4032b2d02",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

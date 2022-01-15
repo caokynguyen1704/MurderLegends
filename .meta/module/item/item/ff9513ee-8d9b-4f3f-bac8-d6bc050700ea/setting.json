@@ -1,0 +1,34 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Texture/Gui/gun1.png",
+      "selector": "editor/Murder Legends/asset/Texture/Gui/gun1.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/3e2b6b2c-ad8c-48b9-a4ac-80a923b08037"
+        ]
+      },
+      "type": "InHand"
+    },
+    "itemintroduction": {
+      "value": "b8ff55f5-17a4-4ef5-9296-75cd527810b1"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Sears Ranger Shotgun/gun_36.mesh",
+      "selector": "editor/Murder Legends/asset/Mesh/Sears Ranger Shotgun/gun_36.mesh"
+    },
+    "name": {
+      "value": "item_ff9513ee-8d9b-4f3f-bac8-d6bc050700ea"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c9ffcb8fa30c8eb781c72bf0705a63e8",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

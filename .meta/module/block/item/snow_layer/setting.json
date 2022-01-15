@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_snow_layer"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/grass_side_snowed-55.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/grass_side_snowed-55.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/grass_side_snowed-55.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/grass_side_snowed-55.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/grass_side_snowed-55.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/grass_side_snowed-54.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5d74d9e646106b6e691a90200a198f5a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

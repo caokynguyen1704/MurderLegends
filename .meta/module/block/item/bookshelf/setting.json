@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_bookshelf"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/bookshelf.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/planks_oak.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/bookshelf.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/bookshelf.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/bookshelf.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/planks_oak.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "85365666e81308cd89504f285adcbdf7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_log_spruce"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/log_spruce.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/log_spruce_top.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/log_spruce.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/log_spruce.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/log_spruce.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/log_spruce_top.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0acb26573acbc027d0af6fc33a7777ed",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "itemintroduction": {
+      "value": "cbf29cfe-059d-4867-8c9c-043fce61bb10"
+    },
+    "mesh": {
+      "asset": "asset/Eternal Broadsword/1700_loki_weapon.mesh",
+      "selector": "editor/Murder Legends/asset/Eternal Broadsword/1700_loki_weapon.mesh"
+    },
+    "name": {
+      "value": "item_6581d150-6719-4a3f-9783-ce669dee6261"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "becef445e5c5d2af4b2697c90e095dc4",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

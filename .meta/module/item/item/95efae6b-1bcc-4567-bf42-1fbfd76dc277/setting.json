@@ -1,0 +1,26 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "itemintroduction": {
+      "value": "1c3049e6-0ae6-46e0-8810-b0fb27297c06"
+    },
+    "mesh": {
+      "asset": "asset/Battle Streamer Bow/g1008_bow_03_pulling_0.mesh",
+      "selector": "editor/Murder Legends/asset/Battle Streamer Bow/g1008_bow_03_pulling_0.mesh"
+    },
+    "name": {
+      "value": "item_95efae6b-1bcc-4567-bf42-1fbfd76dc277"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bd066503bccccb30a957e864ee34ae2f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

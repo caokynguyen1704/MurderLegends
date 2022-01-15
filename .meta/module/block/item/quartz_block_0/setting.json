@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_quartz_block_0"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/quartz_block_side_quartz_block_0.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/quartz_block_bottom_quartz_block_0.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/quartz_block_side_quartz_block_0.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/quartz_block_side_quartz_block_0.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/quartz_block_side_quartz_block_0.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/quartz_block_lines_top_quartz_block_0.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "23cb67c7c22141d7dd41d8afd0fee290",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

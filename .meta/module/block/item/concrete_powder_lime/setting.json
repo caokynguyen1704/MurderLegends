@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_concrete_powder_lime"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/concrete_powder_lime.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/concrete_powder_lime.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/concrete_powder_lime.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/concrete_powder_lime.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/concrete_powder_lime.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/concrete_powder_lime.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4668932d2de188611129b892990c7eb0",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

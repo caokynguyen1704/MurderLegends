@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "equip_skill": [],
+  "equip_skin": {
+    "": ""
+  },
+  "icon": "@asset/Texture/Gui/coin1.png",
+  "itemintroduction": "7e3f6475-1169-4355-97ac-a4520d9021e2",
+  "itemname": "item_ad69ecbc-9f7e-4797-af2d-de9d802b6220",
+  "mesh": "asset/Mesh/jinbi/jinbi.mesh",
+  "needSave": false,
+  "stack_count_max": 99,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "tray": []
+}

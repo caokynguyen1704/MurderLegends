@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_planks_big_oak"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/planks_big_oak_planks_big_oak.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/planks_big_oak_planks_big_oak.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/planks_big_oak_planks_big_oak.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/planks_big_oak_planks_big_oak.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/planks_big_oak_planks_big_oak.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/planks_big_oak_planks_big_oak.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5622fca6222ad085e7137a4a0460664b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

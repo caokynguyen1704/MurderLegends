@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_emerald_block"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/emerald_block.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/emerald_block.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/emerald_block.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/emerald_block.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/emerald_block.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/emerald_block.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3b0a52332e4e7b1a396938efb4796123",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

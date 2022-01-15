@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_91364e37-146f-4023-89c2-a7fe65b91bc4"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/nen1.png",
+        "selector": "editor/PF/asset/nen1.png"
+      },
+      "down": {
+        "asset": "asset/nen1.png",
+        "selector": "editor/PF/asset/nen1.png"
+      },
+      "front": {
+        "asset": "asset/nen1.png",
+        "selector": "editor/PF/asset/nen1.png"
+      },
+      "left": {
+        "asset": "asset/nen1.png",
+        "selector": "editor/PF/asset/nen1.png"
+      },
+      "right": {
+        "asset": "asset/nen1.png",
+        "selector": "editor/PF/asset/nen1.png"
+      },
+      "up": {
+        "asset": "asset/nen1.png",
+        "selector": "editor/PF/asset/nen1.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "561ace85dedf346883e146a87090ddcc",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

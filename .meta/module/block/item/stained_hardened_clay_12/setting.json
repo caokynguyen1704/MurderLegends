@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_stained_hardened_clay_12"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_brown.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_brown.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_brown.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_brown.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_brown.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_brown.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4f61a481cdbbbd89705d56ac1e48b078",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

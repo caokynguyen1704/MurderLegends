@@ -1,0 +1,39 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "fall": true,
+    "name": {
+      "value": "block_redstone_ore"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/redstone_ore_redstone_ore.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/redstone_ore_redstone_ore.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/redstone_ore_redstone_ore.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/redstone_ore_redstone_ore.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/redstone_ore_redstone_ore.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/redstone_ore_redstone_ore.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b2c6306fca76e0692abd2f589735d9f4",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

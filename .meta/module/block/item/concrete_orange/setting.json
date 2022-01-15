@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_concrete_orange"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/concrete_orange.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/concrete_orange.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/concrete_orange.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/concrete_orange.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/concrete_orange.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/concrete_orange.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e0c914729348915bbcc10bffc14cbab2",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

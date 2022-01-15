@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_M4_tuongA1"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map4/Background.png",
+        "selector": "editor/PF/asset/map4/Background.png"
+      },
+      "down": {
+        "asset": "asset/map4/cotNgang.png",
+        "selector": "editor/PF/asset/map4/cotNgang.png"
+      },
+      "front": {
+        "asset": "asset/map4/cotNgang.png",
+        "selector": "editor/PF/asset/map4/cotNgang.png"
+      },
+      "left": {
+        "asset": "asset/map4/cotNgang.png",
+        "selector": "editor/PF/asset/map4/cotNgang.png"
+      },
+      "right": {
+        "asset": "asset/map4/cotNgang.png",
+        "selector": "editor/PF/asset/map4/cotNgang.png"
+      },
+      "up": {
+        "asset": "asset/map4/cotNgang.png",
+        "selector": "editor/PF/asset/map4/cotNgang.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b5a49692b240225904dc691424c498a8",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

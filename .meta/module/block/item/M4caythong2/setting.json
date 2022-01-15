@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "ecf7b7ed-7962-46b3-87b0-be555b761118"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map4/caythong3.png",
+        "selector": "editor/PF/asset/map4/caythong3.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/leaves_spruce_leaves_spruce_nodecay.png",
+        "selector": "editor/PF/asset/Texture/Block/leaves_spruce_leaves_spruce_nodecay.png"
+      },
+      "front": {
+        "asset": "asset/map4/caythong3.png",
+        "selector": "editor/PF/asset/map4/caythong3.png"
+      },
+      "left": {
+        "asset": "asset/map4/caythong3.png",
+        "selector": "editor/PF/asset/map4/caythong3.png"
+      },
+      "right": {
+        "asset": "asset/map4/caythong3.png",
+        "selector": "editor/PF/asset/map4/caythong3.png"
+      },
+      "up": {
+        "asset": "asset/map4/caythong2.png",
+        "selector": "editor/PF/asset/map4/caythong2.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "145a877ca5e59f1edac518764c612c9c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

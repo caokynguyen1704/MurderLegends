@@ -1,0 +1,43 @@
+{
+  "data": {
+    "cdTime": {
+      "value": 30
+    },
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "skill_3e2b6b2c-ad8c-48b9-a4ac-80a923b08037"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/81ca486d-d05e-495c-9964-a89249c3ae99"
+          }
+        ],
+        "target": {
+          "type": "Camera"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "draggingEnabled": true,
+      "icon": {
+        "asset": "asset/main/gun_btn.png",
+        "selector": "editor/Murder Legends/asset/main/gun_btn.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClick": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "da8607f4392660b8edf7adcf0e6fce7c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

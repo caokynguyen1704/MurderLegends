@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_57ec2e11-8c80-4b69-a051-8c8f33dedcf2"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map3/tuong_gach2.png",
+        "selector": "editor/PF/asset/map3/tuong_gach2.png"
+      },
+      "down": {
+        "asset": "asset/map3/tuong_gach2.png",
+        "selector": "editor/PF/asset/map3/tuong_gach2.png"
+      },
+      "front": {
+        "asset": "asset/map3/tuong_gach2.png",
+        "selector": "editor/PF/asset/map3/tuong_gach2.png"
+      },
+      "left": {
+        "asset": "asset/map3/tuong_gach2.png",
+        "selector": "editor/PF/asset/map3/tuong_gach2.png"
+      },
+      "right": {
+        "asset": "asset/map3/tuong_gach2.png",
+        "selector": "editor/PF/asset/map3/tuong_gach2.png"
+      },
+      "up": {
+        "asset": "asset/map3/tuong_gach2.png",
+        "selector": "editor/PF/asset/map3/tuong_gach2.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b40e6f7302ff4284c14950a616ae2ced",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

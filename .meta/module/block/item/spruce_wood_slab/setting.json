@@ -1,0 +1,27 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_spruce_wood_slab"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a6f7e7779e7291f7005458602d9184d8",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

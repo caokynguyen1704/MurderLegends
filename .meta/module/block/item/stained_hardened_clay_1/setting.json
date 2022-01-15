@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_stained_hardened_clay_1"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_orange.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_orange.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_orange.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_orange.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_orange.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/hardened_clay_stained_orange.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "96fba712cfec9a02d9008f41096ee91b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

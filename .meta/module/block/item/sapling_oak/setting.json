@@ -1,0 +1,21 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_sapling_oak"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5b18a60245a072e870f48a8c5ab47058",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

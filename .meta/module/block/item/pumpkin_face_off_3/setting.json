@@ -1,0 +1,38 @@
+{
+  "data": {
+    "canBreak": false,
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_pumpkin_face_off_3"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/pumpkin_side_pumpkin_face_off_3.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/pumpkin_top_pumpkin_face_off_3.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/pumpkin_face_off_pumpkin_face_off_3.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/pumpkin_side_pumpkin_face_off_3.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/pumpkin_side_pumpkin_face_off_3.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/pumpkin_top_pumpkin_face_off_3.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "369f872f5269a7182671622c2b532c54",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

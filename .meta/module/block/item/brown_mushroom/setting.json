@@ -1,0 +1,21 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_brown_mushroom"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a7adbd5390cfab95bfa95ec60b72cd80",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}
