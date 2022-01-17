@@ -89,6 +89,20 @@ Entity.addValueDef('weapon',{
     selectWeapon={sheriff=nil,murder=nil}
 }
 ,false,false,true)
+Entity.addValueDef('sevenday',{
+    day=0,
+    month=0,
+    year=0,
+    loginCount=0,
+}
+,false,false,true)
+Entity.addValueDef('_28day',{
+    day=0,
+    month=0,
+    year=0,
+    loginCount=0,
+}
+,false,false,true)
 local isAirBlock=function (mapstr,x1,y1,z1)
   local pos={x=x1,y=y1,z=z1}
   local map = World.CurWorld:getMap(mapstr)
@@ -104,12 +118,41 @@ PackageHandlers.registerServerHandler("buyItem", function(player, packet)
     player:setValue('weapon',packet.weapon) 
     local db = player:getValue("weapon")
     local profile = player:getValue("profile")
-    PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/shop",status="open",db=db,profile=profile})
+    PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/shop",status="open",db=db,profile=profile})
+end)
+PackageHandlers.registerServerHandler("updateDay7daylogin", function(player, packet)
+    player:setValue('sevenday',packet.day) 
+    local day = player:getValue("sevenday")
+    local profile = player:getValue("profile")
+    profile.totalCoin=profile.totalCoin+100
+    player:setValue('profile',profile)
+    PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/7dayslogin",status="open",day=day})
+end)
+PackageHandlers.registerServerHandler("updateDay28daylogin", function(player, packet)
+    player:setValue('_28day',packet.day) 
+    local day = player:getValue("_28day")
+    local profile = player:getValue("profile")
+    profile.totalCoin=profile.totalCoin+100
+    player:setValue('profile',profile) 
+    PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/28dayslogin",status="open",day=day})
 end)
 PackageHandlers.registerServerHandler("openShop", function(player, packet)
     local db = player:getValue("weapon")
     local profile = player:getValue("profile")
-    PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/shop",status="open",db=db,profile=profile})
+    PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/shop",status="open",db=db,profile=profile})
+end)
+PackageHandlers.registerServerHandler("open7day", function(player, packet)
+    local day = player:getValue("sevenday")
+    PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/7dayslogin",status="open",day=day})
+end)
+PackageHandlers.registerServerHandler("open28day", function(player, packet)
+    local day = player:getValue("_28day")
+    PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/28dayslogin",status="open",day=day})
+end)
+PackageHandlers.registerServerHandler("openBalo", function(player, packet)
+    local db = player:getValue("weapon")
+    local profile = player:getValue("profile")
+    PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/balo",status="open",db=db,profile=profile})
 end)
 Trigger.RegisterHandler(World.cfg, "GAME_START", function()
     PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/readyUI",status="open"})

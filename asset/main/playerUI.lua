@@ -8,4 +8,14 @@ function self:onOpen(packet)
   self.ShopBtn.onMouseClick=function()
     PackageHandlers.sendClientHandler("openShop")
   end
+  self.BaloBtn.onMouseClick=function()
+    PackageHandlers.sendClientHandler("openBalo")
+  end
+  self.sevendayloginBtn.onMouseClick=function()
+    PackageHandlers.sendClientHandler("open7day")
+  end
+  self._28dayloginBtn.onMouseClick=function()
+    PackageHandlers.sendClientHandler("open28day")
+  end
+  
 end
