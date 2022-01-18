@@ -103,11 +103,11 @@
     "useGroup": "_imagesets_"
   },
   "maxPlayers": 15,
-  "minPlayers": 1,
+  "minPlayers": 3,
   "moveStateConfig": {
     "isShow": false
   },
-  "needSave": false,
+  "needSave": true,
   "noLoadHp": true,
   "notReadUserSettingCfgAtEditor": true,
   "nowTime": 10666.666666667,

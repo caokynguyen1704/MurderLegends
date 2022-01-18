@@ -3,20 +3,20 @@
   "candrop": false,
   "canEquipPlural": true,
   "canUse": false,
-  "equip_skill": [],
-  "equip_skin": {
-    "": ""
-  },
-  "icon": "",
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Texture/Gui/knife2.png",
   "itemintroduction": "9df576c2-a35f-4790-9959-ea1d7562002c",
   "itemname": "item_5029fb61-d4fe-428f-85e1-3413f909a014",
   "mesh": "asset/Green Tailed Pickaxe/g1008_pickaxe_17.mesh",
   "needSave": false,
+  "skill": [
+    "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
+    "myplugin/743be559-126a-4df4-b362-153af4b50f95"
+  ],
   "stack_count_max": 1,
   "syncGameData": {
     "currentCapacity": true,
     "extCapacity": true
   },
-  "trap": false,
-  "tray": []
+  "trap": false
 }

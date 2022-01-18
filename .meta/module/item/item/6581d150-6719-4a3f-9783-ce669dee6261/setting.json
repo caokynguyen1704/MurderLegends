@@ -1,9 +1,18 @@
 {
   "data": {
+    "icon": {
+      "asset": "asset/Texture/Gui/knife2.png",
+      "selector": "editor/MurderLegends/asset/Texture/Gui/knife2.png"
+    },
     "item": {
       "base": {
-        "__OBJ_TYPE": "ItemEquip"
-      }
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
+          "myplugin/743be559-126a-4df4-b362-153af4b50f95"
+        ]
+      },
+      "type": "InHand"
     },
     "itemintroduction": {
       "value": "cbf29cfe-059d-4867-8c9c-043fce61bb10"
@@ -18,7 +27,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "becef445e5c5d2af4b2697c90e095dc4",
+      "setting.json": "b0b6e1edd1c85cf65ef1bc50b6bc47da",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

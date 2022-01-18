@@ -1,9 +1,17 @@
 {
   "data": {
+    "icon": {
+      "asset": "asset/Texture/Gui/gun1.png",
+      "selector": "editor/MurderLegends/asset/Texture/Gui/gun1.png"
+    },
     "item": {
       "base": {
-        "__OBJ_TYPE": "ItemEquip"
-      }
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/3e2b6b2c-ad8c-48b9-a4ac-80a923b08037"
+        ]
+      },
+      "type": "InHand"
     },
     "itemintroduction": {
       "value": "8d6073e1-bbd9-49c2-908c-ac35778c68c2"
@@ -18,7 +26,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a543b30f38a1d5478e7ea5eb9c5cc773",
+      "setting.json": "03554791099071d2e4a91a42ff86ae8f",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

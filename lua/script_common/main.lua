@@ -86,7 +86,7 @@ Entity.addValueDef('profile',{
 ,false,false,true)
 Entity.addValueDef('weapon',{
     listWeapon={},
-    selectWeapon={sheriff=nil,murder=nil}
+    selectWeapon={sheriff={idItem="ff9513ee-8d9b-4f3f-bac8-d6bc050700ea"},murder={idItem="8e0f0017-70da-4efa-a4e8-cdca4b317c09"}}
 }
 ,false,false,true)
 Entity.addValueDef('sevenday',{
@@ -127,6 +127,12 @@ PackageHandlers.registerServerHandler("updateDay7daylogin", function(player, pac
     profile.totalCoin=profile.totalCoin+100
     player:setValue('profile',profile)
     PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/7dayslogin",status="open",day=day})
+end)
+PackageHandlers.registerServerHandler("updateEquip", function(player, packet)
+    player:setValue('weapon',packet.weapon)
+      local db = player:getValue("weapon")
+    local profile = player:getValue("profile")
+    PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/balo",status="open",db=db,profile=profile})
 end)
 PackageHandlers.registerServerHandler("updateDay28daylogin", function(player, packet)
     player:setValue('_28day',packet.day) 
@@ -272,10 +278,12 @@ World.Timer(20,
             end
             team_1:leaveEntity(player)
             team:joinEntity(player)
+            local idItem=player:getValue("weapon")
             if (index==1) then
-              player:addItem("myplugin/8e0f0017-70da-4efa-a4e8-cdca4b317c09", 1, nil, "enter")
+              
+              player:addItem("myplugin/"..idItem.selectWeapon.murder.idItem, 1, nil, "enter")
             elseif index==2 then
-              player:addItem("myplugin/ff9513ee-8d9b-4f3f-bac8-d6bc050700ea", 1, nil, "enter")
+              player:addItem("myplugin/"..idItem.selectWeapon.sheriff.idItem, 1, nil, "enter")
             end
             teamNum=0
             for kkk,vvv in pairs(team:getEntityList()) do

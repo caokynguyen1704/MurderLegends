@@ -3,20 +3,20 @@
   "candrop": false,
   "canEquipPlural": true,
   "canUse": false,
-  "equip_skill": [],
-  "equip_skin": {
-    "": ""
-  },
-  "icon": "",
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Texture/Gui/knife2.png",
   "itemintroduction": "a2a4abe2-3625-460d-a9df-f3a85a4f9dbd",
   "itemname": "item_83049293-058c-4f13-ad0b-bd0642528227",
   "mesh": "asset/Mesh/Assault Sword/gun_134.mesh",
   "needSave": false,
+  "skill": [
+    "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
+    "myplugin/743be559-126a-4df4-b362-153af4b50f95"
+  ],
   "stack_count_max": 1,
   "syncGameData": {
     "currentCapacity": true,
     "extCapacity": true
   },
-  "trap": false,
-  "tray": []
+  "trap": false
 }

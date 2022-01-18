@@ -3,20 +3,20 @@
   "candrop": false,
   "canEquipPlural": true,
   "canUse": false,
-  "equip_skill": [],
-  "equip_skin": {
-    "": ""
-  },
-  "icon": "",
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Texture/Gui/knife2.png",
   "itemintroduction": "cbf29cfe-059d-4867-8c9c-043fce61bb10",
   "itemname": "item_6581d150-6719-4a3f-9783-ce669dee6261",
   "mesh": "asset/Eternal Broadsword/1700_loki_weapon.mesh",
   "needSave": false,
+  "skill": [
+    "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
+    "myplugin/743be559-126a-4df4-b362-153af4b50f95"
+  ],
   "stack_count_max": 1,
   "syncGameData": {
     "currentCapacity": true,
     "extCapacity": true
   },
-  "trap": false,
-  "tray": []
+  "trap": false
 }

@@ -4,42 +4,48 @@ local shopdata={
     price="500",
     img="gameres|asset/Texture/Gui/AssaultSword.png",
     idItem="83049293-058c-4f13-ad0b-bd0642528227",
-    i=0
+    i=0,
+    type="knife",
   },
   {
     name="Eternal Boardsword",
     price="1000",
     img="gameres|asset/Texture/Gui/EternalBoardsword.png",
     idItem="6581d150-6719-4a3f-9783-ce669dee6261",
-    i=1
+    i=1,
+    type="knife",
   },
   {
     name="Awesome Axe",
     price="1500",
     img="gameres|asset/Texture/Gui/AwesomeAxe.png",
     idItem="25d5b5f5-09f3-4d9e-b2a1-aabe2ebfd1d0",
-    i=2
+    i=2,
+    type="knife",
   },
   {
     name="Green Talled Pickaxe",
     price="3000",
     img="gameres|asset/Texture/Gui/GreenTalledPickaxe.png",
     idItem="5029fb61-d4fe-428f-85e1-3413f909a014",
-    i=3
+    i=3,
+    type="knife",
   },
   {
     name="Battle Streamer Bow",
     price="2000",
     img="gameres|asset/Texture/Gui/BattleStreamerBow.png",
     idItem="95efae6b-1bcc-4567-bf42-1fbfd76dc277",
-    i=4
+    i=4,
+    type="gun",
   },
   {
     name="Battle Golden Bow",
     price="4000",
     img="gameres|asset/Texture/Gui/BattleGoldenBow.png",
     idItem="51628cca-71b9-4ad3-aeb3-8da9a933d8db",
-    i=5
+    i=5,
+    type="gun",
   },
 }
 
@@ -79,7 +85,7 @@ function self:onOpen(packet)
             },
             weapon={
               listWeapon=updateWeapon,
-              selectWeapon={sheriff=nil,murder=nil}
+              selectWeapon=packet.packet.db.selectWeapon
             }
           })
       else
