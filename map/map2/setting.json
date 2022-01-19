@@ -1,26 +1,15 @@
 {
-  "canBreak": false,
+  "canBreak": true,
   "hideCloud": true,
   "scene": [
     {
       "class": "Entity",
-      "config": "myplugin/f4e7383c-228b-4337-8dc9-d81aa572922b",
+      "config": "myplugin/f7d0ee18-975c-489c-a64f-17d56a6ce82c",
       "properties": {
-        "id": "8437335511619829761",
-        "name": "fridge",
-        "position": "x:14.23491859436 y:52.999996185303 z:15.586285591125",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/f4e7383c-228b-4337-8dc9-d81aa572922b",
-      "properties": {
-        "id": "8437336604807249921",
-        "name": "fridge",
-        "position": "x:12.774921417236 y:52.999996185303 z:15.586285591125",
-        "rotation": "x:0 y:0 z:0",
+        "id": "8437496431884091393",
+        "name": "tv",
+        "position": "x:22.518270492554 y:53.999996185303 z:23.211875915527",
+        "rotation": "x:0 y:-179.99995422363 z:0",
         "scale": "x:1 y:1 z:1"
       }
     },
@@ -28,219 +17,10 @@
       "class": "Entity",
       "config": "myplugin/f7d0ee18-975c-489c-a64f-17d56a6ce82c",
       "properties": {
-        "id": "8437433354142941185",
+        "id": "8437499833041010689",
         "name": "tv",
-        "position": "x:31.241836547852 y:54.000007629395 z:18.968168258667",
-        "rotation": "x:0 y:-90 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/7ad52f45-81ff-4d61-abb4-e4c3c46ad841",
-      "properties": {
-        "id": "8437436479866798081",
-        "name": "speaker",
-        "position": "x:32.405426025391 y:53.000057220459 z:20.674718856812",
-        "rotation": "x:0 y:-90 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/7ad52f45-81ff-4d61-abb4-e4c3c46ad841",
-      "properties": {
-        "id": "8437437932559695873",
-        "name": "speaker",
-        "position": "x:32.405426025391 y:53.000057220459 z:17.334720611572",
-        "rotation": "x:0 y:-90 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/756f208c-96b7-4633-ab18-c0a592d6f328",
-      "properties": {
-        "id": "8437470081683439617",
-        "name": "entity_756f208c-96b7-4633-ab18-c0a592d6f328",
-        "position": "x:48.545944213867 y:54.005027770996 z:36.460479736328",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/756f208c-96b7-4633-ab18-c0a592d6f328",
-      "properties": {
-        "id": "8437470280561786881",
-        "name": "entity_756f208c-96b7-4633-ab18-c0a592d6f328",
-        "position": "x:45.313343048096 y:53.002593994141 z:61.808223724365",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/756f208c-96b7-4633-ab18-c0a592d6f328",
-      "properties": {
-        "id": "8437470302289854465",
-        "name": "entity_756f208c-96b7-4633-ab18-c0a592d6f328",
-        "position": "x:47.787090301514 y:53.000011444092 z:61.214096069336",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/756f208c-96b7-4633-ab18-c0a592d6f328",
-      "properties": {
-        "id": "8437470511227486209",
-        "name": "entity_756f208c-96b7-4633-ab18-c0a592d6f328",
-        "position": "x:37.551803588867 y:52.999992370605 z:48.560031890869",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/756f208c-96b7-4633-ab18-c0a592d6f328",
-      "properties": {
-        "id": "8437470544189636609",
-        "name": "entity_756f208c-96b7-4633-ab18-c0a592d6f328",
-        "position": "x:37.465366363525 y:53 z:42.629386901855",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/756f208c-96b7-4633-ab18-c0a592d6f328",
-      "properties": {
-        "id": "8437470742442475521",
-        "name": "entity_756f208c-96b7-4633-ab18-c0a592d6f328",
-        "position": "x:46.537010192871 y:53.002937316895 z:18.404821395874",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/f7d0ee18-975c-489c-a64f-17d56a6ce82c",
-      "properties": {
-        "id": "8437473581847363585",
-        "name": "tv",
-        "position": "x:30.091178894043 y:54.501258850098 z:31.300048828125",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/7ad52f45-81ff-4d61-abb4-e4c3c46ad841",
-      "properties": {
-        "id": "8437473899331420161",
-        "name": "speaker",
-        "position": "x:28.257736206055 y:54.443748474121 z:31.299997329712",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/7ad52f45-81ff-4d61-abb4-e4c3c46ad841",
-      "properties": {
-        "id": "8437473927481147393",
-        "name": "speaker",
-        "position": "x:32.061145782471 y:54.390068054199 z:31.299995422363",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/756f208c-96b7-4633-ab18-c0a592d6f328",
-      "properties": {
-        "id": "8437474033480302593",
-        "name": "entity_756f208c-96b7-4633-ab18-c0a592d6f328",
-        "position": "x:34.07670211792 y:52.999992370605 z:49.512371063232",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/f7d0ee18-975c-489c-a64f-17d56a6ce82c",
-      "properties": {
-        "id": "8437477710509424641",
-        "name": "tv",
-        "position": "x:21.200448989868 y:54.008331298828 z:17.473928451538",
-        "rotation": "x:0 y:90 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/7ad52f45-81ff-4d61-abb4-e4c3c46ad841",
-      "properties": {
-        "id": "8437477898761240577",
-        "name": "speaker",
-        "position": "x:21.284219741821 y:54.00899887085 z:15.446536064148",
-        "rotation": "x:0 y:90 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/7ad52f45-81ff-4d61-abb4-e4c3c46ad841",
-      "properties": {
-        "id": "8437477980900327425",
-        "name": "speaker",
-        "position": "x:21.284219741821 y:54.00899887085 z:19.53653717041",
-        "rotation": "x:0 y:90 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/f4e7383c-228b-4337-8dc9-d81aa572922b",
-      "properties": {
-        "id": "8437478890640900097",
-        "name": "fridge",
-        "position": "x:10.472222328186 y:53.030002593994 z:54.476547241211",
-        "rotation": "x:0 y:-90 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/f4e7383c-228b-4337-8dc9-d81aa572922b",
-      "properties": {
-        "id": "8437479470975254529",
-        "name": "fridge",
-        "position": "x:10.472222328186 y:53.030002593994 z:53.006542205811",
-        "rotation": "x:0 y:-90 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/f7d0ee18-975c-489c-a64f-17d56a6ce82c",
-      "properties": {
-        "id": "8437482155084267521",
-        "name": "tv",
-        "position": "x:35.891204833984 y:53.942893981934 z:45.459156036377",
-        "rotation": "x:0 y:-90 z:0",
-        "scale": "x:1 y:1 z:1"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/f4e7383c-228b-4337-8dc9-d81aa572922b",
-      "properties": {
-        "id": "8437488204525633537",
-        "name": "fridge",
-        "position": "x:24.490062713623 y:53.004856109619 z:58.43754196167",
-        "rotation": "x:0 y:90 z:0",
+        "position": "x:66.050064086914 y:66.000061035156 z:56.851306915283",
+        "rotation": "x:0 y:-179.99995422363 z:0",
         "scale": "x:1 y:1 z:1"
       }
     }

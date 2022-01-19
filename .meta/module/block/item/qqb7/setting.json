@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "collisionBoxes": [],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "c127e93b-4f55-4104-a8a1-631baca1a510"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/hangCheo2"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/hangCheo2"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/hangCheo2"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/hangCheo2"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/hangCheo2"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/hangCheo2"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "aa2cbb73943befa6f8a035cd13971bbe",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

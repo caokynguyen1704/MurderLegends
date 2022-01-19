@@ -17,7 +17,7 @@
           "z": 53.980354309082
         },
         "rotation": {
-          "y": 90.0
+          "y": 90
         }
       },
       {
@@ -41,7 +41,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "90a0df362c9c62f1ee3947ea1a734b8a"
+      "setting.json": "6589cc1ba05b2d964c9c7f5d743507f5"
     },
     "VERSION": "0.18"
   }

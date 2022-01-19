@@ -1,0 +1,20 @@
+{
+  "data": {
+    "name": {
+      "value": "block_Sc"
+    },
+    "textures": {
+      "up": {
+        "asset": "asset/c.png",
+        "selector": "editor/mysmur1/asset/c.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "14e662d2794117b75759b4f63d41bd98",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

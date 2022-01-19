@@ -17,9 +17,9 @@ function self:onOpen(packet)
 
 
                 local Image_Item1 = UI:createStaticImage("ItemStatus")
-                Image_Item1:setProperty("Image", "gameres|asset/Texture/Gui/equip.png")
-                Image_Item1:setProperty("Position", "{{0,50},{0,145}}")
-                Image_Item1:setProperty("Size", "{{0,96},{0,50}}")
+                Image_Item1:setProperty("Image", "gameres|asset/Texture/Gui/equip1.png")
+                Image_Item1:setProperty("Position", "{{0,30},{0,145}}")
+                Image_Item1:setProperty("Size", "{{0,220},{0,67}}")
                 self.Background.ScrollableView.GridView:child("bg"..v.i):addChild(Image_Item1:getWindow())
 
 

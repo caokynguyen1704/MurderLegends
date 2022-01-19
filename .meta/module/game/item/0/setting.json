@@ -34,53 +34,46 @@
       "showTeamStatusBar": false,
       "team": [
         {
-          "ignorePlayerSkinEditor": false,
           "initPos": {
-            "map": "map001",
+            "map": "lobby2",
             "pos": {
-              "x": 28,
-              "y": 54,
-              "z": 34
+              "x": 34,
+              "y": 58,
+              "z": 32
             }
           },
           "name": "murder",
           "startPos": {
-            "map": "map001",
+            "map": "lobby2",
             "pos": {
-              "x": 28,
-              "y": 54,
-              "z": 34
+              "x": 33,
+              "y": 58,
+              "z": 31
             }
-          },
-          "use_init_pos": false,
-          "use_start_pos": false
+          }
         },
         {
           "id": 2,
-          "ignorePlayerSkinEditor": false,
           "initPos": {
-            "map": "map001",
+            "map": "lobby2",
             "pos": {
-              "x": 28,
-              "y": 54,
-              "z": 34
+              "x": 34,
+              "y": 58,
+              "z": 32
             }
           },
           "name": "sheriff",
           "startPos": {
-            "map": "map001",
+            "map": "lobby2",
             "pos": {
-              "x": 28,
-              "y": 54,
-              "z": 34
+              "x": 33,
+              "y": 58,
+              "z": 31
             }
-          },
-          "use_init_pos": false,
-          "use_start_pos": false
+          }
         },
         {
           "id": 3,
-          "ignorePlayerSkinEditor": false,
           "initPos": {
             "map": "map001",
             "pos": {
@@ -91,14 +84,13 @@
           },
           "name": "survivor",
           "startPos": {
-            "map": "map001",
+            "map": "lobby2",
             "pos": {
-              "x": 28,
-              "y": 54,
-              "z": 34
+              "x": 33,
+              "y": 58,
+              "z": 31
             }
-          },
-          "use_start_pos": false
+          }
         }
       ]
     },

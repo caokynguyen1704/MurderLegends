@@ -1,0 +1,20 @@
+{
+  "data": {
+    "name": {
+      "value": "block_Sa"
+    },
+    "textures": {
+      "up": {
+        "asset": "asset/a.png",
+        "selector": "editor/mysmur1/asset/a.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "503196ae265ac5e87fef47b95a371bc7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

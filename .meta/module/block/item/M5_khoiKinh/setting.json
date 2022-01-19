@@ -1,0 +1,34 @@
+{
+  "data": {
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "block_M5_khoiKinh"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/M5_khoiKinh"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/M5_khoiKinh"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/glass_cyan.png"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/M5_khoiKinh"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/glass_cyan.png"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/M5_khoiKinh"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c95c3a0b4829045ee5b3075799bb7d6e"
+    },
+    "VERSION": "0.18"
+  }
+}

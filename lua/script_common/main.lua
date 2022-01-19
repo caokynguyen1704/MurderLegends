@@ -1,4 +1,4 @@
-local mapName={"map2","map3","map4"}--,"map3","map4","map 3 - Mansion","Map 5 - Workshop"}
+local mapName={"map1","map2","map3"}--,"map3","map4","map 3 - Mansion","Map 5 - Workshop"}
 local spawnArea={
  {
     {x1=3,y1=53,z1=11,x2=5,y2=53,z2=46},
@@ -19,10 +19,14 @@ local spawnArea={
      {x1=59,y1=59,z1=44,x2=62,y2=59,z2=61},
   },
   {
-    {x1=-7,y1=53,z1=9,x2=46,y2=53,z2=18},
-    {x1=14,y1=54,z1=30,x2=21,y2=54,z2=39},
-    {x1=20,y1=58,z1=30,x2=29,y2=58,z2=62},
-    {x1=0,y1=58,z1=47,x2=30,y2=58,z2=51},
+    {x1=37,y1=52,z1=9,x2=50,y2=52,z2=16},
+    {x1=34,y1=54,z1=20,x2=49,y2=54,z2=29},
+    {x1=53,y1=53,z1=20,x2=60,y2=53,z2=29},
+    {x1=65,y1=42,z1=10,x2=73,y2=42,z2=22},
+    {x1=76,y1=55,z1=7,x2=88,y2=55,z2=17},
+    
+    {x1=35,y1=53,z1=35,x2=80,y2=53,z2=43},
+    {x1=53,y1=53,z1=20,x2=60,y2=53,z2=29}
   },
 }
 --------------------------------
@@ -79,7 +83,7 @@ local endGame=function()
 end
 
 Entity.addValueDef('profile',{
-    totalCoin=4000,
+    totalCoin=1500,
     lv=0,
     exp=0
 }

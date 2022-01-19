@@ -1,0 +1,20 @@
+{
+  "data": {
+    "name": {
+      "value": "block_Sb"
+    },
+    "textures": {
+      "up": {
+        "asset": "asset/b.png",
+        "selector": "editor/mysmur1/asset/b.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bfe0bd52c39f15cb79d2cdbad66b0c47",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "data": {
+    "name": {
+      "value": "block_M5_khoi5"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map5/m5_khoi5.png"
+      },
+      "down": {
+        "asset": "asset/map5/m5_khoi5_1.png"
+      },
+      "front": {
+        "asset": "asset/map5/m5_khoi5.png"
+      },
+      "left": {
+        "asset": "asset/map5/m5_khoi5.png"
+      },
+      "right": {
+        "asset": "asset/map5/m5_khoi5.png"
+      },
+      "up": {
+        "asset": "asset/map5/m5_khoi5_1.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6be4b7f451722684d71d7e2f79605259"
+    },
+    "VERSION": "0.18"
+  }
+}

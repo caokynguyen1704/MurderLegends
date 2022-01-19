@@ -1,0 +1,59 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/f7d0ee18-975c-489c-a64f-17d56a6ce82c",
+        "id": "8452884761579536385",
+        "name": "entity_f7d0ee18-975c-489c-a64f-17d56a6ce82c",
+        "position": {
+          "x": -34.042766571045,
+          "y": 53.999996185303,
+          "z": 14.428641319275
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/f4e7383c-228b-4337-8dc9-d81aa572922b",
+        "id": "8452886134170042369",
+        "name": "Fridge",
+        "position": {
+          "x": -39.33854675293,
+          "y": 52.999996185303,
+          "z": -14.896513938904
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/756f208c-96b7-4633-ab18-c0a592d6f328",
+        "id": "8452888535153524737",
+        "name": "entity_756f208c-96b7-4633-ab18-c0a592d6f328",
+        "position": {
+          "x": -9.9616708755493,
+          "y": 53,
+          "z": -22.276166915894
+        }
+      }
+    ],
+    "name": {
+      "value": "map_map7"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "08610a049f762282a7a5c66252983d2b"
+    },
+    "VERSION": "0.18"
+  }
+}

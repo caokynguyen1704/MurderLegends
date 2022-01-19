@@ -1,0 +1,33 @@
+{
+  "data": {
+    "name": {
+      "value": "block_M5_khoixam"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map5/m5_khoixam.png"
+      },
+      "down": {
+        "asset": "asset/map5/m5_khoixam.png"
+      },
+      "front": {
+        "asset": "asset/map5/m5_khoixam.png"
+      },
+      "left": {
+        "asset": "asset/map5/m5_khoixam.png"
+      },
+      "right": {
+        "asset": "asset/map5/m5_khoixam.png"
+      },
+      "up": {
+        "asset": "asset/map5/m5_khoixam.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "67f4f03692118a334582a63830cd27ad"
+    },
+    "VERSION": "0.18"
+  }
+}

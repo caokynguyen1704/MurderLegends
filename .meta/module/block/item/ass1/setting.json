@@ -1,0 +1,41 @@
+{
+  "data": {
+    "canBreak": false,
+    "name": {
+      "value": "block_ass1"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/sanh/aaaaa.png",
+        "selector": "editor/mysmur1/asset/sanh/aaaaa.png"
+      },
+      "down": {
+        "asset": "asset/sanh/aaaaa.png",
+        "selector": "editor/mysmur1/asset/sanh/aaaaa.png"
+      },
+      "front": {
+        "asset": "asset/sanh/aaaaa.png",
+        "selector": "editor/mysmur1/asset/sanh/aaaaa.png"
+      },
+      "left": {
+        "asset": "asset/sanh/aaaaa.png",
+        "selector": "editor/mysmur1/asset/sanh/aaaaa.png"
+      },
+      "right": {
+        "asset": "asset/sanh/aaaaa.png",
+        "selector": "editor/mysmur1/asset/sanh/aaaaa.png"
+      },
+      "up": {
+        "asset": "asset/sanh/aaaaa.png",
+        "selector": "editor/mysmur1/asset/sanh/aaaaa.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "dac54436fe4ccc311a7a4bca2db31a72",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

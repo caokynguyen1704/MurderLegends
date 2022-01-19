@@ -1,0 +1,33 @@
+{
+  "data": {
+    "name": {
+      "value": "block_M5_khoibacThang"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/map5/m5_khoibacthang.png"
+      },
+      "down": {
+        "asset": "asset/map5/m5_khoiTrang.png"
+      },
+      "front": {
+        "asset": "asset/map5/m5_khoibacthang.png"
+      },
+      "left": {
+        "asset": "asset/map5/m5_khoibacthang.png"
+      },
+      "right": {
+        "asset": "asset/map5/m5_khoibacthang.png"
+      },
+      "up": {
+        "asset": "asset/map5/m5_khoi8.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ef74ae61d68265417ee412be42f2d767"
+    },
+    "VERSION": "0.18"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "name": {
+      "value": "block_Sd"
+    },
+    "textures": {
+      "up": {
+        "asset": "asset/d.png",
+        "selector": "editor/mysmur1/asset/d.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d06d8fec9ba28ded4ca7945b9307359b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

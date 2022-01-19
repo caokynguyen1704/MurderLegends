@@ -1,0 +1,45 @@
+{
+  "data": {
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_M5_1_khoiBacThang2"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/M5_1_khoiBacThang2"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/M5_1_khoiBacThang2"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/M5_1_khoiBacThang2"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/M5_1_khoiBacThang2"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/M5_1_khoiBacThang2"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/M5_1_khoiBacThang2"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "44e2559ee53cce2d5ec6a204717165f6"
+    },
+    "VERSION": "0.18"
+  }
+}

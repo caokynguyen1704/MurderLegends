@@ -7,7 +7,7 @@ function self:onOpen(packet)
     if (packet.packet.day)then
      
       if(currentDay~=day.day)and(day.loginCount<28) then
-        self.Background.GridView:child("Day"..day.loginCount+1).Button:setVisible(true)
+        self.Background.GridView:child("Day"..day.loginCount+1).Image.Button:setVisible(true)
         if day.loginCount>=1 then
           for i=1,day.loginCount do
             self.Background.GridView:child("Day"..i).Received:setVisible(true)
@@ -22,7 +22,7 @@ function self:onOpen(packet)
     end
 
   for k=1,28 do
-    self.Background.GridView:child("Day"..k).Button.onMouseClick=function()
+    self.Background.GridView:child("Day"..k).Image.Button.onMouseClick=function()
       day.day=currentDay
       day.month=currentMonth
       day.year=currentYear

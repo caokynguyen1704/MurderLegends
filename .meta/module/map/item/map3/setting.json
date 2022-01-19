@@ -8,24 +8,13 @@
     "instances": [
       {
         "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/player1",
-        "id": "8430324301062258689",
-        "name": "player1",
-        "position": {
-          "x": 21.732776641846,
-          "y": 52.949993133545,
-          "z": 16.776679992676
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
         "config": "myplugin/f7d0ee18-975c-489c-a64f-17d56a6ce82c",
-        "id": "8437496431884091393",
-        "name": "tv",
+        "id": "8448557855384059905",
+        "name": "TV",
         "position": {
-          "x": 22.518270492554,
-          "y": 53.999996185303,
-          "z": 23.211875915527
+          "x": 40.92085647583,
+          "y": 53.419982910156,
+          "z": 44.969493865967
         },
         "rotation": {
           "y": -179.99995422363
@@ -33,16 +22,42 @@
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/f7d0ee18-975c-489c-a64f-17d56a6ce82c",
-        "id": "8437499833041010689",
-        "name": "tv",
+        "config": "myplugin/7ad52f45-81ff-4d61-abb4-e4c3c46ad841",
+        "id": "8448559133222862849",
+        "name": "speaker",
         "position": {
-          "x": 66.050064086914,
-          "y": 66.000061035156,
-          "z": 56.851306915283
+          "x": 44.545745849609,
+          "y": 53.415153503418,
+          "z": 43.69522857666
         },
         "rotation": {
           "y": -179.99995422363
+        },
+        "scale": {
+          "y": 2
+        },
+        "size": {
+          "y": 2
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/7ad52f45-81ff-4d61-abb4-e4c3c46ad841",
+        "id": "8448559589177475073",
+        "name": "speaker",
+        "position": {
+          "x": 37.545753479004,
+          "y": 53.415153503418,
+          "z": 43.69522857666
+        },
+        "rotation": {
+          "y": -179.99995422363
+        },
+        "scale": {
+          "y": 2
+        },
+        "size": {
+          "y": 2
         }
       }
     ],
@@ -52,7 +67,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b842b77b4c2ddadb2d59b0ac8d4d41c5"
+      "setting.json": "b5171d63780510baf72678eaa8233f39"
     },
     "VERSION": "0.18"
   }

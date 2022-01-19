@@ -1,0 +1,45 @@
+{
+  "data": {
+    "collisionBoxes": [
+      {
+        "max": {
+          "y": 0.5
+        }
+      }
+    ],
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "isOpaqueFullCube": false,
+    "isQuad": true,
+    "name": {
+      "value": "block_M5_ghe2"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/M5_ghe2"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/M5_ghe2"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/M5_ghe2"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/M5_ghe2"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/M5_ghe2"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/M5_ghe2"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e653b61c175caf86132f1c6b4939defe"
+    },
+    "VERSION": "0.18"
+  }
+}

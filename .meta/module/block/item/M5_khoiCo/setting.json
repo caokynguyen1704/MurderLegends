@@ -1,0 +1,33 @@
+{
+  "data": {
+    "name": {
+      "value": "block_M5_khoiCo"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/grass_top.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/grass_top.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/grass_top.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/grass_top.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/grass_top.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/grass_top.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6bb9116699544d7c674053179dbd93a0"
+    },
+    "VERSION": "0.18"
+  }
+}

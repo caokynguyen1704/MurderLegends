@@ -1,0 +1,21 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "name": {
+      "value": "map_lobby1"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a38363450f6250b3a4992e3bbd5f8f38"
+    },
+    "VERSION": "0.18"
+  }
+}
