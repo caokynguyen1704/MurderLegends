@@ -55,6 +55,7 @@ local endGame=function()
   PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/playUI",status="close"})
   local players = Game.GetAllPlayers()
   for kk, v in pairs(players) do
+    PackageHandlers.sendServerHandler(v,"playSoundLobby")
     local team= v:getTeam()
     if team~=nil then
       local map = World.CurWorld:getMap("lobby2")
@@ -191,11 +192,13 @@ PackageHandlers.registerServerHandler("openBalo", function(player, packet)
     PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/balo",status="open",db=db,profile=profile})
 end)
 Trigger.RegisterHandler(World.cfg, "GAME_START", function()
+    --PackageHandlers.sendServerHandlerToAll("playSoundLobby")
     PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/readyUI",status="open"})
     GameStart=true
 end)
 Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_DIE", function(context)
     local v = context.obj1
+    PackageHandlers.sendServerHandler(v,"playSoundLobby")
     local enemy = context.obj2 
     local teams= v:getTeam()
     local team2 = Game.GetTeam(2, true)
@@ -268,12 +271,14 @@ World.Timer(20,
         once=false
       end
       if(#readyPlayerList==playerNum)then
+        PackageHandlers.sendServerHandlerToAll("playSoundIngame")
         isStart=true
         playMap=nil
         once=true
       end
     elseif(isStart and GameStart)then
       local players = Game.GetAllPlayers()
+      
       if playMap==nil then
         timer=maxTimer
         numMap=math.random(1,#mapName)
