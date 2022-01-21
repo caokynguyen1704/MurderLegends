@@ -23,6 +23,7 @@ function self:onOpen(packet)
 
   for k=1,28 do
     self.Background.GridView:child("Day"..k).Image.Button.onMouseClick=function()
+      print("click"..k)
       day.day=currentDay
       day.month=currentMonth
       day.year=currentYear
@@ -30,7 +31,7 @@ function self:onOpen(packet)
       PackageHandlers.sendClientHandler("updateDay28daylogin",{day=day})
     end
   end
-  self.CloseButton.onMouseClick=function()
+  self.Background.CloseButton.onMouseClick=function()
     UI:closeWindow("main/28dayslogin")
   end
 end

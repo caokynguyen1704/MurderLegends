@@ -68,7 +68,7 @@ function self:onOpen(packet)
       end
     end
   end
-  self.CloseButton.onMouseClick=function()
+  self.Background.CloseButton.onMouseClick=function()
     UI:closeWindow("main/shop")
   end
   self.Background.CoinCount:setText(packet.packet.profile.totalCoin)

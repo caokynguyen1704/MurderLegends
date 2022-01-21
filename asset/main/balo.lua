@@ -44,7 +44,7 @@ function self:onOpen(packet)
     end
 
 
-  self.CloseButton.onMouseClick=function()
+  self.Background.CloseButton.onMouseClick=function()
     UI:closeWindow("main/balo")
   end
 end

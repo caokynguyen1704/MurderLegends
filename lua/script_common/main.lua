@@ -88,6 +88,7 @@ Entity.addValueDef('profile',{
     exp=0
 }
 ,false,false,true)
+
 Entity.addValueDef('weapon',{
     listWeapon={},
     selectWeapon={sheriff={idItem="ff9513ee-8d9b-4f3f-bac8-d6bc050700ea"},murder={idItem="8e0f0017-70da-4efa-a4e8-cdca4b317c09"}}
@@ -116,6 +117,31 @@ local isAirBlock=function (mapstr,x1,y1,z1)
 end
 PackageHandlers.registerServerHandler("addReady", function(player, packet)
     readyPlayerList[#readyPlayerList+1]=player
+end)
+Entity.addValueDef('thanhtuu',{
+    coin=0,
+    kill=0
+}
+,false,false,true)
+
+PackageHandlers.registerServerHandler("addCoinThanhTuu", function(player, packet)
+    local thanhtuu = player:getValue("thanhtuu")
+    thanhtuu.coin=thanhtuu.coin+1
+    player:setValue("thanhtuu",thanhtuu)
+end)
+PackageHandlers.registerServerHandler("addKillThanhTuu", function(player, packet)
+    local thanhtuu = player:getValue("thanhtuu")
+    thanhtuu.kill=thanhtuu.kill+1
+    player:setValue("thanhtuu",thanhtuu)
+end)
+PackageHandlers.registerServerHandler("addCoinPlayer", function(player, packet)
+    local profile = player:getValue("profile")
+    profile.totalCoin=profile.totalCoin+packet.coin
+    player:setValue("profile",profile)
+end)
+PackageHandlers.registerServerHandler("openThanhTuu", function(player, packet)
+    local thanhtuu = player:getValue("thanhtuu")
+    PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/Achievement",status="open",thanhtuu=thanhtuu})
 end)
 PackageHandlers.registerServerHandler("buyItem", function(player, packet)
     player:setValue('profile',packet.profile) 

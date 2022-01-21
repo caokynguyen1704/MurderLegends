@@ -30,7 +30,7 @@ function self:onOpen(packet)
       PackageHandlers.sendClientHandler("updateDay7daylogin",{day=day})
     end
   end
-  self.CloseButton.onMouseClick=function()
+  self.Background.CloseButton.onMouseClick=function()
     UI:closeWindow("main/7dayslogin")
   end
 end

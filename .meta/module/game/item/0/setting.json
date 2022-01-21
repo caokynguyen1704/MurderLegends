@@ -13,7 +13,6 @@
         "z": 32
       }
     },
-    "needSave": true,
     "nowTime": {
       "h": 16,
       "m": 40
@@ -96,8 +95,7 @@
     },
     "ui_enable": {
       "appMainRole": false,
-      "playerinfo": false,
-      "toolbar": false
+      "playerinfo": false
     },
     "unlimitedPlayTime": true,
     "waitGoTime": {
@@ -112,7 +110,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "54c0e6641bc0076c2969e21d99f6dde5",
+      "setting.json": "255d886b15580f197e29b36bbe00bb97",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": ""
     },

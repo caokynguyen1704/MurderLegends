@@ -1,6 +1,9 @@
 Trigger.RegisterHandler(this:cfg(), "ENTITY_HITTED", function(context)
     local entity = context.obj1 
     local enemy = context.obj2 
+    local thanhtuu = enemy:getValue("thanhtuu")
+    thanhtuu.kill=thanhtuu.kill+1
+    enemy:setValue("thanhtuu",thanhtuu)
     if (entity:getTeam().id==3)and(enemy:getTeam().id==2) then
       local pos = enemy:getFrontPos(3, true, true) + Lib.v3(0, 0.2, 0)
       local params = {

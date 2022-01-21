@@ -7,6 +7,9 @@ Trigger.RegisterHandler(this:cfg(), "ENTITY_TOUCH_ALL", function(context)
         from:destroy()
         to:addItem("myplugin/ad69ecbc-9f7e-4797-af2d-de9d802b6220", 1, nil, "pickup")
         PackageHandlers.sendServerHandler(to, "playSoundCoin", {pos = from.baseSpawnInfo.pos})
+        local thanhtuu = to:getValue("thanhtuu")
+        thanhtuu.coin=thanhtuu.coin+1
+        to:setValue("thanhtuu",thanhtuu)
         local entityTrays = to:tray()
         local filterTB = {
           Define.TRAY_TYPE.HAND_BAG
