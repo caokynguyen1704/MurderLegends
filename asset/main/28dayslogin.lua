@@ -11,12 +11,14 @@ function self:onOpen(packet)
         if day.loginCount>=1 then
           for i=1,day.loginCount do
             self.Background.GridView:child("Day"..i).Received:setVisible(true)
+            self.Background.GridView:child("Day"..i).Image.Received:setVisible(true)
           end
         end
           
       else
           for i=1,day.loginCount do
             self.Background.GridView:child("Day"..i).Received:setVisible(true)
+            self.Background.GridView:child("Day"..i).Image.Received:setVisible(true)
           end
       end
     end

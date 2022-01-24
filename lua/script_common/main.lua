@@ -168,6 +168,9 @@ PackageHandlers.registerServerHandler("openThanhTuu", function(player, packet)
     local thanhtuu = player:getValue("thanhtuu")
     PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/Achievement",status="open",thanhtuu=thanhtuu})
 end)
+PackageHandlers.registerServerHandler("openHelp", function(player, packet)
+    PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/Help",status="open"})
+end)
 PackageHandlers.registerServerHandler("openPet", function(player, packet)
     local pet = player:getValue("pet")
     PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/petHouse",status="open",pet=pet})
@@ -375,7 +378,7 @@ World.Timer(20,
         once=false
       end
       if(#readyPlayerList==playerNum)then
-        PackageHandlers.sendServerHandlerToAll("playSoundIngame")
+        
         isStart=true
         playMap=nil
         once=true
@@ -384,6 +387,7 @@ World.Timer(20,
       local players = Game.GetAllPlayers()
       
       if playMap==nil then
+        PackageHandlers.sendServerHandlerToAll("playSoundIngame")
         timer=maxTimer
         numMap=math.random(1,#mapName)
         playMap=mapName[numMap]
@@ -467,7 +471,7 @@ World.Timer(20,
         end
       end
       timer=timer-1
-      if (timer==0) then
+      if (timer<=0) then
           local teamLose = Game.GetTeam(1, true)
           local teamWin = Game.GetTeam(2, true)
           local loseActor

@@ -10,13 +10,13 @@ function self:onOpen(packet)
         self.Background.HorizontalLayout:child("Day"..day.loginCount+1).Button:setVisible(true)
         if day.loginCount>=1 then
           for i=1,day.loginCount do
-            self.Background.HorizontalLayout:child("Day"..i).Received:setVisible(true)
+            self.Background.HorizontalLayout:child("Day"..i).Image.Received:setVisible(true)
           end
         end
           
       else
           for i=1,day.loginCount do
-            self.Background.HorizontalLayout:child("Day"..i).Received:setVisible(true)
+            self.Background.HorizontalLayout:child("Day"..i).Image.Received:setVisible(true)
           end
       end
     end
