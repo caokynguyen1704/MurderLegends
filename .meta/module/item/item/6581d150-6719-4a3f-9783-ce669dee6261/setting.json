@@ -8,7 +8,7 @@
         "__OBJ_TYPE": "ItemInHand",
         "skill": [
           "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
-          "myplugin/743be559-126a-4df4-b362-153af4b50f95"
+          "myplugin/7c2028f0-3caa-4aa0-8328-c963f3ffb2f9"
         ]
       },
       "type": "InHand"
@@ -25,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "440e4e4f41edb2126bc95096e89b9dc1",
+      "setting.json": "da7780496c5e60f98f534ba9583e05c1",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

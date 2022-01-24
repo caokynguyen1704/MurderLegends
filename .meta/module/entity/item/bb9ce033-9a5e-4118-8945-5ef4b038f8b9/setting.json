@@ -4,17 +4,19 @@
       "asset": "asset/Actor/Blue Grid Baby Iron/elf_iron_blue.actor",
       "selector": "editor/MurderLegends/asset/Actor/Blue Grid Baby Iron/elf_iron_blue.actor"
     },
+    "enableAI": true,
     "girlactor": {
       "asset": "asset/Actor/Blue Grid Baby Iron/elf_iron_blue.actor",
       "selector": "editor/MurderLegends/asset/Actor/Blue Grid Baby Iron/elf_iron_blue.actor"
     },
+    "hideName": true,
     "name": {
       "value": "entity_bb9ce033-9a5e-4118-8945-5ef4b038f8b9"
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "646ed045ff5185fb513273aca33d4f8b",
+      "setting.json": "f8872fff5304a313b5159d3073732d39",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

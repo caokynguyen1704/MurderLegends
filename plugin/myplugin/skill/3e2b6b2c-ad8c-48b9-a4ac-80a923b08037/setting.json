@@ -37,7 +37,7 @@
   "enableMoveBrkPreS": false,
   "frontSight": "myplugin/frontsight1",
   "horizontalAlignment": 2,
-  "icon": "@asset/main/gun_btn.png",
+  "icon": "@asset/main/skill2.png",
   "ignoreCastSkillBackS": false,
   "ignoreCastSkillPreS": true,
   "ignoreJumpBackS": false,

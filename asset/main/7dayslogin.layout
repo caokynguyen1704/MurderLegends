@@ -589,7 +589,7 @@
                             <Property value="4" name="ImageDstBlend">
 
                             </Property>
-                            <Property value="gameres|asset/Texture/Gui/coin_.png" name="Image">
+                            <Property value="gameres|asset/Texture/Gui/pet1.png" name="Image">
 
                             </Property>
                             <Property value="ffffffff" name="BackgroundColours">
@@ -761,7 +761,7 @@
                             <Property value="8" name="MinAutoTextScale">
 
                             </Property>
-                            <Property value="x100" name="Text">
+                            <Property value="PET" name="Text">
 
                             </Property>
                             <Property value="false" name="MousePassThroughEnabled">

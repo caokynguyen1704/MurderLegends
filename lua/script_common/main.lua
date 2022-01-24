@@ -1,4 +1,4 @@
-local lv={100,200,400,800}
+local lv={100,200,400,800,1600,3200,9999999999999}
 local mapName={"map1","map2","map3","map4","map5"}--,"map3","map4","map 3 - Mansion","Map 5 - Workshop"}
 local spawnArea={
  {
@@ -88,12 +88,15 @@ local endGame=function()
 end
 
 Entity.addValueDef('profile',{
-    totalCoin=1500,
+    totalCoin=4000,
     lv=0,
     exp=0
 }
 ,false,false,true)
-
+Entity.addValueDef('pet',{
+    listPet={},
+    selectPet={idItem="0"},
+    },false,false,true)
 Entity.addValueDef('weapon',{
     listWeapon={},
     selectWeapon={sheriff={idItem="ff9513ee-8d9b-4f3f-bac8-d6bc050700ea"},murder={idItem="8e0f0017-70da-4efa-a4e8-cdca4b317c09"}}
@@ -103,7 +106,7 @@ Entity.addValueDef('sevenday',{
     day=0,
     month=0,
     year=0,
-    loginCount=0,
+    loginCount=1,
 }
 ,false,false,true)
 Entity.addValueDef('_28day',{
@@ -151,6 +154,7 @@ PackageHandlers.registerServerHandler("addCoinPlayer", function(player, packet)
     player:setValue("profile",profile)
 end)
 PackageHandlers.registerServerHandler("addEXPPlayer", function(player, packet)
+    local profile=player:getValue("profile")
     if lv[profile.lv+1]>=profile.exp+packet.exp then
         profile.lv=profile.lv+1
         profile.exp=profile.exp+packet.exp-lv[profile.lv+1]
@@ -163,6 +167,10 @@ end)
 PackageHandlers.registerServerHandler("openThanhTuu", function(player, packet)
     local thanhtuu = player:getValue("thanhtuu")
     PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/Achievement",status="open",thanhtuu=thanhtuu})
+end)
+PackageHandlers.registerServerHandler("openPet", function(player, packet)
+    local pet = player:getValue("pet")
+    PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/petHouse",status="open",pet=pet})
 end)
 PackageHandlers.registerServerHandler("buyItem", function(player, packet)
     player:setValue('profile',packet.profile) 
@@ -187,7 +195,18 @@ PackageHandlers.registerServerHandler("updateDay7daylogin", function(player, pac
       end
       
       player:setValue('profile',profile)
-    elseif (day.loginCount==2)or(day.loginCount==5)or(day.loginCount==6) then
+    elseif day.loginCount==2 then
+      local pet=player:getValue("pet")
+      pet.listPet[#pet.listPet+1]={
+        name="Blue Elf",
+        price="2000",
+        img="gameres|asset/Texture/Gui/pet1.png",
+        idItem="bb9ce033-9a5e-4118-8945-5ef4b038f8b9",
+        i=1,
+        type="pet",
+      }
+  player:setValue('pet',pet)
+    elseif (day.loginCount==5)or(day.loginCount==6) then
       profile.totalCoin=profile.totalCoin+100
       player:setValue('profile',profile)
     elseif (day.loginCount==4) then
@@ -220,6 +239,11 @@ PackageHandlers.registerServerHandler("updateEquip", function(player, packet)
       local db = player:getValue("weapon")
     local profile = player:getValue("profile")
     PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/balo",status="open",db=db,profile=profile})
+end)
+PackageHandlers.registerServerHandler("updatePet", function(player, packet)
+    player:setValue('pet',packet.pet)
+      local db = player:getValue("pet")
+    PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/petHouse",status="open",pet=db})
 end)
 PackageHandlers.registerServerHandler("updateDay28daylogin", function(player, packet)
     player:setValue('_28day',packet.day) 
@@ -363,6 +387,14 @@ World.Timer(20,
             x=math.random(getPos.x1,getPos.x2)
             y=math.random(getPos.y1,getPos.y2)
             z=math.random(getPos.z1,getPos.z2)
+          end
+          local petID=v:getValue("pet").selectPet.idItem
+          print(petID)
+          if petID~="0" then
+            local petEntity=EntityServer.Create({cfgName = "myplugin/"..petID, map = dynamicMap, pos =  Lib.v3(x,y,z), name = "" })
+            local control = petEntity:getAIControl()
+            control:setFollowTarget(v)
+            
           end
           v:setMapPos(dynamicMap, Lib.v3(x,y,z))
         end

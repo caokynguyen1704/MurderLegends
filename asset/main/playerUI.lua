@@ -25,9 +25,15 @@ function self:onOpen(packet)
     closeAll()
     PackageHandlers.sendClientHandler("openThanhTuu")
   end
+  self.PetBtn.onMouseClick=function()
+    closeAll()
+    PackageHandlers.sendClientHandler("openPet")
+  end
   
 end
 function closeAll()
+  UI:closeWindow("main/Achievement")
+  UI:closeWindow("main/petHouse")
     UI:closeWindow("main/28dayslogin")
    UI:closeWindow("main/7dayslogin")
    UI:closeWindow("main/balo")

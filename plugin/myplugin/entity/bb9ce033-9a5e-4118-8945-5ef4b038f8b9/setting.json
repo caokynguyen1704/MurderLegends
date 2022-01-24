@@ -42,7 +42,7 @@
   "disableShadowAtFirstPRV": true,
   "dropDamageRatio": 0,
   "dropDamageStart": 1.5,
-  "enableAI": false,
+  "enableAI": true,
   "equipTrays": [],
   "eyeHeight": 1.62,
   "followEntityDistanceWhenHasTarget": 10,
@@ -51,7 +51,7 @@
   "headPic": "",
   "hideHolder": false,
   "hideHp": 1,
-  "hideName": false,
+  "hideName": true,
   "homeSize": 10,
   "hpBarColor": 4294967551.0,
   "hpBarHeight": 0.2,
@@ -68,6 +68,7 @@
   "moveSpeed": 0.2,
   "name": "entity_bb9ce033-9a5e-4118-8945-5ef4b038f8b9",
   "needCheckTouch": true,
+  "nextChaseInterval": 2,
   "randomPlayDeadActions": [
     ""
   ],

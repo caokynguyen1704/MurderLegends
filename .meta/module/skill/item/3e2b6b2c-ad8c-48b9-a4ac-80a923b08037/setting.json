@@ -24,7 +24,8 @@
     "skillReleaseWay": {
       "draggingEnabled": true,
       "icon": {
-        "asset": "asset/main/gun_btn.png"
+        "asset": "asset/main/skill2.png",
+        "selector": "editor/MurderLegends/asset/main/skill2.png"
       },
       "iconPos": {
         "area_number": 8
@@ -34,7 +35,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2ed28c79be4c0c6555fc737c0aab3334",
+      "setting.json": "bfab6ee9d424adc5563ca4bafd1afd36",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -1,0 +1,105 @@
+{
+  "data": {
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/Mesh/Literary Arrow/1700_blackpanther_weapon.mesh",
+        "selector": "editor/MurderLegends/asset/Mesh/Literary Arrow/1700_blackpanther_weapon.mesh"
+      },
+      "type": "mesh"
+    },
+    "name": {
+      "value": "cc5f15b0-2b86-4485-9654-b75d069d7edd"
+    },
+    "startSound": {
+      "sound": {
+        "asset": "asset/main/music/Gun Fire.mp3"
+      },
+      "volume": {
+        "value": 1
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KillEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "7fbfb5ca-52c7-4860-9b6d-1cef97cb777f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "de7101ab-0f2a-4a7b-b49e-568ed3fa3b24"
+              },
+              "pos": {
+                "x": 310,
+                "y": 135
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "7fbfb5ca-52c7-4860-9b6d-1cef97cb777f"
+              },
+              "pos": {
+                "x": 636,
+                "y": 202
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "de7101ab-0f2a-4a7b-b49e-568ed3fa3b24"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "8be05a52-f7ae-4040-a625-e7c4d1743130"
+            },
+            "pos": {
+              "x": 49,
+              "y": 88
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    },
+    "vanishTime": {
+      "value": 20
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1054f071a0bab73813fdcef514a0b1ce",
+      "triggers.bts": "77246136c7169d38a8eaa4e824bc89af"
+    },
+    "VERSION": "0.18"
+  }
+}

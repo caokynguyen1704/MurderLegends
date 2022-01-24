@@ -37,7 +37,7 @@
   "enableMoveBrkPreS": false,
   "frontSight": "myplugin/frontsight1",
   "horizontalAlignment": 2,
-  "icon": "@asset/main/knife_btn.png",
+  "icon": "@asset/main/skill1.png",
   "ignoreCastSkillBackS": false,
   "ignoreCastSkillPreS": true,
   "ignoreJumpBackS": false,
