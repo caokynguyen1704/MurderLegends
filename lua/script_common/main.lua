@@ -1,5 +1,5 @@
 local lv={100,200,400,800,1600,3200,9999999999999}
-local mapName={"map1","map2","map3","map4","map5"}--,"map3","map4","map 3 - Mansion","Map 5 - Workshop"}
+local mapName={"map1","map2","map3","map4","map5","map6"}--,"map3","map4","map 3 - Mansion","Map 5 - Workshop"}
 local spawnArea={
  {
     {x1=3,y1=53,z1=11,x2=5,y2=53,z2=46},
@@ -88,7 +88,7 @@ local endGame=function()
 end
 
 Entity.addValueDef('profile',{
-    totalCoin=4000,
+    totalCoin=0,
     lv=0,
     exp=0
 }
@@ -106,7 +106,7 @@ Entity.addValueDef('sevenday',{
     day=0,
     month=0,
     year=0,
-    loginCount=1,
+    loginCount=0,
 }
 ,false,false,true)
 Entity.addValueDef('_28day',{
