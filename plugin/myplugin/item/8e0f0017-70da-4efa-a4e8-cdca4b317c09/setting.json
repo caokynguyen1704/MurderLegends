@@ -4,7 +4,7 @@
   "canEquipPlural": true,
   "canUse": false,
   "handItemBoneName": "s_hand_r",
-  "icon": "@asset/Texture/Gui/knife2.png",
+  "icon": "@asset/Texture/Gui/icon_kinfe.png",
   "itemintroduction": "30959589-01da-444c-892b-4be48e3213dc",
   "itemname": "item_8e0f0017-70da-4efa-a4e8-cdca4b317c09",
   "mesh": "asset/main/knife/kukri_grip_low.mesh",

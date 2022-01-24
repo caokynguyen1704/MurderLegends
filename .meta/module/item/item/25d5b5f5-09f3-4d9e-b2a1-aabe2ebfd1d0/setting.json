@@ -1,7 +1,8 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Gui/knife2.png"
+      "asset": "asset/Texture/Gui/icon_kinfe.png",
+      "selector": "editor/MurderLegends/asset/Texture/Gui/icon_kinfe.png"
     },
     "item": {
       "base": {
@@ -25,7 +26,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "dbd50ac2488a4398fbe4a8bb1612200d",
+      "setting.json": "602cf80dd6961591d009a336dc9de2c2",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

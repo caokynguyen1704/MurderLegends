@@ -1,7 +1,8 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Gui/gun1.png"
+      "asset": "asset/Texture/Gui/icon_gun.png",
+      "selector": "editor/MurderLegends/asset/Texture/Gui/icon_gun.png"
     },
     "item": {
       "base": {
@@ -24,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3bd9cac4580cd3d14004204e9e90994d",
+      "setting.json": "890593ce1b5f10de0b36141f9e674738",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

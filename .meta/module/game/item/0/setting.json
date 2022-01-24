@@ -13,13 +13,14 @@
         "z": 32
       }
     },
+    "needSave": true,
     "nowTime": {
       "h": 16,
       "m": 40
     },
     "player_range": {
       "max": 15,
-      "min": 1
+      "min": 3
     },
     "startPos": {
       "map": "lobby2",
@@ -110,7 +111,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "df427339c21dd64058686e15b69f4153",
+      "setting.json": "3a6f4c3fe53c2ba9426cf2d2aa2621ef",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": ""
     },

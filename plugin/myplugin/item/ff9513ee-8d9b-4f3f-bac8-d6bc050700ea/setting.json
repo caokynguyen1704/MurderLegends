@@ -4,7 +4,7 @@
   "canEquipPlural": true,
   "canUse": false,
   "handItemBoneName": "s_hand_r",
-  "icon": "@asset/Texture/Gui/gun1.png",
+  "icon": "@asset/Texture/Gui/icon_gun.png",
   "itemintroduction": "b8ff55f5-17a4-4ef5-9296-75cd527810b1",
   "itemname": "item_ff9513ee-8d9b-4f3f-bac8-d6bc050700ea",
   "mesh": "asset/Mesh/Sears Ranger Shotgun/gun_36.mesh",
