@@ -1,0 +1,24 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Yellow Grid Smile Baby Gold/elf_gold_yellow.actor",
+      "selector": "editor/MurderLegends/asset/Actor/Yellow Grid Smile Baby Gold/elf_gold_yellow.actor"
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/Actor/Yellow Grid Smile Baby Gold/elf_gold_yellow.actor",
+      "selector": "editor/MurderLegends/asset/Actor/Yellow Grid Smile Baby Gold/elf_gold_yellow.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "0ffa6543-dcdb-471e-8f03-b7d2be34ef8f"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "43f1c4e755e6dfad36e0836f3f373dbe",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

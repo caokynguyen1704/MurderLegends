@@ -15,11 +15,11 @@ f104667d31b2c61e7c12cb2638eac2c9 *asset/main/28dayslogin.layout
 36eea71cc131e893aa0f318c531aff7c *asset/main/28dayslogin.lua
 69896ba8e3dd689ceaf428ef540d783c *asset/main/7dayslogin.layout
 d6e7c6f1a08a19a4c42081f200d851c2 *asset/main/7dayslogin.lua
-12f5ae45c22aadf4ba67d3d5953be448 *asset/main/Achievement.layout
+77b5a6309cec33a2868125b6c6d6758f *asset/main/Achievement.layout
 cf1f78873902066b612d530d194461f4 *asset/main/Achievement.lua
 49b2db405184a959fe4b6429f0ca0fb2 *asset/main/balo.layout
 4bd7bdb1fd686d5a1a95f8b25e64d672 *asset/main/balo.lua
-bce2dcd557dd4e3a8f3ebc587cbb7834 *asset/main/lastResult.layout
+d3ddd6650dcfc4805c299f4b4eceae59 *asset/main/lastResult.layout
 e2db6b6c60ae613bfc798f72c76a6059 *asset/main/lastResult.lua
 363e650e19ebcf665b14702e7a7d9640 *asset/main/petHouse.layout
 3b93ac3362298acacfd734f097858ea9 *asset/main/petHouse.lua
@@ -41,13 +41,13 @@ fbf10ddd295920efff9315385330c38f *asset/main/timer.layout
 8b050db2bc78b20b9136bd0727c463e4 *asset/main/timer.lua
 d751713988987e9331980363e24189ce *coin.json
 8b4680f579056d53a7459bda38f8d752 *commodity.csv
-920b05ce4f6426aab9324235607629e9 *game_res_config.txt
+174c4eacee6537fa9ab1f3733237f84e *game_res_config.txt
 7de6fe70def3b44d46e11e236ad728d8 *gui/CMakeLists.txt
 08a6935cda73d4dd6c3828937f883393 *id_mappings.json
 86b108735620a78ab5ece1708aea04b1 *lang/lang.csv
 99a366a78ce928a3b42a4066e4311cc0 *lua/main.lua
 7e6e3d3b26fdc2935f7f6de54fd72b32 *lua/script_client/main.lua
-c29cd1afa8019db51098593cbd22bf00 *lua/script_common/main.lua
+ad88eee39983a58297eba7f00fc0cb38 *lua/script_common/main.lua
 cb811c09e3abfe90f6770447f914c7ca *lua/script_server/main.lua
 ecf292b3f4e2eb3627eeb67e95d965d7 *map/7b3/r.-1.-1.mca
 eea986c80a0e783d1ed14fcbf834cccb *map/7b3/r.-1.0.mca
@@ -519,4 +519,4 @@ bfab6ee9d424adc5563ca4bafd1afd36 *plugin/myplugin/skill/3e2b6b2c-ad8c-48b9-a4ac-
 5ccd9edcf03c35386ac2b399945855fc *plugin/myplugin/skill/bd92a7d7-4e50-4054-bfa0-227e07b41c82/setting.json
 3a6f4c3fe53c2ba9426cf2d2aa2621ef *setting.json
 393e9a440b900b5690986ec2b0e57be5 *shop.csv
-81c3665946345239e6ddf25d7cf6c4e3 *user_data.json
+cb9309c499be090b95069d382b56a77f *user_data.json

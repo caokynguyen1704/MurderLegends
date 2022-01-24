@@ -3,6 +3,7 @@
 function self:onOpen(packet)
     if (packet.packet.pet)then
       if #packet.packet.pet.listPet~=0 then
+        self.Background.ScrollableView.Text:setVisible(false)
         for k,v in pairs(packet.packet.pet.listPet) do
           local Image = UI:createStaticImage("bg"..v.i)
           Image:setProperty("Image", "gameres|asset/Texture/Gui/itembg.png")

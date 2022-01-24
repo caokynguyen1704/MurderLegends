@@ -106,7 +106,7 @@ Entity.addValueDef('sevenday',{
     day=0,
     month=0,
     year=0,
-    loginCount=0,
+    loginCount=3,
 }
 ,false,false,true)
 Entity.addValueDef('_28day',{
@@ -198,24 +198,36 @@ PackageHandlers.registerServerHandler("updateDay7daylogin", function(player, pac
     elseif day.loginCount==2 then
       local pet=player:getValue("pet")
       pet.listPet[#pet.listPet+1]={
-        name="Blue Elf",
+        name="Blue Grid baby Iron",
         price="2000",
         img="gameres|asset/Texture/Gui/pet1.png",
         idItem="bb9ce033-9a5e-4118-8945-5ef4b038f8b9",
         i=1,
         type="pet",
       }
-  player:setValue('pet',pet)
-    elseif (day.loginCount==5)or(day.loginCount==6) then
+      player:setValue('pet',pet)
+    elseif (day.loginCount==6) then
+      local pet=player:getValue("pet")
+      pet.listPet[#pet.listPet+1]={
+        name="YellowGrid Smile baby Gold",
+        price="2000",
+        img="gameres|asset/Texture/Gui/pet2.png",
+        idItem="0c2e102d-71c5-4479-9bd2-332b43900033",
+        i=1,
+        type="pet",
+      }
+      
+      player:setValue('pet',pet)
+    elseif(day.loginCount==6) then
       profile.totalCoin=profile.totalCoin+100
       player:setValue('profile',profile)
     elseif (day.loginCount==4) then
       local wp=player:getValue("weapon")
       wp.listWeapon[#wp.listWeapon+1]={
-        name="Green Talled Pickaxe",
+        name="High Energy Chainsaw",
         price="3000",
-        img="gameres|asset/Texture/Gui/GreenTalledPickaxe.png",
-        idItem="5029fb61-d4fe-428f-85e1-3413f909a014",
+        img="gameres|asset/Texture/Gui/HighEnergyChainsaw.png",
+        idItem="a8799072-12ae-4d72-b957-19d4410fe945",
         i=3,
         type="knife",
       }
@@ -223,10 +235,10 @@ PackageHandlers.registerServerHandler("updateDay7daylogin", function(player, pac
     elseif (day.loginCount==7) then
       local wp=player:getValue("weapon")
       wp.listWeapon[#wp.listWeapon+1]={
-        name="Battle Golden Bow",
+        name="Laser Canon",
         price="4000",
-        img="gameres|asset/Texture/Gui/BattleGoldenBow.png",
-        idItem="51628cca-71b9-4ad3-aeb3-8da9a933d8db",
+        img="gameres|asset/Texture/Gui/LaserCanon.png",
+        idItem="61eca09e-3567-47d2-a6e5-b99acf740b1b",
         i=5,
         type="gun",
       }
@@ -259,7 +271,7 @@ PackageHandlers.registerServerHandler("updateDay28daylogin", function(player, pa
       elseif day.loginCount==20 then
       profile.totalCoin=profile.totalCoin+4000
     else
-      profile.totalCoin=profile.totalCoin+100
+      profile.totalCoin=profile.totalCoin+150
     end
     
     player:setValue('profile',profile) 

@@ -1823,6 +1823,7 @@ asset/Texture/Gui/slider_top_h.png=73f81fd5fd5a407551d6c8e22117ddc0
 asset/Texture/Gui/slider_top_v.png=0e071cd192fbe8482e92c803e9b76fd5
 asset/Texture/Gui/soidout.png=36050495/ba7829ca51101ac03e0e76ce18b13076
 asset/Texture/Gui/winIcon.png=36050495/1400749e23a63c59be252c4d06ed143c
+asset/Texture/Gui/youWin_1.png=36050495/24822d92a62a48943bd05bee97d13f94
 asset/Texture/Skill/common/icon_子弹_act.png=3c1fbcbaa4481d191a56e5414acd6d3b
 asset/Texture/Skill/common/icon_子弹_nor.png=1a33652eb2b611e7fc6c14a30114b045
 asset/Texture/Skill/common/icon_开枪_act.png=51524c147eba5768481499f5831345f6

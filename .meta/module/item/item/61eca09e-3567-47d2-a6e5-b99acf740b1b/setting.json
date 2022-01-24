@@ -1,0 +1,34 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Texture/Gui/icon_gun.png",
+      "selector": "editor/MurderLegends/asset/Texture/Gui/icon_gun.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/3e2b6b2c-ad8c-48b9-a4ac-80a923b08037"
+        ]
+      },
+      "type": "InHand"
+    },
+    "itemintroduction": {
+      "value": "12b8c507-94a2-4453-a4be-9eff60ef5c87"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Laser Cannon/1700_ironman_weapon2.mesh",
+      "selector": "editor/MurderLegends/asset/Mesh/Laser Cannon/1700_ironman_weapon2.mesh"
+    },
+    "name": {
+      "value": "item_61eca09e-3567-47d2-a6e5-b99acf740b1b"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "155ce51955aea2ab0d8eb45598ecf2ce",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}
