@@ -13075,6 +13075,125 @@
 
                                 </Property>
                             </Window>
+                            <Window name="Button" type="WindowsLook/Button">
+                                <Property value="{{0,-14},{0,9.0217643999857e-06},{1,16.92},{0,42.410009021764}}" name="Area">
+
+                                </Property>
+                                <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+                                </Property>
+                                <Property value="0.5" name="PivotY">
+
+                                </Property>
+                                <Property value="false" name="AutoTextScale">
+
+                                </Property>
+                                <Property value="false" name="ClippedByParent">
+
+                                </Property>
+                                <Property value="0 0 0 0" name="DisabledStretch">
+
+                                </Property>
+                                <Property value="1" name="Alpha">
+
+                                </Property>
+                                <Property value="false" name="TextWordBreak">
+
+                                </Property>
+                                <Property value="false" name="btn_word_warpped">
+
+                                </Property>
+                                <Property value="Top" name="VerticalAlignment">
+
+                                </Property>
+                                <Property value="DroidSans-12" name="Font">
+
+                                </Property>
+                                <Property value="" name="Text">
+
+                                </Property>
+                                <Property value="false" name="enable_text_offset">
+
+                                </Property>
+                                <Property value="Left" name="HorizontalAlignment">
+
+                                </Property>
+                                <Property value="0" name="TextYOffset">
+
+                                </Property>
+                                <Property value="0.5" name="PivotX">
+
+                                </Property>
+                                <Property value="false" name="Visible">
+
+                                </Property>
+                                <Property value="false" name="BorderEnable">
+
+                                </Property>
+                                <Property value="ff000000" name="HoverTextColour">
+
+                                </Property>
+                                <Property value="gameres|asset/Texture/Gui/button_green_act.png" name="PushedImage">
+
+                                </Property>
+                                <Property value="false" name="MousePassThroughEnabled">
+
+                                </Property>
+                                <Property value="gameres|asset/Texture/Gui/claim.png" name="HoverImage">
+
+                                </Property>
+                                <Property value="0" name="BorderWidth">
+
+                                </Property>
+                                <Property value="0 0 0 0" name="PushedStretch">
+
+                                </Property>
+                                <Property value="Stretched" name="HorzImageFormatting">
+
+                                </Property>
+                                <Property value="gameres|asset/Texture/Gui/button_green_disable.png" name="DisabledImage">
+
+                                </Property>
+                                <Property value="0 0 0 0" name="HoverStretch">
+
+                                </Property>
+                                <Property value="0" name="TextXOffset">
+
+                                </Property>
+                                <Property value="gameres|asset/Texture/Gui/claim.png" name="NormalImage">
+
+                                </Property>
+                                <Property value="ff000000" name="NormalTextColour">
+
+                                </Property>
+                                <Property value="ff888888" name="DisabledTextColour">
+
+                                </Property>
+                                <Property value="ffffffff" name="BorderColor">
+
+                                </Property>
+                                <Property value="0 0 0 0" name="NormalStretch">
+
+                                </Property>
+                                <Property value="w:1.0 x:0.0 y:0.0 z:0.0" name="Rotation">
+
+                                </Property>
+                                <Property value="false" name="Disabled">
+
+                                </Property>
+                                <Property value="ffffffff" name="PushedTextColour">
+
+                                </Property>
+                                <Property value="Stretched" name="VertImageFormatting">
+
+                                </Property>
+                                <Property value="0" name="TextBoldWeight">
+
+                                </Property>
+                                <Property value="12" name="Font_size">
+
+                                </Property>
+                            </Window>
                               <Property value="{{0,14},{0,3},{0,114},{0,103}}" name="Area">
 
                               </Property>
@@ -14882,7 +15001,7 @@
                       </Property>
                 </Window>
                 <Window name="CloseButton" type="WindowsLook/Button">
-                    <Property value="{{0.9,32.033702135086},{0,0.2599911952102},{0.9,146.15370213509},{0,102.32999119521}}" name="Area">
+                    <Property value="{{0.9,32.03},{0,0.26},{0.9,146.15},{0,102.33}}" name="Area">
 
                     </Property>
                     <Property value="{{999,0},{999,0}}" name="MaxSize">

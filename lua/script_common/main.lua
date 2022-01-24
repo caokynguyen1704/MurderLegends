@@ -106,7 +106,7 @@ Entity.addValueDef('sevenday',{
     day=0,
     month=0,
     year=0,
-    loginCount=3,
+    loginCount=0,
 }
 ,false,false,true)
 Entity.addValueDef('_28day',{
