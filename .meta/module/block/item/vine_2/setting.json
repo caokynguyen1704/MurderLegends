@@ -8,11 +8,31 @@
     "isQuad": true,
     "name": {
       "value": "block_vine_2"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/vine_2"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/vine_2"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/vine_2"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/vine_2"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/vine_2"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/vine_2"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "47115dac874956c2dcc9379ccc670692",
+      "setting.json": "6bc8c71cbc31c336d25a8749f11b32b6",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

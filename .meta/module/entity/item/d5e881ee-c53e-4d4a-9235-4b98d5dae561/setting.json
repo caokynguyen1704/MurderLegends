@@ -6,24 +6,23 @@
       }
     ],
     "actorName": {
-      "asset": "asset/Mesh/jinbi/Bcoin.actor",
-      "selector": "editor/Murder Legends/asset/Mesh/jinbi/Bcoin.actor"
+      "asset": "asset/Mesh/jinbi/Bcoin.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
     },
     "autoMove": true,
     "boundingVolume": {
-      "params": {
-        "x": 0.5,
-        "y": 0.5,
-        "z": 0.5
-      },
       "radius": 0.25,
       "type": "Sphere"
     },
     "collision": true,
     "eyeHeight": 1,
     "girlactor": {
-      "asset": "asset/Mesh/jinbi/Bcoin.actor",
-      "selector": "editor/Murder Legends/asset/Mesh/jinbi/Bcoin.actor"
+      "asset": "asset/Mesh/jinbi/Bcoin.actor"
     },
     "gravity": 10000,
     "hideName": true,
@@ -33,7 +32,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "4e14ed4cf09b99eb2dcf64e8262db1cf",
+      "setting.json": "6a769daa0160eb140e67c49a8f892ba8",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

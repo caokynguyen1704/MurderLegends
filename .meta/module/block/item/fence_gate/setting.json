@@ -8,11 +8,31 @@
     "isQuad": true,
     "name": {
       "value": "block_fence_gate"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/fence_gate"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/fence_gate"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/fence_gate"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/fence_gate"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/fence_gate"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/fence_gate"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "02dc5a3b5f9420eac213c27dc0b9f2ba",
+      "setting.json": "aa41f0c2af2173c4aa8bd1821fef4f5b",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -8,11 +8,31 @@
     "isQuad": true,
     "name": {
       "value": "block_log_spruce_z"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/log_spruce_z"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/log_spruce_z"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/log_spruce_z"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/log_spruce_z"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/log_spruce_z"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/log_spruce_z"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e3700d872cd04de820696df37daf173f",
+      "setting.json": "8a742e8f017c7fb1567e93a3e53581da",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

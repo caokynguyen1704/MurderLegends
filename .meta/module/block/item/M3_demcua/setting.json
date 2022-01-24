@@ -15,19 +15,29 @@
       "value": "block_M3_demcua"
     },
     "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/M3_demcua"
+      },
       "down": {
-        "asset": "asset/map3/demcua.png",
-        "selector": "editor/PF/asset/map3/demcua.png"
+        "asset": "asset/map3/demcua.png"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/M3_demcua"
       },
       "left": {
-        "asset": "asset/map3/demcua.png",
-        "selector": "editor/PF/asset/map3/demcua.png"
+        "asset": "asset/map3/demcua.png"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/M3_demcua"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/M3_demcua"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b5acd24286a36ceb4a434e91a1b1fc89",
+      "setting.json": "1ae3bbf3011eb9255a4a5ada5922acde",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

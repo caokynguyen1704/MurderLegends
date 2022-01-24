@@ -15,11 +15,31 @@
     "isQuad": true,
     "name": {
       "value": "block_acacia_wood_slab"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/acacia_wood_slab"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/acacia_wood_slab"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/acacia_wood_slab"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/acacia_wood_slab"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/acacia_wood_slab"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/acacia_wood_slab"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "979e52e325bf3952f8a8c0038c05eab9",
+      "setting.json": "9f60447e5f89bce23a242babdc2de054",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

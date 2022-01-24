@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png",
-        "selector": "editor/PF/asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png"
+        "asset": "asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png"
       },
       "down": {
-        "asset": "asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png",
-        "selector": "editor/PF/asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png"
+        "asset": "asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png"
       },
       "front": {
-        "asset": "asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png",
-        "selector": "editor/PF/asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png"
+        "asset": "asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png"
       },
       "left": {
-        "asset": "asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png",
-        "selector": "editor/PF/asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png"
+        "asset": "asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png"
       },
       "right": {
-        "asset": "asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png",
-        "selector": "editor/PF/asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png"
+        "asset": "asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png"
       },
       "up": {
-        "asset": "asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png",
-        "selector": "editor/PF/asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png"
+        "asset": "asset/sanh/8571d3a91bce3b276c2fc90d983e19ec.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3f66997668915c70d4c4ab9456d8c0ad",
+      "setting.json": "1c79afa1b5ae2807b639cad9b2184072",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

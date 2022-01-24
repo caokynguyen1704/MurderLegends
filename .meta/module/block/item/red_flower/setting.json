@@ -17,11 +17,31 @@
     "isQuad": true,
     "name": {
       "value": "block_red_flower"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/red_flower"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/red_flower"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/red_flower"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/red_flower"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/red_flower"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/red_flower"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "35669d4f08f6e6618cc21ac692d614e8",
+      "setting.json": "cedf92b6e08b2e8b04272f6aea9871e0",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

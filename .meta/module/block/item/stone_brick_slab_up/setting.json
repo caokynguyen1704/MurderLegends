@@ -15,11 +15,31 @@
     "isQuad": true,
     "name": {
       "value": "block_stone_brick_slab_up"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/stone_brick_slab_up"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/stone_brick_slab_up"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/stone_brick_slab_up"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/stone_brick_slab_up"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/stone_brick_slab_up"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/stone_brick_slab_up"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e9ee8d26b0db6ff62b4737ab09ae107a",
+      "setting.json": "b599569797b2a2f06cfdc48b6024454d",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

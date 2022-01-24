@@ -9,11 +9,31 @@
     "isQuad": true,
     "name": {
       "value": "block_double_plant_syringa_bottom"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/double_plant_syringa_bottom"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/double_plant_syringa_bottom"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/double_plant_syringa_bottom"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/double_plant_syringa_bottom"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/double_plant_syringa_bottom"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/double_plant_syringa_bottom"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f8b0f3df8d277fd566d9777c1a0232d3",
+      "setting.json": "53d5f8c79719d2cbfde2217c2ad58805",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -23,11 +23,31 @@
     "isQuad": true,
     "name": {
       "value": "block_bone_block_4"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/bone_block_4"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/bone_block_4"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/bone_block_4"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/bone_block_4"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/bone_block_4"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/bone_block_4"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "7c1913ff830e33eeac145708b068dfb9",
+      "setting.json": "e33ecf3aff772988b973f6c5f2fc8232",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

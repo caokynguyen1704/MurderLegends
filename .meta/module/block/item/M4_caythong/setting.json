@@ -7,34 +7,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/map4/caythong.png",
-        "selector": "editor/PF/asset/map4/caythong.png"
+        "asset": "asset/map4/caythong.png"
       },
       "down": {
-        "asset": "asset/map4/caythong.png",
-        "selector": "editor/PF/asset/map4/caythong.png"
+        "asset": "asset/map4/caythong.png"
       },
       "front": {
-        "asset": "asset/map4/caythong.png",
-        "selector": "editor/PF/asset/map4/caythong.png"
+        "asset": "asset/map4/caythong.png"
       },
       "left": {
-        "asset": "asset/map4/caythong.png",
-        "selector": "editor/PF/asset/map4/caythong.png"
+        "asset": "asset/map4/caythong.png"
       },
       "right": {
-        "asset": "asset/map4/caythong.png",
-        "selector": "editor/PF/asset/map4/caythong.png"
+        "asset": "asset/map4/caythong.png"
       },
       "up": {
-        "asset": "asset/map4/caythong.png",
-        "selector": "editor/PF/asset/map4/caythong.png"
+        "asset": "asset/map4/caythong.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "26ce121c48d66a7230d0bd2b186ee08f",
+      "setting.json": "cb37c97996975f1f501bfd9828dea4ce",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

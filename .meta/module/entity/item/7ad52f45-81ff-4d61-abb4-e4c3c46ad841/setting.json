@@ -1,13 +1,18 @@
 {
   "data": {
     "actorName": {
-      "asset": "asset/Actor/Ordinary Audio/g2020_sound_01.actor",
-      "selector": "editor/PF/asset/Actor/Ordinary Audio/g2020_sound_01.actor"
+      "asset": "asset/Actor/Ordinary Audio/g2020_sound_01.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
     },
     "canMove": false,
     "collision": true,
     "girlactor": {
-      "asset": ""
+      "asset": "empty.actor"
     },
     "hideName": true,
     "name": {
@@ -16,7 +21,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "c52750463e2a23102934b85b46a602c3",
+      "setting.json": "c183695c04ad0c7558f666876bc5c770",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

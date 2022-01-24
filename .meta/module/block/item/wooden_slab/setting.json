@@ -15,11 +15,31 @@
     "isQuad": true,
     "name": {
       "value": "block_wooden_slab"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/wooden_slab"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/wooden_slab"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/wooden_slab"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/wooden_slab"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/wooden_slab"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/wooden_slab"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b7752cd669c2a00aa20fa74ffee70851",
+      "setting.json": "00856057559d6c3d00d46b94ae89300d",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

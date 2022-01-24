@@ -2,8 +2,7 @@
   "data": {
     "missileModel": {
       "modelMesh": {
-        "asset": "asset/Mesh/Bullet/bullet.mesh",
-        "selector": "editor/Murder Legends/asset/Mesh/Bullet/bullet.mesh"
+        "asset": "asset/Mesh/Bullet/bullet.mesh"
       },
       "type": "mesh"
     },
@@ -12,8 +11,7 @@
     },
     "startSound": {
       "sound": {
-        "asset": "asset/main/music/Gun Fire.mp3",
-        "selector": "editor/Murder Legends/asset/main/music/Gun Fire.mp3"
+        "asset": "asset/main/music/Gun Fire.mp3"
       },
       "volume": {
         "value": 1
@@ -98,7 +96,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "c081f5b07a81ff35f5855cdae85bd94c",
+      "setting.json": "43a1be2d10430371c2ed023b092f3537",
       "triggers.bts": "77246136c7169d38a8eaa4e824bc89af"
     },
     "VERSION": "0.18"

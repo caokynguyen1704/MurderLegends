@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/map3/NenCacbon1.png",
-        "selector": "editor/PF/asset/map3/NenCacbon1.png"
+        "asset": "asset/map3/NenCacbon1.png"
       },
       "down": {
-        "asset": "asset/map3/NenCacbon1.png",
-        "selector": "editor/PF/asset/map3/NenCacbon1.png"
+        "asset": "asset/map3/NenCacbon1.png"
       },
       "front": {
-        "asset": "asset/map3/NenCacbon1.png",
-        "selector": "editor/PF/asset/map3/NenCacbon1.png"
+        "asset": "asset/map3/NenCacbon1.png"
       },
       "left": {
-        "asset": "asset/map3/NenCacbon1.png",
-        "selector": "editor/PF/asset/map3/NenCacbon1.png"
+        "asset": "asset/map3/NenCacbon1.png"
       },
       "right": {
-        "asset": "asset/map3/NenCacbon1.png",
-        "selector": "editor/PF/asset/map3/NenCacbon1.png"
+        "asset": "asset/map3/NenCacbon1.png"
       },
       "up": {
-        "asset": "asset/map3/NenCacbon1.png",
-        "selector": "editor/PF/asset/map3/NenCacbon1.png"
+        "asset": "asset/map3/NenCacbon1.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9e4d38db36f8d80dacad11a22368003e",
+      "setting.json": "3d007f8a3017b4dcb986f86b2d6f341a",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -15,11 +15,31 @@
     "isQuad": true,
     "name": {
       "value": "block_birch_wood_slab"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/birch_wood_slab"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/birch_wood_slab"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/birch_wood_slab"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/birch_wood_slab"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/birch_wood_slab"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/birch_wood_slab"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "99f15864c0fcf0e443f61d8414f92801",
+      "setting.json": "fa6bb2ce08108cba89ade3b92e70dc6e",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

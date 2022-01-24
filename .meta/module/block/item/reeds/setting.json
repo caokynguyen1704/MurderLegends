@@ -9,11 +9,31 @@
     "isQuad": true,
     "name": {
       "value": "block_reeds"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/reeds"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/reeds"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/reeds"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/reeds"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/reeds"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/reeds"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a291d06f4763e25fa9dd3c4c755e62cf",
+      "setting.json": "5b468eb4cd852fc1782f75cc3dae5a2d",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

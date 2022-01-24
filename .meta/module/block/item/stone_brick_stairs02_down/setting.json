@@ -21,11 +21,31 @@
     "isQuad": true,
     "name": {
       "value": "block_stone_brick_stairs02_down"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/stone_brick_stairs02_down"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/stone_brick_stairs02_down"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/stone_brick_stairs02_down"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/stone_brick_stairs02_down"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/stone_brick_stairs02_down"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/stone_brick_stairs02_down"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "adb4b492122baa04c8f3ee6d64d614eb",
+      "setting.json": "08e3e91a7d8d14f42183a18cc5b95fb0",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

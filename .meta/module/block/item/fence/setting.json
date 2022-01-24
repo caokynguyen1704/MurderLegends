@@ -20,11 +20,31 @@
     "isQuad": true,
     "name": {
       "value": "block_fence"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/fence"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/fence"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/fence"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/fence"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/fence"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/fence"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "acd4ae11a7d1f4e706a3df0008ea2090",
+      "setting.json": "2b5889546c114b112370fa64c1aca837",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

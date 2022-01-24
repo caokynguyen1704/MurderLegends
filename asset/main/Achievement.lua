@@ -12,11 +12,11 @@ function self:onOpen(packet)
       end
     end
   self.Background.taskCoin.Button.onMouseClick=function()
-    PackageHandlers.sendClientHandler("addCoinPlayer",{coin=1000})
+    PackageHandlers.sendClientHandler("addEXPPlayer",{exp=100})
     PackageHandlers.sendClientHandler("openThanhTuu")
   end
   self.Background.taskKill.Button.onMouseClick=function()
-    PackageHandlers.sendClientHandler("addCoinPlayer",{coin=1000})
+    PackageHandlers.sendClientHandler("addEXPPlayer",{exp=500})
     PackageHandlers.sendClientHandler("openThanhTuu")
   end
   self.Background.CloseButton.onMouseClick=function()

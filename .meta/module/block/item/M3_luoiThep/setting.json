@@ -7,34 +7,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/map3/luoiThep.png",
-        "selector": "editor/PF/asset/map3/luoiThep.png"
+        "asset": "asset/map3/luoiThep.png"
       },
       "down": {
-        "asset": "asset/map3/luoiThep.png",
-        "selector": "editor/PF/asset/map3/luoiThep.png"
+        "asset": "asset/map3/luoiThep.png"
       },
       "front": {
-        "asset": "asset/map3/luoiThep.png",
-        "selector": "editor/PF/asset/map3/luoiThep.png"
+        "asset": "asset/map3/luoiThep.png"
       },
       "left": {
-        "asset": "asset/map3/luoiThep.png",
-        "selector": "editor/PF/asset/map3/luoiThep.png"
+        "asset": "asset/map3/luoiThep.png"
       },
       "right": {
-        "asset": "asset/map3/luoiThep.png",
-        "selector": "editor/PF/asset/map3/luoiThep.png"
+        "asset": "asset/map3/luoiThep.png"
       },
       "up": {
-        "asset": "asset/map3/luoiThep.png",
-        "selector": "editor/PF/asset/map3/luoiThep.png"
+        "asset": "asset/map3/luoiThep.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e4bc857ab77df92be0ddf44aa8d4e25e",
+      "setting.json": "50ab2c457011fd0fc3b0a25c1fcc5b9b",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -9,11 +9,31 @@
     "isQuad": true,
     "name": {
       "value": "block_brown_mushroom"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/brown_mushroom"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/brown_mushroom"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/brown_mushroom"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/brown_mushroom"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/brown_mushroom"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/brown_mushroom"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a7adbd5390cfab95bfa95ec60b72cd80",
+      "setting.json": "f57359226e07afe693ca537790193834",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

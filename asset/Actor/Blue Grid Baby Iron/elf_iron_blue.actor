@@ -1,0 +1,70 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="bone001.skel" IntervalTime="2" SoundName3="" SoundName5="" SoundName2="" MinDistance="1" SoundName4="" WoundAngle="25" AttackScale="1" Originalscale="0.5 0.5 0.5" Volume="0.8" IsShowShadow="true" SelectedRingSize="1" name="111.actor" SoundName1="" TextHeight="0" Alpha="1" MaxDistance="16" SoundFileNum="0" WoundBone="">
+		<BodyParts>
+			<BodyPart DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" MasterName="body" SlaveName="blue_yin">
+				<Effect>
+					<type_name value="yuleit2_01"/>
+					<Position_Y value="0.9"/>
+					<FileName value="yuleit2_01.effect"/>
+					<pitch value="0"/>
+					<SocketName value="bone001"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<TimeScale value="1"/>
+					<scale value="2"/>
+					<Alpha value="1"/>
+					<roll value="0"/>
+					<Position_X value="0"/>
+				</Effect>
+				<StaticMesh type_name="jingling_blue" DiscardAlpha="0" LocalAlpha="1">
+					<pitch value="0"/>
+					<Position_Z value="0"/>
+					<UseEdge value="false"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseBloom value="false"/>
+					<UseReflect value="false"/>
+					<Position_Y value="0"/>
+					<FileName value="jingling_blue.mesh"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SocketName value="bone001"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<UseOriginalcolor value="false"/>
+					<scale value="4"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+				<StaticMesh type_name="yin" DiscardAlpha="0" LocalAlpha="1">
+					<pitch value="0"/>
+					<Position_Z value="0"/>
+					<UseEdge value="false"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseBloom value="false"/>
+					<UseReflect value="false"/>
+					<Position_Y value="0"/>
+					<FileName value="yin.mesh"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SocketName value="bone001"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<UseOriginalcolor value="false"/>
+					<scale value="4"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

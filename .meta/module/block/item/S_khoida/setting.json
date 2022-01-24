@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/sanh/1231231.png",
-        "selector": "editor/PF/asset/sanh/1231231.png"
+        "asset": "asset/sanh/1231231.png"
       },
       "down": {
-        "asset": "asset/sanh/1231231.png",
-        "selector": "editor/PF/asset/sanh/1231231.png"
+        "asset": "asset/sanh/1231231.png"
       },
       "front": {
-        "asset": "asset/sanh/1231231.png",
-        "selector": "editor/PF/asset/sanh/1231231.png"
+        "asset": "asset/sanh/1231231.png"
       },
       "left": {
-        "asset": "asset/sanh/1231231.png",
-        "selector": "editor/PF/asset/sanh/1231231.png"
+        "asset": "asset/sanh/1231231.png"
       },
       "right": {
-        "asset": "asset/sanh/1231231.png",
-        "selector": "editor/PF/asset/sanh/1231231.png"
+        "asset": "asset/sanh/1231231.png"
       },
       "up": {
-        "asset": "asset/sanh/1231231.png",
-        "selector": "editor/PF/asset/sanh/1231231.png"
+        "asset": "asset/sanh/1231231.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b6335817efa89f916d47bfa854bc493a",
+      "setting.json": "b21edaa48fd1135e2ba6b0e0089b7772",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

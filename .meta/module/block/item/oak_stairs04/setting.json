@@ -30,11 +30,31 @@
     "isQuad": true,
     "name": {
       "value": "block_oak_stairs04"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/oak_stairs04"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/oak_stairs04"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/oak_stairs04"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/oak_stairs04"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/oak_stairs04"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/oak_stairs04"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a58a50d9c9795bfdef80bdc093c21147",
+      "setting.json": "7ad213615b78b0ba558eb6ce1c58a138",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

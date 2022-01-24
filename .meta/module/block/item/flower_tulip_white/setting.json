@@ -17,11 +17,31 @@
     "isQuad": true,
     "name": {
       "value": "block_flower_tulip_white"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/flower_tulip_white"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/flower_tulip_white"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/flower_tulip_white"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/flower_tulip_white"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/flower_tulip_white"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/flower_tulip_white"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e3360c9d023a598f2297156c2be5c4b3",
+      "setting.json": "92e152aecbf1097b8bbef5a9ebd69141",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

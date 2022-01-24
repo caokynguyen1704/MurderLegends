@@ -1,7 +1,7 @@
 {
   "data": {
     "canBreak": false,
-    "climbSpeed": 5,
+    "climbSpeed": 5.0,
     "dropSelf": {
       "canDropSelf": false
     },
@@ -9,11 +9,31 @@
     "isQuad": true,
     "name": {
       "value": "block_vine_1"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/vine_1"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/vine_1"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/vine_1"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/vine_1"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/vine_1"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/vine_1"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9f562b6869ef264910732496a08104ba",
+      "setting.json": "97a33d5e4d6cdb91e779ba0fb9c3c287",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

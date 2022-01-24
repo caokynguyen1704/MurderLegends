@@ -17,11 +17,31 @@
     "isQuad": true,
     "name": {
       "value": "block_oxeye_daisy"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/oxeye_daisy"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/oxeye_daisy"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/oxeye_daisy"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/oxeye_daisy"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/oxeye_daisy"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/oxeye_daisy"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "7fe647457cee1008dbb7649610277159",
+      "setting.json": "c21129c648e497042bd5ea58dc2251eb",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

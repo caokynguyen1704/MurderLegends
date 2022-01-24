@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/sanh/concrete_powder_yellow.png",
-        "selector": "editor/mysmur1/asset/sanh/concrete_powder_yellow.png"
+        "asset": "asset/sanh/concrete_powder_yellow.png"
       },
       "down": {
-        "asset": "asset/sanh/concrete_powder_yellow.png",
-        "selector": "editor/mysmur1/asset/sanh/concrete_powder_yellow.png"
+        "asset": "asset/sanh/concrete_powder_yellow.png"
       },
       "front": {
-        "asset": "asset/sanh/concrete_powder_yellow.png",
-        "selector": "editor/mysmur1/asset/sanh/concrete_powder_yellow.png"
+        "asset": "asset/sanh/concrete_powder_yellow.png"
       },
       "left": {
-        "asset": "asset/sanh/concrete_powder_yellow.png",
-        "selector": "editor/mysmur1/asset/sanh/concrete_powder_yellow.png"
+        "asset": "asset/sanh/concrete_powder_yellow.png"
       },
       "right": {
-        "asset": "asset/sanh/concrete_powder_yellow.png",
-        "selector": "editor/mysmur1/asset/sanh/concrete_powder_yellow.png"
+        "asset": "asset/sanh/concrete_powder_yellow.png"
       },
       "up": {
-        "asset": "asset/sanh/concrete_powder_yellow.png",
-        "selector": "editor/mysmur1/asset/sanh/concrete_powder_yellow.png"
+        "asset": "asset/sanh/concrete_powder_yellow.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6e1b3b4728097bbf291a1d370ee9c9c6",
+      "setting.json": "85d6c121864efd000080cba0030b9d1d",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

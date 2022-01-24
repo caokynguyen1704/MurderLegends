@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/Screenshot 2021-12-24 123545.png",
-        "selector": "editor/PF/asset/Screenshot 2021-12-24 123545.png"
+        "asset": "asset/Screenshot 2021-12-24 123545.png"
       },
       "down": {
-        "asset": "asset/Screenshot 2021-12-24 123545.png",
-        "selector": "editor/PF/asset/Screenshot 2021-12-24 123545.png"
+        "asset": "asset/Screenshot 2021-12-24 123545.png"
       },
       "front": {
-        "asset": "asset/Screenshot 2021-12-24 123545.png",
-        "selector": "editor/PF/asset/Screenshot 2021-12-24 123545.png"
+        "asset": "asset/Screenshot 2021-12-24 123545.png"
       },
       "left": {
-        "asset": "asset/Screenshot 2021-12-24 123545.png",
-        "selector": "editor/PF/asset/Screenshot 2021-12-24 123545.png"
+        "asset": "asset/Screenshot 2021-12-24 123545.png"
       },
       "right": {
-        "asset": "asset/Screenshot 2021-12-24 123545.png",
-        "selector": "editor/PF/asset/Screenshot 2021-12-24 123545.png"
+        "asset": "asset/Screenshot 2021-12-24 123545.png"
       },
       "up": {
-        "asset": "asset/Screenshot 2021-12-24 123545.png",
-        "selector": "editor/PF/asset/Screenshot 2021-12-24 123545.png"
+        "asset": "asset/Screenshot 2021-12-24 123545.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "97a383718a51881760fec5003c28cdb3",
+      "setting.json": "e32a0288da3794d0da927262d6e7ba43",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

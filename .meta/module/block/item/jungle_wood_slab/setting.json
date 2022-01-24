@@ -15,11 +15,31 @@
     "isQuad": true,
     "name": {
       "value": "block_jungle_wood_slab"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/jungle_wood_slab"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/jungle_wood_slab"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/jungle_wood_slab"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/jungle_wood_slab"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/jungle_wood_slab"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/jungle_wood_slab"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "86cc63fc3e090986397754aa4c60ee81",
+      "setting.json": "186f5250483142268ba36889d7f546d9",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

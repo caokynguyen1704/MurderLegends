@@ -21,11 +21,31 @@
     "isQuad": true,
     "name": {
       "value": "block_jungle_stairs01"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/jungle_stairs01"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/jungle_stairs01"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/jungle_stairs01"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/jungle_stairs01"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/jungle_stairs01"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/jungle_stairs01"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9990bfdd9a0339f1ec0172b2ea93c76e",
+      "setting.json": "a0c0eda171c679723c9971220e890aaf",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

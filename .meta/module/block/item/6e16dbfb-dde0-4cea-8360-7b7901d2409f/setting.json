@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/1/cobblestone_cobblestone_wall_3.png",
-        "selector": "editor/PF/asset/1/cobblestone_cobblestone_wall_3.png"
+        "asset": "asset/1/cobblestone_cobblestone_wall_3.png"
       },
       "down": {
-        "asset": "asset/1/cobblestone_cobblestone_wall_3.png",
-        "selector": "editor/PF/asset/1/cobblestone_cobblestone_wall_3.png"
+        "asset": "asset/1/cobblestone_cobblestone_wall_3.png"
       },
       "front": {
-        "asset": "asset/1/cobblestone_cobblestone_wall_3.png",
-        "selector": "editor/PF/asset/1/cobblestone_cobblestone_wall_3.png"
+        "asset": "asset/1/cobblestone_cobblestone_wall_3.png"
       },
       "left": {
-        "asset": "asset/1/cobblestone_cobblestone_wall_3.png",
-        "selector": "editor/PF/asset/1/cobblestone_cobblestone_wall_3.png"
+        "asset": "asset/1/cobblestone_cobblestone_wall_3.png"
       },
       "right": {
-        "asset": "asset/1/cobblestone_cobblestone_wall_3.png",
-        "selector": "editor/PF/asset/1/cobblestone_cobblestone_wall_3.png"
+        "asset": "asset/1/cobblestone_cobblestone_wall_3.png"
       },
       "up": {
-        "asset": "asset/1/cobblestone_cobblestone_wall_3.png",
-        "selector": "editor/PF/asset/1/cobblestone_cobblestone_wall_3.png"
+        "asset": "asset/1/cobblestone_cobblestone_wall_3.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "aa6d11a1c3066224fd2b75ee5c073074",
+      "setting.json": "bffca06550da61033ec46f3f865fd6ea",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

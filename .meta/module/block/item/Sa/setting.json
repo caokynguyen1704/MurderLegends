@@ -4,15 +4,29 @@
       "value": "block_Sa"
     },
     "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/Sa"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/Sa"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/Sa"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/Sa"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/Sa"
+      },
       "up": {
-        "asset": "asset/a.png",
-        "selector": "editor/mysmur1/asset/a.png"
+        "asset": "asset/a.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "503196ae265ac5e87fef47b95a371bc7",
+      "setting.json": "bafa2a6ef0dce4ff9002aa3cc6c4a0ee",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -4,15 +4,29 @@
       "value": "block_Sc"
     },
     "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/Sc"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/Sc"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/Sc"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/Sc"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/Sc"
+      },
       "up": {
-        "asset": "asset/c.png",
-        "selector": "editor/mysmur1/asset/c.png"
+        "asset": "asset/c.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "14e662d2794117b75759b4f63d41bd98",
+      "setting.json": "7017a9ef2ddf3c9ec193e8469634507b",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

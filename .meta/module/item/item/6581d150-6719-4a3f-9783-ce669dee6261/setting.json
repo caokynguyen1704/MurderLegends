@@ -1,8 +1,7 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Gui/knife2.png",
-      "selector": "editor/MurderLegends/asset/Texture/Gui/knife2.png"
+      "asset": "asset/Texture/Gui/knife2.png"
     },
     "item": {
       "base": {
@@ -18,8 +17,7 @@
       "value": "cbf29cfe-059d-4867-8c9c-043fce61bb10"
     },
     "mesh": {
-      "asset": "asset/Eternal Broadsword/1700_loki_weapon.mesh",
-      "selector": "editor/Murder Legends/asset/Eternal Broadsword/1700_loki_weapon.mesh"
+      "asset": "asset/Eternal Broadsword/1700_loki_weapon.mesh"
     },
     "name": {
       "value": "item_6581d150-6719-4a3f-9783-ce669dee6261"
@@ -27,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b0b6e1edd1c85cf65ef1bc50b6bc47da",
+      "setting.json": "440e4e4f41edb2126bc95096e89b9dc1",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

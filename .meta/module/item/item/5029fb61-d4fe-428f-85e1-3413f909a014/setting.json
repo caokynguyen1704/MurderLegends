@@ -1,8 +1,7 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Gui/knife2.png",
-      "selector": "editor/MurderLegends/asset/Texture/Gui/knife2.png"
+      "asset": "asset/Texture/Gui/knife2.png"
     },
     "item": {
       "base": {
@@ -18,8 +17,7 @@
       "value": "9df576c2-a35f-4790-9959-ea1d7562002c"
     },
     "mesh": {
-      "asset": "asset/Green Tailed Pickaxe/g1008_pickaxe_17.mesh",
-      "selector": "editor/Murder Legends/asset/Green Tailed Pickaxe/g1008_pickaxe_17.mesh"
+      "asset": "asset/Green Tailed Pickaxe/g1008_pickaxe_17.mesh"
     },
     "name": {
       "value": "item_5029fb61-d4fe-428f-85e1-3413f909a014"
@@ -27,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "af7aad818de3c978653d655f2accd2ec",
+      "setting.json": "f0febb8d151aed52b67e37947d2bcfd2",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

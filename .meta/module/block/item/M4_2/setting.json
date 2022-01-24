@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/map4/M42.png",
-        "selector": "editor/PF/asset/map4/M42.png"
+        "asset": "asset/map4/M42.png"
       },
       "down": {
-        "asset": "asset/map4/M42.png",
-        "selector": "editor/PF/asset/map4/M42.png"
+        "asset": "asset/map4/M42.png"
       },
       "front": {
-        "asset": "asset/map4/M42.png",
-        "selector": "editor/PF/asset/map4/M42.png"
+        "asset": "asset/map4/M42.png"
       },
       "left": {
-        "asset": "asset/map4/M42.png",
-        "selector": "editor/PF/asset/map4/M42.png"
+        "asset": "asset/map4/M42.png"
       },
       "right": {
-        "asset": "asset/map4/M42.png",
-        "selector": "editor/PF/asset/map4/M42.png"
+        "asset": "asset/map4/M42.png"
       },
       "up": {
-        "asset": "asset/map4/M42.png",
-        "selector": "editor/PF/asset/map4/M42.png"
+        "asset": "asset/map4/M42.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "83278a0137c49ae6e15f159750d7df54",
+      "setting.json": "301818ccf52184b822e7530697f68ef6",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

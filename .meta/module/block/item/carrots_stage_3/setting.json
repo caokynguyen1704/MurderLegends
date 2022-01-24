@@ -17,11 +17,31 @@
     "isQuad": true,
     "name": {
       "value": "block_carrots_stage_3"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/carrots_stage_3"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/carrots_stage_3"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/carrots_stage_3"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/carrots_stage_3"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/carrots_stage_3"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/carrots_stage_3"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ff8f85100255c95ca7bc46d472828c63",
+      "setting.json": "0ce23dd11cfdf964fe4e55f6f4f1788f",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

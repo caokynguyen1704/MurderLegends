@@ -15,19 +15,29 @@
       "value": "block_811edf1a-a38b-4dca-828c-729844a04737"
     },
     "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/811edf1a-a38b-4dca-828c-729844a04737"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/811edf1a-a38b-4dca-828c-729844a04737"
+      },
       "front": {
-        "asset": "asset/hangdao.png",
-        "selector": "editor/PF/asset/hangdao.png"
+        "asset": "asset/hangdao.png"
       },
       "left": {
-        "asset": "asset/hangdao.png",
-        "selector": "editor/PF/asset/hangdao.png"
+        "asset": "asset/hangdao.png"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/811edf1a-a38b-4dca-828c-729844a04737"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/811edf1a-a38b-4dca-828c-729844a04737"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "955e66e0ebf1b447bcc5f583066b5fca",
+      "setting.json": "5003946308f1867ae5b1c564527249ee",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

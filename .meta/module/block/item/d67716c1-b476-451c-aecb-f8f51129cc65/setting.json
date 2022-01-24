@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/1/bedrock2.png",
-        "selector": "editor/PF/asset/1/bedrock2.png"
+        "asset": "asset/1/bedrock2.png"
       },
       "down": {
-        "asset": "asset/1/bedrock2.png",
-        "selector": "editor/PF/asset/1/bedrock2.png"
+        "asset": "asset/1/bedrock2.png"
       },
       "front": {
-        "asset": "asset/1/bedrock2.png",
-        "selector": "editor/PF/asset/1/bedrock2.png"
+        "asset": "asset/1/bedrock2.png"
       },
       "left": {
-        "asset": "asset/1/bedrock2.png",
-        "selector": "editor/PF/asset/1/bedrock2.png"
+        "asset": "asset/1/bedrock2.png"
       },
       "right": {
-        "asset": "asset/1/bedrock2.png",
-        "selector": "editor/PF/asset/1/bedrock2.png"
+        "asset": "asset/1/bedrock2.png"
       },
       "up": {
-        "asset": "asset/1/bedrock2.png",
-        "selector": "editor/PF/asset/1/bedrock2.png"
+        "asset": "asset/1/bedrock2.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "5dfccf04caa738259cf05f1f30d0c503",
+      "setting.json": "d19355cc1c8bdbdb20850050ea55e8c4",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

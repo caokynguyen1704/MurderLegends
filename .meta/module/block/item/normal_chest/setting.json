@@ -8,11 +8,31 @@
     "isQuad": true,
     "name": {
       "value": "block_normal_chest"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/normal_chest"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/normal_chest"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/normal_chest"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/normal_chest"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/normal_chest"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/normal_chest"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "7b0bd058a9351da346e076fb3ee1aada",
+      "setting.json": "58371019a6a84322f334c9274ca0e23c",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -9,15 +9,13 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/Texture/Block/oak_back_wooden_slab_8.png",
-        "selector": "editor/PF/asset/Texture/Block/oak_back_wooden_slab_8.png"
+        "asset": "asset/Texture/Block/oak_back_wooden_slab_8.png"
       },
       "down": {
         "asset": "asset/Texture/Block/planks_oak_planks_oak.png"
       },
       "front": {
-        "asset": "asset/Texture/Block/wool_colored_red_wool_14.png",
-        "selector": "editor/PF/asset/Texture/Block/wool_colored_red_wool_14.png"
+        "asset": "asset/Texture/Block/wool_colored_red_wool_14.png"
       },
       "left": {
         "asset": "asset/Texture/Block/planks_oak_planks_oak.png"
@@ -32,7 +30,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "cb231354b21dfe4364aaa3d17c48774e",
+      "setting.json": "52f66e447961f4e1a2cf996ea46da5d1",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

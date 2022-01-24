@@ -17,11 +17,31 @@
     "isQuad": true,
     "name": {
       "value": "block_flower_tulip_orange"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/flower_tulip_orange"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/flower_tulip_orange"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/flower_tulip_orange"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/flower_tulip_orange"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/flower_tulip_orange"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/flower_tulip_orange"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "024ca78c7c2a6f6f11516383f3b38e33",
+      "setting.json": "00cdbfd3c5e976f6cc0f563506225103",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

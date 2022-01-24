@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/sanh/aaaaa.png",
-        "selector": "editor/mysmur1/asset/sanh/aaaaa.png"
+        "asset": "asset/sanh/aaaaa.png"
       },
       "down": {
-        "asset": "asset/sanh/aaaaa.png",
-        "selector": "editor/mysmur1/asset/sanh/aaaaa.png"
+        "asset": "asset/sanh/aaaaa.png"
       },
       "front": {
-        "asset": "asset/sanh/aaaaa.png",
-        "selector": "editor/mysmur1/asset/sanh/aaaaa.png"
+        "asset": "asset/sanh/aaaaa.png"
       },
       "left": {
-        "asset": "asset/sanh/aaaaa.png",
-        "selector": "editor/mysmur1/asset/sanh/aaaaa.png"
+        "asset": "asset/sanh/aaaaa.png"
       },
       "right": {
-        "asset": "asset/sanh/aaaaa.png",
-        "selector": "editor/mysmur1/asset/sanh/aaaaa.png"
+        "asset": "asset/sanh/aaaaa.png"
       },
       "up": {
-        "asset": "asset/sanh/aaaaa.png",
-        "selector": "editor/mysmur1/asset/sanh/aaaaa.png"
+        "asset": "asset/sanh/aaaaa.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "dac54436fe4ccc311a7a4bca2db31a72",
+      "setting.json": "6f4ffee4c2997901ff38dc58b7715036",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

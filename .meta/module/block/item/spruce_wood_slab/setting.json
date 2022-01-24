@@ -15,11 +15,31 @@
     "isQuad": true,
     "name": {
       "value": "block_spruce_wood_slab"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/spruce_wood_slab"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/spruce_wood_slab"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/spruce_wood_slab"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/spruce_wood_slab"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/spruce_wood_slab"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/spruce_wood_slab"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a6f7e7779e7291f7005458602d9184d8",
+      "setting.json": "c4f1468928c5ab265dfb9379ad877b0d",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

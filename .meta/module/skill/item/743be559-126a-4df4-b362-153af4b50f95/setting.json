@@ -23,8 +23,7 @@
     },
     "skillReleaseWay": {
       "icon": {
-        "asset": "asset/main/knife_btn.png",
-        "selector": "editor/Murder Legends/asset/main/knife_btn.png"
+        "asset": "asset/main/knife_btn.png"
       },
       "iconPos": {
         "area_number": 8
@@ -34,7 +33,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "924381fa71fc2bf863a4c20810feae55",
+      "setting.json": "f0ebc637e65430dbf1c69d7fde76f15a",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

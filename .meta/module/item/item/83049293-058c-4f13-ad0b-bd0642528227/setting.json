@@ -1,8 +1,7 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Gui/knife2.png",
-      "selector": "editor/MurderLegends/asset/Texture/Gui/knife2.png"
+      "asset": "asset/Texture/Gui/knife2.png"
     },
     "item": {
       "base": {
@@ -18,8 +17,7 @@
       "value": "a2a4abe2-3625-460d-a9df-f3a85a4f9dbd"
     },
     "mesh": {
-      "asset": "asset/Mesh/Assault Sword/gun_134.mesh",
-      "selector": "editor/Murder Legends/asset/Mesh/Assault Sword/gun_134.mesh"
+      "asset": "asset/Mesh/Assault Sword/gun_134.mesh"
     },
     "name": {
       "value": "item_83049293-058c-4f13-ad0b-bd0642528227"
@@ -27,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "157b5a73e48942a0940a29864af48113",
+      "setting.json": "24c8ebc9b3f6354420c6ec0d2c5f36c4",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

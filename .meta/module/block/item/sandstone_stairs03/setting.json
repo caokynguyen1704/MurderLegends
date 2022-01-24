@@ -21,11 +21,31 @@
     "isQuad": true,
     "name": {
       "value": "block_sandstone_stairs03"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/sandstone_stairs03"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/sandstone_stairs03"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/sandstone_stairs03"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/sandstone_stairs03"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/sandstone_stairs03"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/sandstone_stairs03"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "7af96581a035214bf7311b50f78d534a",
+      "setting.json": "f4173448acebc4851c6efe1e4c5afc7c",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

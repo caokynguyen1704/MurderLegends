@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/nen1.png",
-        "selector": "editor/PF/asset/nen1.png"
+        "asset": "asset/nen1.png"
       },
       "down": {
-        "asset": "asset/nen1.png",
-        "selector": "editor/PF/asset/nen1.png"
+        "asset": "asset/nen1.png"
       },
       "front": {
-        "asset": "asset/nen1.png",
-        "selector": "editor/PF/asset/nen1.png"
+        "asset": "asset/nen1.png"
       },
       "left": {
-        "asset": "asset/nen1.png",
-        "selector": "editor/PF/asset/nen1.png"
+        "asset": "asset/nen1.png"
       },
       "right": {
-        "asset": "asset/nen1.png",
-        "selector": "editor/PF/asset/nen1.png"
+        "asset": "asset/nen1.png"
       },
       "up": {
-        "asset": "asset/nen1.png",
-        "selector": "editor/PF/asset/nen1.png"
+        "asset": "asset/nen1.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "561ace85dedf346883e146a87090ddcc",
+      "setting.json": "d9135684443b14f740a947544ffe5154",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

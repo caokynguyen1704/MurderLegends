@@ -5,23 +5,29 @@
       "value": "block_2"
     },
     "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/2"
+      },
       "down": {
-        "asset": "asset/2.png",
-        "selector": "editor/PF/asset/2.png"
+        "asset": "asset/2.png"
       },
       "front": {
-        "asset": "asset/2.png",
-        "selector": "editor/PF/asset/2.png"
+        "asset": "asset/2.png"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/2"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/2"
       },
       "up": {
-        "asset": "asset/2.png",
-        "selector": "editor/PF/asset/2.png"
+        "asset": "asset/2.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "afefda78757913b62a9e7e6f46c9685c",
+      "setting.json": "4c50c960776e114051f28a5b5c50977f",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

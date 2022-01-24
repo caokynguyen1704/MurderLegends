@@ -20,11 +20,31 @@
     "isQuad": true,
     "name": {
       "value": "block_cactus"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/cactus"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/cactus"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/cactus"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/cactus"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/cactus"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/cactus"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "4fb4c684a834c8ffb35203aa6661c655",
+      "setting.json": "f65672eb78f32848164beaba0db9439b",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

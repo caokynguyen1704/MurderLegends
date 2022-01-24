@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/sanh/DO6DEgOW0AA8KUA.png",
-        "selector": "editor/PF/asset/sanh/DO6DEgOW0AA8KUA.png"
+        "asset": "asset/sanh/DO6DEgOW0AA8KUA.png"
       },
       "down": {
-        "asset": "asset/sanh/DO6DEgOW0AA8KUA.png",
-        "selector": "editor/PF/asset/sanh/DO6DEgOW0AA8KUA.png"
+        "asset": "asset/sanh/DO6DEgOW0AA8KUA.png"
       },
       "front": {
-        "asset": "asset/sanh/DO6DEgOW0AA8KUA.png",
-        "selector": "editor/PF/asset/sanh/DO6DEgOW0AA8KUA.png"
+        "asset": "asset/sanh/DO6DEgOW0AA8KUA.png"
       },
       "left": {
-        "asset": "asset/sanh/DO6DEgOW0AA8KUA.png",
-        "selector": "editor/PF/asset/sanh/DO6DEgOW0AA8KUA.png"
+        "asset": "asset/sanh/DO6DEgOW0AA8KUA.png"
       },
       "right": {
-        "asset": "asset/sanh/DO6DEgOW0AA8KUA.png",
-        "selector": "editor/PF/asset/sanh/DO6DEgOW0AA8KUA.png"
+        "asset": "asset/sanh/DO6DEgOW0AA8KUA.png"
       },
       "up": {
-        "asset": "asset/sanh/DO6DEgOW0AA8KUA.png",
-        "selector": "editor/PF/asset/sanh/DO6DEgOW0AA8KUA.png"
+        "asset": "asset/sanh/DO6DEgOW0AA8KUA.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ed6568011c4dbab436090b3805e6b179",
+      "setting.json": "b79e883fbbd2d6a5320cbc0ae5c5b620",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

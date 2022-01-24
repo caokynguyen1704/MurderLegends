@@ -21,11 +21,31 @@
     "isQuad": true,
     "name": {
       "value": "bcd14a3a-341b-4770-944f-cd9d28543efc"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/ass_3_2"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/ass_3_2"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/ass_3_2"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/ass_3_2"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/ass_3_2"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/ass_3_2"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "daee714a8873365b38ea7795196a2629",
+      "setting.json": "28261cf7ec8096c7402e33d2f665b9a2",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

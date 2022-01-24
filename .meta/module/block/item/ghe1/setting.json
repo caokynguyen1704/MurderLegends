@@ -8,11 +8,31 @@
     "isQuad": true,
     "name": {
       "value": "ab4b29c3-62cc-4230-87b1-ecdcba554353"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/ghe1"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/ghe1"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/ghe1"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/ghe1"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/ghe1"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/ghe1"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "008774b2354b96e4053c1b0c4b125fa6",
+      "setting.json": "ac2592673123e9605e379b8d50f5be00",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

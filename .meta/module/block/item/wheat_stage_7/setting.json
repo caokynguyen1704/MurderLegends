@@ -17,11 +17,31 @@
     "isQuad": true,
     "name": {
       "value": "block_wheat_stage_7"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/wheat_stage_7"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/wheat_stage_7"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/wheat_stage_7"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/wheat_stage_7"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/wheat_stage_7"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/wheat_stage_7"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "24bc4b170e19b8be70de88b369d164bf",
+      "setting.json": "5977d671770fa8e1ed90ad6e61f87281",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

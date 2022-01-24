@@ -2,8 +2,7 @@
   "data": {
     "castSound": {
       "sound": {
-        "asset": "asset/main/music/Knife Kill 2.mp3",
-        "selector": "editor/Murder Legends/asset/main/music/Knife Kill 2.mp3"
+        "asset": "asset/main/music/Knife Kill 2.mp3"
       },
       "volume": {
         "value": 1
@@ -97,7 +96,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2730bc3d5ad38dfceb9bd4fa6186f10a",
+      "setting.json": "0919535de7d7c69a17b54380a93f95bc",
       "triggers.bts": "3c419396768d668ef51d0f6df1f38fc9"
     },
     "VERSION": "0.18"

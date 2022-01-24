@@ -12,9 +12,11 @@ function self:onOpen(packet)
       if(packet.team>=2) then
       self.bg_killer.loseImg:setVisible(true)
       TdAudioEngine:play2dSound("asset/music/Lose.mp3", false)
+      PackageHandlers.sendClientHandler("addEXPPlayer",{exp=10})
     else
       self.bg_killer.winImg:setVisible(true)
       TdAudioEngine:play2dSound("asset/music/Victory.mp3", false)
+      PackageHandlers.sendClientHandler("addEXPPlayer",{exp=100})
       end
     else
       self.bg_sheriff:setVisible(true)
@@ -25,9 +27,11 @@ function self:onOpen(packet)
       if(packet.team==1) then
         self.bg_sheriff.loseImg:setVisible(true)
         TdAudioEngine:play2dSound("asset/music/Lose.mp3", false)
+        PackageHandlers.sendClientHandler("addEXPPlayer",{exp=10})
       else
         self.bg_sheriff.winImg:setVisible(true)
         TdAudioEngine:play2dSound("asset/music/Victory.mp3", false)
+        PackageHandlers.sendClientHandler("addEXPPlayer",{exp=100})
       end
       --[=[self.bg_sheriff:setVisible(true)
       if packet.packet.team==1 then

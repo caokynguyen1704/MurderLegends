@@ -1,8 +1,7 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Gui/knife2.png",
-      "selector": "editor/Murder Legends/asset/Texture/Gui/knife2.png"
+      "asset": "asset/Texture/Gui/knife2.png"
     },
     "item": {
       "base": {
@@ -18,8 +17,7 @@
       "value": "30959589-01da-444c-892b-4be48e3213dc"
     },
     "mesh": {
-      "asset": "asset/main/knife/kukri_grip_low.mesh",
-      "selector": "editor/Murder Legends/asset/main/knife/kukri_grip_low.mesh"
+      "asset": "asset/main/knife/kukri_grip_low.mesh"
     },
     "name": {
       "value": "item_8e0f0017-70da-4efa-a4e8-cdca4b317c09"
@@ -27,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a1204b51af63c9699d666fbff1b18233",
+      "setting.json": "a6927138308243ad57a9ad81311ab0e2",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -17,11 +17,31 @@
     "isQuad": true,
     "name": {
       "value": "block_tallgrass"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/tallgrass"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/tallgrass"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/tallgrass"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/tallgrass"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/tallgrass"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/tallgrass"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "5bd4a8b265434d49819d80f0e69cb166",
+      "setting.json": "8fc74a21b68c7b748d1b660b2e028ac4",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

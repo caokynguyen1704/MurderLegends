@@ -15,11 +15,31 @@
     "isQuad": true,
     "name": {
       "value": "930c890c-869d-4cb5-a1ef-e02bd26d5e15"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/S_1da1"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/S_1da1"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/S_1da1"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/S_1da1"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/S_1da1"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/S_1da1"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "0696a2cb1bf5f487154f3820f744e38e",
+      "setting.json": "be4e29611dad6cc8c3aac1165749592f",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

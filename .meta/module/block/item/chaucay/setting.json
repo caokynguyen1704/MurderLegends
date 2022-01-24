@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/map1/chaucay.png",
-        "selector": "editor/PF/asset/map1/chaucay.png"
+        "asset": "asset/map1/chaucay.png"
       },
       "down": {
-        "asset": "asset/03.60060.png",
-        "selector": "editor/PF/asset/03.60060.png"
+        "asset": "asset/03.60060.png"
       },
       "front": {
-        "asset": "asset/map1/chaucay.png",
-        "selector": "editor/PF/asset/map1/chaucay.png"
+        "asset": "asset/map1/chaucay.png"
       },
       "left": {
-        "asset": "asset/map1/chaucay.png",
-        "selector": "editor/PF/asset/map1/chaucay.png"
+        "asset": "asset/map1/chaucay.png"
       },
       "right": {
-        "asset": "asset/map1/chaucay.png",
-        "selector": "editor/PF/asset/map1/chaucay.png"
+        "asset": "asset/map1/chaucay.png"
       },
       "up": {
-        "asset": "asset/Texture/Block/clay.png",
-        "selector": "editor/PF/asset/Texture/Block/clay.png"
+        "asset": "asset/Texture/Block/clay.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "583808a428169fae533a01fe3d9b6fc1",
+      "setting.json": "a1e53ebda0c2c5f95d0df871d35bcfee",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

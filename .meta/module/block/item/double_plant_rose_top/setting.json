@@ -9,11 +9,31 @@
     "isQuad": true,
     "name": {
       "value": "block_double_plant_rose_top"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/double_plant_rose_top"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/double_plant_rose_top"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/double_plant_rose_top"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/double_plant_rose_top"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/double_plant_rose_top"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/double_plant_rose_top"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "1ee044f335448180196ea6ea8301f4d4",
+      "setting.json": "2e5a3e7d1925e33f09b7e33eb645fa8d",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

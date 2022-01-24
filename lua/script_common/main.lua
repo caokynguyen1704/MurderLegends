@@ -1,4 +1,5 @@
-local mapName={"map1","map2","map3"}--,"map3","map4","map 3 - Mansion","Map 5 - Workshop"}
+local lv={100,200,400,800}
+local mapName={"map1","map2","map3","map4","map5"}--,"map3","map4","map 3 - Mansion","Map 5 - Workshop"}
 local spawnArea={
  {
     {x1=3,y1=53,z1=11,x2=5,y2=53,z2=46},
@@ -28,6 +29,9 @@ local spawnArea={
     {x1=35,y1=53,z1=35,x2=80,y2=53,z2=43},
     {x1=53,y1=53,z1=20,x2=60,y2=53,z2=29}
   },
+  {{x1=33,y1=55,z1=15,x2=52,y2=55,z2=48},{x1=-7,y1=55,z1=2,x2=48,y2=55,z2=21},{x1=6,y1=56,z1=23,x2=31,y2=56,z2=26},{x1=6,y1=56,z1=27,x2=8,y2=56,z2=31},{x1=-5,y1=56,z1=32,x2=8,y2=56,z2=34},{x1=-5,y1=56,z1=35,x2=-2,y2=56,z2=54},{x1=-10,y1=56,z1=49,x2=-6,y2=56,z2=55},{x1=11,y1=56,z1=28,x2=22,y2=56,z2=34},{x1=14,y1=56,z1=35,x2=21,y2=56,z2=40},{x1=24,y1=56,z1=28,x2=30,y2=56,z2=41},{x1=1,y1=56,z1=37,x2=10,y2=56,z2=53},{x1=11,y1=56,z1=45,x2=30,y2=56,z2=52},{x1=19,y1=56,z1=53,x2=29,y2=56,z2=64},{x1=7,y1=46,z1=47,x2=18,y2=46,z2=55},{x1=10,y1=46,z1=29,x2=14,y2=46,z2=43},{x1=7,y1=46,z1=26,x2=36,y2=46,z2=28},{x1=30,y1=46,z1=29,x2=33,y2=46,z2=39},{x1=25,y1=46,z1=34,x2=29,y2=46,z2=36},{x1=23,y1=46,z1=31,x2=26,y2=46,z2=33},{x1=30,y1=47,z1=40,x2=31,y2=47,z2=44},{x1=13,y1=62,z1=43,x2=14,y2=62,z2=55},{x1=15,y1=62,z1=54,x2=19,y2=62,z2=59},{x1=21,y1=62,z1=56,x2=25,y2=62,z2=62},{x1=13,y1=62,z1=41,x2=25,y2=62,z2=42},{x1=17,y1=62,z1=28,x2=24,y2=62,z2=40},{x1=18,y1=62,z1=23,x2=22,y2=62,z2=26},{x1=10,y1=56,z1=61,x2=18,y2=56,z2=64},{x1=10,y1=49,z1=56,x2=13,y2=49,z2=60},{x1=34,y1=51,z1=31,x2=41,y2=51,z2=34},{x1=9,y1=58,z1=53,x2=11,y2=58,z2=59},{x1=12,y1=60,z1=57,x2=14,y2=60,z2=59}},
+  {{x1=-42,y1=64,z1=-87,x2=-6,y2=64,z2=-72},{x1=-58,y1=65,z1=-87,x2=-2,y2=65,z2=-57},{x1=-50,y1=65,z1=-87,x2=-46,y2=65,z2=-58},{x1=-49,y1=67,z1=-95,x2=-39,y2=67,z2=-91},{x1=-37,y1=69,z1=-100,x2=-11,y2=69,z2=-91},{x1=-9,y1=67,z1=-95,x2=2,y2=67,z2=-91},{x1=-9,y1=67,z1=-95,x2=2,y2=67,z2=-91},{x1=-59,y1=62,z1=-79,x2=-52,y2=62,z2=-75},{x1=-58,y1=53,z1=-64,x2=-53,y2=53,z2=-62},{x1=-51,y1=53,z1=-66,x2=-47,y2=53,z2=-59},{x1=-50,y1=53,z1=-107,x2=-48,y2=53,z2=-70},{x1=-68,y1=53,z1=-106,x2=-54,y2=53,z2=-100},{x1=-45,y1=53,z1=-92,x2=-3,y2=53,z2=-90},{x1=-37,y1=50,z1=-113,x2=-31,y2=50,z2=-93},{x1=-30,y1=50,z1=-96,x2=-17,y2=50,z2=-93},{x1=-30,y1=47,z1=-113,x2=-17,y2=50,z2=-110},{x1=-30,y1=51,z1=-108,x2=-17,y2=51,z2=-107},{x1=-30,y1=51,z1=-100,x2=-17,y2=51,z2=-98},{x1=-24,y1=54,z1=-124,x2=-23,y2=54,z2=-105},{x1=-29,y1=54,z1=-103,x2=-26,y2=54,z2=-97},{x1=-25,y1=54,z1=-99,x2=-21,y2=54,z2=-97},{x1=8,y1=54,z1=-99,x2=13,y2=54,z2=-90},{x1=15,y1=54,z1=-107,x2=22,y2=54,z2=-89},{x1=-1,y1=54,z1=-71,x2=3,y2=54,z2=-60},{x1=-1,y1=54,z1=-93,x2=1,y2=54,z2=-72},{x1=-1,y1=54,z1=-93,x2=1,y2=54,z2=-72},{x1=4,y1=54,z1=-64,x2=11,y2=54,z2=-62},{x1=6,y1=61,z1=-79,x2=10,y2=61,z2=-68},{x1=13,y1=52,z1=-77,x2=14,y2=52,z2=-61}},
+  {{x1=39,y1=53,z1=-1,x2=41,y2=53,z2=9},{x1=29,y1=54,z1=-2,x2=37,y2=54,z2=9},{x1=34,y1=54,z1=10,x2=36,y2=54,z2=14},{x1=23,y1=54,z1=15,x2=37,y2=54,z2=17},{x1=20,y1=54,z1=18,x2=30,y2=54,z2=20},{x1=30,y1=54,z1=21,x2=36,y2=54,z2=35},{x1=18,y1=54,z1=25,x2=29,y2=54,z2=32},{x1=20,y1=54,z1=36,x2=30,y2=54,z2=38},{x1=23,y1=54,z1=39,x2=37,y2=54,z2=41},{x1=38,y1=54,z1=21,x2=43,y2=54,z2=35},{x1=46,y1=54,z1=28,x2=48,y2=54,z2=30},{x1=33,y1=54,z1=43,x2=37,y2=54,z2=46},{x1=28,y1=54,z1=48,x2=46,y2=54,z2=51},{x1=47,y1=54,z1=49,x2=49,y2=54,z2=79},{x1=25,y1=54,z1=49,x2=27,y2=54,z2=79},{x1=24,y1=55,z1=80,x2=50,y2=55,z2=95},{x1=29,y1=63,z1=60,x2=45,y2=63,z2=79},{x1=31,y1=63,z1=56,x2=43,y2=63,z2=58},{x1=39,y1=61,z1=1,x2=43,y2=61,z2=50},{x1=46,y1=61,z1=43,x2=48,y2=61,z2=50},{x1=24,y1=61,z1=44,x2=34,y2=61,z2=52},{x1=28,y1=60,z1=38,x2=38,y2=60,z2=40},{x1=28,y1=60,z1=16,x2=38,y2=60,z2=18},{x1=27,y1=61,z1=20,x2=28,y2=61,z2=36},{x1=34,y1=61,z1=-12,x2=45,y2=61,z2=-1},{x1=21,y1=60,z1=7,x2=35,y2=60,z2=12},{x1=18,y1=62,z1=0,x2=26,y2=62,z2=6},{x1=30,y1=60,z1=0,x2=32,y2=60,z2=5},{x1=40,y1=67,z1=12,x2=42,y2=67,z2=37},{x1=37,y1=67,z1=-1,x2=44,y2=67,z2=11},{x1=46,y1=68,z1=-1,x2=49,y2=68,z2=9},{x1=51,y1=68,z1=-1,x2=56,y2=68,z2=9},{x1=33,y1=68,z1=-5,x2=50,y2=68,z2=-3},{x1=30,y1=66,z1=-7,x2=31,y2=68,z2=-3},{x1=28,y1=68,z1=8,x2=36,y2=68,z2=14},{x1=28,y1=68,z1=1,x2=36,y2=68,z2=6},{x1=32,y1=67,z1=16,x2=38,y2=67,z2=18},{x1=32,y1=67,z1=38,x2=38,y2=67,z2=40},{x1=28,y1=67,z1=42,x2=38,y2=67,z2=45},{x1=26,y1=68,z1=48,x2=32,y2=68,z2=60},{x1=36,y1=68,z1=50,x2=40,y2=68,z2=59},{x1=44,y1=68,z1=53,x2=54,y2=68,z2=57},{x1=50,y1=68,z1=46,x2=54,y2=68,z2=52},{x1=45,y1=67,z1=47,x2=48,y2=67,z2=51},{x1=50,y1=65,z1=23,x2=52,y2=65,z2=35},{x1=50,y1=58,z1=24,x2=52,y2=58,z2=35},{x1=45,y1=55,z1=24,x2=48,y2=55,z2=26},{x1=45,y1=60,z1=33,x2=49,y2=60,z2=35},{x1=45,y1=62,z1=23,x2=48,y2=62,z2=26},{x1=45,y1=67,z1=33,x2=49,y2=67,z2=35}},
 }
 --------------------------------
 local numMap
@@ -116,6 +120,12 @@ local isAirBlock=function (mapstr,x1,y1,z1)
   if(block.fullName=="/air") then return true end
   return false
 end
+PackageHandlers.registerServerHandler("addItem", function(player, packet)
+    local wp=player:getValue("weapon")
+    wp.listWeapon[#wp.listWeapon+1]=packet.item
+    player:setValue("weapon",wp)
+end)
+
 PackageHandlers.registerServerHandler("addReady", function(player, packet)
     readyPlayerList[#readyPlayerList+1]=player
 end)
@@ -140,6 +150,16 @@ PackageHandlers.registerServerHandler("addCoinPlayer", function(player, packet)
     profile.totalCoin=profile.totalCoin+packet.coin
     player:setValue("profile",profile)
 end)
+PackageHandlers.registerServerHandler("addEXPPlayer", function(player, packet)
+    if lv[profile.lv+1]>=profile.exp+packet.exp then
+        profile.lv=profile.lv+1
+        profile.exp=profile.exp+packet.exp-lv[profile.lv+1]
+      else
+        profile.exp=profile.exp+packet.exp
+      end
+      
+      player:setValue('profile',profile)
+end)
 PackageHandlers.registerServerHandler("openThanhTuu", function(player, packet)
     local thanhtuu = player:getValue("thanhtuu")
     PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/Achievement",status="open",thanhtuu=thanhtuu})
@@ -155,8 +175,44 @@ PackageHandlers.registerServerHandler("updateDay7daylogin", function(player, pac
     player:setValue('sevenday',packet.day) 
     local day = player:getValue("sevenday")
     local profile = player:getValue("profile")
-    profile.totalCoin=profile.totalCoin+100
-    player:setValue('profile',profile)
+    if (day.loginCount==1) then
+      profile.totalCoin=profile.totalCoin+50
+      player:setValue('profile',profile)
+    elseif (day.loginCount==3) then
+      if lv[profile.lv+1]>=profile.exp+100 then
+        profile.lv=profile.lv+1
+        profile.exp=profile.exp+100-lv[profile.lv+1]
+      else
+        profile.exp=profile.exp+100
+      end
+      
+      player:setValue('profile',profile)
+    elseif (day.loginCount==2)or(day.loginCount==5)or(day.loginCount==6) then
+      profile.totalCoin=profile.totalCoin+100
+      player:setValue('profile',profile)
+    elseif (day.loginCount==4) then
+      local wp=player:getValue("weapon")
+      wp.listWeapon[#wp.listWeapon+1]={
+        name="Green Talled Pickaxe",
+        price="3000",
+        img="gameres|asset/Texture/Gui/GreenTalledPickaxe.png",
+        idItem="5029fb61-d4fe-428f-85e1-3413f909a014",
+        i=3,
+        type="knife",
+      }
+      player:setValue("weapon",wp)
+    elseif (day.loginCount==7) then
+      local wp=player:getValue("weapon")
+      wp.listWeapon[#wp.listWeapon+1]={
+        name="Battle Golden Bow",
+        price="4000",
+        img="gameres|asset/Texture/Gui/BattleGoldenBow.png",
+        idItem="51628cca-71b9-4ad3-aeb3-8da9a933d8db",
+        i=5,
+        type="gun",
+      }
+      player:setValue("weapon",wp)
+    end
     PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/7dayslogin",status="open",day=day})
 end)
 PackageHandlers.registerServerHandler("updateEquip", function(player, packet)
@@ -169,7 +225,19 @@ PackageHandlers.registerServerHandler("updateDay28daylogin", function(player, pa
     player:setValue('_28day',packet.day) 
     local day = player:getValue("_28day")
     local profile = player:getValue("profile")
-    profile.totalCoin=profile.totalCoin+100
+    if day.loginCount==5 then
+      
+      profile.totalCoin=profile.totalCoin+1000
+    elseif day.loginCount==10 then
+      profile.totalCoin=profile.totalCoin+2000
+      elseif day.loginCount==15 then
+      profile.totalCoin=profile.totalCoin+3000
+      elseif day.loginCount==20 then
+      profile.totalCoin=profile.totalCoin+4000
+    else
+      profile.totalCoin=profile.totalCoin+100
+    end
+    
     player:setValue('profile',profile) 
     PackageHandlers.sendServerHandler(player,"UI",{nameUI="main/28dayslogin",status="open",day=day})
 end)

@@ -8,11 +8,31 @@
     "isQuad": true,
     "name": {
       "value": "block_waterlily"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/waterlily"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/waterlily"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/waterlily"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/waterlily"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/waterlily"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/waterlily"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "eb0ac13265e315a228660cd9c43dc0c1",
+      "setting.json": "5b9bc87817782124c7992cc9b94cc887",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

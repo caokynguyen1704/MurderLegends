@@ -21,11 +21,31 @@
     "isQuad": true,
     "name": {
       "value": "block_spruce_stairs02"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/spruce_stairs02"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/spruce_stairs02"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/spruce_stairs02"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/spruce_stairs02"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/spruce_stairs02"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/spruce_stairs02"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "1acd213b857cc7b244f411c01d72cbfd",
+      "setting.json": "d0164a9a57173d95325f5310259a68aa",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

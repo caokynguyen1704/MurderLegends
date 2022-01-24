@@ -6,27 +6,29 @@
       "value": "block_ghe3"
     },
     "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/ghe3"
+      },
       "down": {
-        "asset": "asset/map1/ghe2.png",
-        "selector": "editor/PF/asset/map1/ghe2.png"
+        "asset": "asset/map1/ghe2.png"
       },
       "front": {
-        "asset": "asset/map1/ghe4.png",
-        "selector": "editor/PF/asset/map1/ghe4.png"
+        "asset": "asset/map1/ghe4.png"
       },
       "left": {
-        "asset": "asset/map1/ghe3.png",
-        "selector": "editor/PF/asset/map1/ghe3.png"
+        "asset": "asset/map1/ghe3.png"
       },
       "right": {
-        "asset": "asset/map1/ghe3.png",
-        "selector": "editor/PF/asset/map1/ghe3.png"
+        "asset": "asset/map1/ghe3.png"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/ghe3"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "fe8eb5212ebb39ae7b6f741e323ac327",
+      "setting.json": "82abb96a565b5077c01900375bf383e8",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

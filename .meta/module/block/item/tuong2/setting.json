@@ -12,20 +12,16 @@
         "asset": "asset/Texture/Block/concrete_silver.png"
       },
       "down": {
-        "asset": "asset/Texture/Block/concrete_silver.png",
-        "selector": "editor/PF/asset/Texture/Block/concrete_silver.png"
+        "asset": "asset/Texture/Block/concrete_silver.png"
       },
       "front": {
-        "asset": "asset/Texture/Block/concrete_silver.png",
-        "selector": "editor/PF/asset/Texture/Block/concrete_silver.png"
+        "asset": "asset/Texture/Block/concrete_silver.png"
       },
       "left": {
-        "asset": "asset/map1/tuong1.png",
-        "selector": "editor/PF/asset/map1/tuong1.png"
+        "asset": "asset/map1/tuong1.png"
       },
       "right": {
-        "asset": "asset/map1/tuong2.png",
-        "selector": "editor/PF/asset/map1/tuong2.png"
+        "asset": "asset/map1/tuong2.png"
       },
       "up": {
         "asset": "asset/Texture/Block/concrete_silver.png"
@@ -34,7 +30,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "0dff8700c2140741a59ca0b993e88d05",
+      "setting.json": "5687f1399555d259605e05f75d955459",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

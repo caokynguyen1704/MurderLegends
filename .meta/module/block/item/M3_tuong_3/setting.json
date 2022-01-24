@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/map3/tuong_gach1.png",
-        "selector": "editor/PF/asset/map3/tuong_gach1.png"
+        "asset": "asset/map3/tuong_gach1.png"
       },
       "down": {
-        "asset": "asset/map3/tuong_gach1.png",
-        "selector": "editor/PF/asset/map3/tuong_gach1.png"
+        "asset": "asset/map3/tuong_gach1.png"
       },
       "front": {
-        "asset": "asset/map3/tuong_gach1.png",
-        "selector": "editor/PF/asset/map3/tuong_gach1.png"
+        "asset": "asset/map3/tuong_gach1.png"
       },
       "left": {
-        "asset": "asset/map3/tuong_gach1.png",
-        "selector": "editor/PF/asset/map3/tuong_gach1.png"
+        "asset": "asset/map3/tuong_gach1.png"
       },
       "right": {
-        "asset": "asset/map3/tuong_gach1.png",
-        "selector": "editor/PF/asset/map3/tuong_gach1.png"
+        "asset": "asset/map3/tuong_gach1.png"
       },
       "up": {
-        "asset": "asset/map3/tuong_gach1.png",
-        "selector": "editor/PF/asset/map3/tuong_gach1.png"
+        "asset": "asset/map3/tuong_gach1.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a6bbf5d875940e0d49f08493cb42753d",
+      "setting.json": "0c20129c87491b73aabfaf9feb912445",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

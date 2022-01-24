@@ -15,11 +15,31 @@
     "isQuad": true,
     "name": {
       "value": "block_sandstone_slab"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/sandstone_slab"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/sandstone_slab"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/sandstone_slab"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/sandstone_slab"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/sandstone_slab"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/sandstone_slab"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d5ed4032edbe66f8828278e2e37ce056",
+      "setting.json": "dcff6431ac08379e940d254c08964f8c",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

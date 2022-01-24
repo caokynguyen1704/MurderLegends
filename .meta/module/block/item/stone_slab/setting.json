@@ -15,11 +15,31 @@
     "isQuad": true,
     "name": {
       "value": "block_stone_slab"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/stone_slab"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/stone_slab"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/stone_slab"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/stone_slab"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/stone_slab"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/stone_slab"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "071862fdcc65a6913c9d1107a59b4b34",
+      "setting.json": "2807916aabd82672f35966254e51814d",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

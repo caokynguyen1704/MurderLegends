@@ -17,11 +17,31 @@
     "isQuad": true,
     "name": {
       "value": "block_yellow_flower"
+    },
+    "textures": {
+      "back": {
+        "asset": "plugin/myplugin/block/yellow_flower"
+      },
+      "down": {
+        "asset": "plugin/myplugin/block/yellow_flower"
+      },
+      "front": {
+        "asset": "plugin/myplugin/block/yellow_flower"
+      },
+      "left": {
+        "asset": "plugin/myplugin/block/yellow_flower"
+      },
+      "right": {
+        "asset": "plugin/myplugin/block/yellow_flower"
+      },
+      "up": {
+        "asset": "plugin/myplugin/block/yellow_flower"
+      }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2262e810360707259bb3fcff521a8ffc",
+      "setting.json": "764e3783ed18a2ffb3b8d27705abb549",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

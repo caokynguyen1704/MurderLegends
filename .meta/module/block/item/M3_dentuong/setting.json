@@ -6,34 +6,28 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/map3/dentuong.png",
-        "selector": "editor/PF/asset/map3/dentuong.png"
+        "asset": "asset/map3/dentuong.png"
       },
       "down": {
-        "asset": "asset/map3/tuong_gach2.png",
-        "selector": "editor/PF/asset/map3/tuong_gach2.png"
+        "asset": "asset/map3/tuong_gach2.png"
       },
       "front": {
-        "asset": "asset/map3/dentuong.png",
-        "selector": "editor/PF/asset/map3/dentuong.png"
+        "asset": "asset/map3/dentuong.png"
       },
       "left": {
-        "asset": "asset/map3/dentuong.png",
-        "selector": "editor/PF/asset/map3/dentuong.png"
+        "asset": "asset/map3/dentuong.png"
       },
       "right": {
-        "asset": "asset/map3/dentuong.png",
-        "selector": "editor/PF/asset/map3/dentuong.png"
+        "asset": "asset/map3/dentuong.png"
       },
       "up": {
-        "asset": "asset/map3/tuong_gach2.png",
-        "selector": "editor/PF/asset/map3/tuong_gach2.png"
+        "asset": "asset/map3/tuong_gach2.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9cc1feb120004bbd5b9ceec73f5f447a",
+      "setting.json": "2d26ab857cd2dab59848f7508f30d711",
       "triggers.bts": ""
     },
     "VERSION": "0.18"
