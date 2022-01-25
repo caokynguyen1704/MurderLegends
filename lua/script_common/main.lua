@@ -410,6 +410,9 @@ World.Timer(20,
         PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/readyUI",status="open"})
         once=false
       end
+      if playerNum<3 then
+        World.CurWorld.SystemNotice(2, "Waiting for more player", 40)
+      end
       if(#readyPlayerList==playerNum)and playerNum>=3 then
         
         isStart=true
