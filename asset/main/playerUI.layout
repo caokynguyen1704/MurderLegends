@@ -1,6 +1,6 @@
     <GUILayout version="4">
         <Window name="Root" type="DefaultWindow">
-            <Property name="Area" value="{{0,10.95},{0,62.97},{0,24.147022058445},{0,63.910469684602}}">
+            <Property name="Area" value="{{0,10.95},{0,62.97},{0,24.15},{0,63.91}}">
 
             </Property>
             <Property name="MaxSize" value="{{999,0},{999,0}}">
@@ -1083,7 +1083,7 @@
                   </Property>
               </Window>
               <Window name="HelpBtn" type="WindowsLook/Button">
-                  <Property name="Area" value="{{0,383.34792101647},{0,-58.921006770298},{0,442.91746294763},{0,1.3971660542274}}">
+                  <Property name="Area" value="{{0,383.35},{0,-58.92},{0,442.92},{0,1.4}}">
 
                   </Property>
                   <Property name="MaxSize" value="{{999,0},{999,0}}">

@@ -92,7 +92,7 @@ Entity.addValueDef('profile',{
     lv=0,
     exp=0
 }
-,true, true, true)
+,false,false, true)
 Entity.addValueDef('pet',{
     listPet={},
     selectPet={idItem="0"},
@@ -101,21 +101,21 @@ Entity.addValueDef('weapon',{
     listWeapon={},
     selectWeapon={sheriff={idItem="ff9513ee-8d9b-4f3f-bac8-d6bc050700ea"},murder={idItem="8e0f0017-70da-4efa-a4e8-cdca4b317c09"}}
 }
-,true, true, true)
+,false,false, true)
 Entity.addValueDef('sevenday',{
     day=0,
     month=0,
     year=0,
     loginCount=0,
 }
-,true, true, true)
+,false,false, true)
 Entity.addValueDef('_28day',{
     day=0,
     month=0,
     year=0,
     loginCount=0,
 }
-,true, true, true)
+,false,false, true)
 local isAirBlock=function (mapstr,x1,y1,z1)
   local pos={x=x1,y=y1,z=z1}
   local map = World.CurWorld:getMap(mapstr)
@@ -136,7 +136,7 @@ Entity.addValueDef('thanhtuu',{
     coin=0,
     kill=0
 }
-,true, true, true)
+,false,false, true)
 
 PackageHandlers.registerServerHandler("addCoinThanhTuu", function(player, packet)
     local thanhtuu = player:getValue("thanhtuu")
