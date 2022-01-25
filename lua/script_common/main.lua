@@ -88,7 +88,7 @@ local endGame=function()
 end
 
 Entity.addValueDef('profile',{
-    totalCoin=0,
+    totalCoin=5000,
     lv=0,
     exp=0
 }
@@ -331,19 +331,6 @@ Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_LEAVE", funct
           end
           PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/lastResult",status="open",win=2,winActor=winActor,loseActor=loseActor})
           endGame()
-        elseif (p.obj1:getTeam().id==2) then
-          local teamLose = Game.GetTeam(2, true)
-          local teamWin = Game.GetTeam(1, true)
-          local loseActor
-          local winActor
-          for k,v in pairs(teamLose:getEntityList()) do
-            loseActor=v.name
-          end
-          for k,v in pairs(teamWin:getEntityList()) do
-            winActor=v.name
-          end
-          PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/lastResult",status="open",win=1,winActor=winActor,loseActor=loseActor})
-          endGame()
         end
       end
     end
@@ -498,23 +485,7 @@ World.Timer(20,
           PackageHandlers.sendServerHandler(v,"getTeam",{teamID=v:getTeam().id})
         end
       end
-      for team=1,2 do
-        local teamID = Game.GetTeam(team,true)
-        if(teamID.playerCount==0)then
-          local teamLose = Game.GetTeam(team, true)
-          local teamWin = Game.GetTeam(3-team, true)
-          local loseActor
-          local winActor
-          for k,v in pairs(teamLose:getEntityList()) do
-            loseActor=v.name
-          end
-          for k,v in pairs(teamWin:getEntityList()) do
-            winActor=v.name
-          end
-          PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/lastResult",status="open",win=3-team,winActor=winActor,loseActor=loseActor})
-          endGame()
-        end
-      end
+       
       PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/timer",status="open",timer=timer})
       if timer==maxTimer-3 then
         PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/showTeam",status="close"})
@@ -549,6 +520,23 @@ World.Timer(20,
           endGame()
       else
         
+      end
+       local iteam=1
+        local teamID = Game.GetTeam(iteam,true)
+        if(teamID.playerCount==0)then
+          local teamLose = Game.GetTeam(iteam, true)
+          local teamWin = Game.GetTeam(3-iteam, true)
+          local loseActor
+          local winActor
+          for k,v in pairs(teamLose:getEntityList()) do
+            loseActor=v.name
+          end
+          for k,v in pairs(teamWin:getEntityList()) do
+            winActor=v.name
+          end
+          PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/lastResult",status="open",win=3-iteam,winActor=winActor,loseActor=loseActor})
+          endGame()
+          isStart=false
       end
     end
   return true
