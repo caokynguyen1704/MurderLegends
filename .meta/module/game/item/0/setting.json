@@ -19,7 +19,7 @@
       "m": 40
     },
     "player_range": {
-      "max": 15,
+      "max": 10,
       "min": 3
     },
     "startPos": {
@@ -34,6 +34,7 @@
       "showTeamStatusBar": false,
       "team": [
         {
+          "ignorePlayerSkinEditor": false,
           "initPos": {
             "map": "lobby2",
             "pos": {
@@ -42,6 +43,7 @@
               "z": 32
             }
           },
+          "memberLimit": 2,
           "name": "murder",
           "startPos": {
             "map": "lobby2",
@@ -50,10 +52,13 @@
               "y": 58,
               "z": 31
             }
-          }
+          },
+          "use_init_pos": false,
+          "use_start_pos": false
         },
         {
           "id": 2,
+          "ignorePlayerSkinEditor": false,
           "initPos": {
             "map": "lobby2",
             "pos": {
@@ -62,6 +67,7 @@
               "z": 32
             }
           },
+          "memberLimit": 2,
           "name": "sheriff",
           "startPos": {
             "map": "lobby2",
@@ -70,10 +76,12 @@
               "y": 58,
               "z": 31
             }
-          }
+          },
+          "use_start_pos": false
         },
         {
           "id": 3,
+          "ignorePlayerSkinEditor": false,
           "initPos": {
             "map": "map001",
             "pos": {
@@ -82,6 +90,7 @@
               "z": 34
             }
           },
+          "memberLimit": 6,
           "name": "survivor",
           "startPos": {
             "map": "lobby2",
@@ -90,7 +99,9 @@
               "y": 58,
               "z": 31
             }
-          }
+          },
+          "use_init_pos": false,
+          "use_start_pos": false
         }
       ]
     },
@@ -111,7 +122,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3a6f4c3fe53c2ba9426cf2d2aa2621ef",
+      "setting.json": "cf9f5bccfa76a5ed487ab4a74aeaa897",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": ""
     },

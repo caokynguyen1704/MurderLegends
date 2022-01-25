@@ -102,7 +102,7 @@
     },
     "useGroup": "_imagesets_"
   },
-  "maxPlayers": 15,
+  "maxPlayers": 10,
   "minPlayers": 3,
   "moveStateConfig": {
     "isShow": false
@@ -214,7 +214,6 @@
   ],
   "team": [
     {
-      "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
       "id": 1,
       "ignorePlayerSkin": true,
       "image": "asset/Texture/Team/flag/flag_1.png",
@@ -226,7 +225,7 @@
       },
       "mainTeamImageBg": "",
       "mainTeamImageFrame": "flag_textures/flag_frame",
-      "memberLimit": 5,
+      "memberLimit": 2,
       "name": "murder",
       "startPos": [
         {
@@ -238,7 +237,6 @@
       ]
     },
     {
-      "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
       "id": 2,
       "ignorePlayerSkin": true,
       "image": "asset/Texture/Team/flag/flag_1.png",
@@ -250,7 +248,7 @@
       },
       "mainTeamImageBg": "",
       "mainTeamImageFrame": "flag_textures/flag_frame",
-      "memberLimit": 5,
+      "memberLimit": 2,
       "name": "sheriff",
       "startPos": [
         {
@@ -262,19 +260,18 @@
       ]
     },
     {
-      "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
       "id": 3,
       "ignorePlayerSkin": true,
       "image": "asset/Texture/Team/flag/flag_1.png",
       "initPos": {
-        "map": "map001",
-        "x": 28,
-        "y": 54,
-        "z": 34
+        "map": "lobby2",
+        "x": 34,
+        "y": 58,
+        "z": 32
       },
       "mainTeamImageBg": "",
       "mainTeamImageFrame": "flag_textures/flag_frame",
-      "memberLimit": 5,
+      "memberLimit": 6,
       "name": "survivor",
       "startPos": [
         {
