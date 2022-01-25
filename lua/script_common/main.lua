@@ -92,30 +92,30 @@ Entity.addValueDef('profile',{
     lv=0,
     exp=0
 }
-,false,false,true)
+,true, true, true)
 Entity.addValueDef('pet',{
     listPet={},
     selectPet={idItem="0"},
-    },false,false,true)
+    },true, true, true)
 Entity.addValueDef('weapon',{
     listWeapon={},
     selectWeapon={sheriff={idItem="ff9513ee-8d9b-4f3f-bac8-d6bc050700ea"},murder={idItem="8e0f0017-70da-4efa-a4e8-cdca4b317c09"}}
 }
-,false,false,true)
+,true, true, true)
 Entity.addValueDef('sevenday',{
     day=0,
     month=0,
     year=0,
     loginCount=0,
 }
-,false,false,true)
+,true, true, true)
 Entity.addValueDef('_28day',{
     day=0,
     month=0,
     year=0,
     loginCount=0,
 }
-,false,false,true)
+,true, true, true)
 local isAirBlock=function (mapstr,x1,y1,z1)
   local pos={x=x1,y=y1,z=z1}
   local map = World.CurWorld:getMap(mapstr)
@@ -136,7 +136,7 @@ Entity.addValueDef('thanhtuu',{
     coin=0,
     kill=0
 }
-,false,false,true)
+,true, true, true)
 
 PackageHandlers.registerServerHandler("addCoinThanhTuu", function(player, packet)
     local thanhtuu = player:getValue("thanhtuu")
@@ -303,6 +303,52 @@ Trigger.RegisterHandler(World.cfg, "GAME_START", function()
     PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/readyUI",status="open"})
     GameStart=true
 end)
+Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_ENTER", function(p)
+    if(isStart==false)and(GameStart) then
+      PackageHandlers.sendServerHandler(p.obj1,"UI",{nameUI="main/readyUI",status="open"})
+      GameStart=true
+    end
+end)
+Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_LEAVE", function(p)
+    if(isStart==false)and(GameStart) then
+      for k,v in pairs(readyPlayerList) do
+        if v.name==p.obj1.name then
+          table.remove(readyPlayerList, k)
+        end
+      end
+    elseif isStart then
+      if (p.obj1:getTeam()) then
+        if (p.obj1:getTeam().id==1) then
+          local teamLose = Game.GetTeam(1, true)
+          local teamWin = Game.GetTeam(2, true)
+          local loseActor
+          local winActor
+          for k,v in pairs(teamLose:getEntityList()) do
+            loseActor=v.name
+          end
+          for k,v in pairs(teamWin:getEntityList()) do
+            winActor=v.name
+          end
+          PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/lastResult",status="open",win=2,winActor=winActor,loseActor=loseActor})
+          endGame()
+        elseif (p.obj1:getTeam().id==2) then
+          local teamLose = Game.GetTeam(2, true)
+          local teamWin = Game.GetTeam(1, true)
+          local loseActor
+          local winActor
+          for k,v in pairs(teamLose:getEntityList()) do
+            loseActor=v.name
+          end
+          for k,v in pairs(teamWin:getEntityList()) do
+            winActor=v.name
+          end
+          PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/lastResult",status="open",win=1,winActor=winActor,loseActor=loseActor})
+          endGame()
+        end
+      end
+    end
+end)
+
 Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_DIE", function(context)
     local v = context.obj1
     PackageHandlers.sendServerHandler(v,"playSoundLobby")
@@ -377,7 +423,7 @@ World.Timer(20,
         PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/readyUI",status="open"})
         once=false
       end
-      if(#readyPlayerList==playerNum)then
+      if(#readyPlayerList==playerNum)and playerNum>=3 then
         
         isStart=true
         playMap=nil
@@ -450,6 +496,23 @@ World.Timer(20,
       for i,v in pairs(players) do
         if(v:getTeam()~=nil) then
           PackageHandlers.sendServerHandler(v,"getTeam",{teamID=v:getTeam().id})
+        end
+      end
+      for team=1,2 do
+        local teamID = Game.GetTeam(team,true)
+        if(teamID.playerCount==0)then
+          local teamLose = Game.GetTeam(team, true)
+          local teamWin = Game.GetTeam(3-team, true)
+          local loseActor
+          local winActor
+          for k,v in pairs(teamLose:getEntityList()) do
+            loseActor=v.name
+          end
+          for k,v in pairs(teamWin:getEntityList()) do
+            winActor=v.name
+          end
+          PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/lastResult",status="open",win=3-team,winActor=winActor,loseActor=loseActor})
+          endGame()
         end
       end
       PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/timer",status="open",timer=timer})
