@@ -304,7 +304,7 @@ Trigger.RegisterHandler(World.cfg, "GAME_START", function()
     GameStart=true
 end)
 Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_ENTER", function(p)
-    local v=p.obj1
+      local v=p.obj1
       local map = World.CurWorld:getMap("lobby2")
       PackageHandlers.sendServerHandler(v,"UI",{nameUI="main/timer",status="close"})
       PackageHandlers.sendServerHandler(v,"UI",{nameUI="main/pickUpCoin",status="close"})
@@ -318,15 +318,16 @@ Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_ENTER", funct
       }
       local trayTb = entityTrays:query_trays(filterTB)
       for tid, _tray in pairs(trayTb) do
-      local count=_tray.tray:count_item_num_by_fullname("myplugin/ad69ecbc-9f7e-4797-af2d-de9d802b6220")
-      local db = v:getValue("profile")
-      local profile = v:getValue("profile")
-      profile.totalCoin = db.totalCoin+count
-      profile.lv=db.lv
-      profile.exp=db.exp
-      v:setValue('profile',profile) 
-      for i=1,9 do
-        _tray.tray:remove_item(i)
+        local count=_tray.tray:count_item_num_by_fullname("myplugin/ad69ecbc-9f7e-4797-af2d-de9d802b6220")
+        local db = v:getValue("profile")
+        local profile = v:getValue("profile")
+        profile.totalCoin = db.totalCoin+count
+        profile.lv=db.lv
+        profile.exp=db.exp
+        v:setValue('profile',profile) 
+        for i=1,9 do
+          _tray.tray:remove_item(i)
+        end
       end
     if(isStart==false)and(GameStart) then
       PackageHandlers.sendServerHandler(p.obj1,"UI",{nameUI="main/readyUI",status="open"})
