@@ -331,6 +331,15 @@ Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_LEAVE", funct
           end
           PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/lastResult",status="open",win=2,winActor=winActor,loseActor=loseActor})
           endGame()
+          numMap=nil
+  playMap=nil
+  dynamicMap=nil
+  timer=maxTimer
+  readyPlayerList={}
+  isStart=false
+  PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/timer",status="close"})
+  PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/pickUpCoin",status="close"})
+  PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/playUI",status="close"})
         end
       end
     end
@@ -403,7 +412,7 @@ World.Timer(20,
     local players=Game.GetAllPlayers()
     for i,v in pairs(players) do
       local data=v:getValue("profile")
-      PackageHandlers.sendServerHandler(v,"UI",{nameUI="main/playerUI",status="open",data=data})
+      PackageHandlers.sendServerHandler(v,"UI",{nameUI="main/playerUI",status="open",data=data,showBalo=isStart})
     end
     if(isStart==false)and(GameStart) then
       if(once) then
@@ -539,7 +548,15 @@ World.Timer(20,
           end
           PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/lastResult",status="open",win=3-iteam,winActor=winActor,loseActor=loseActor})
           endGame()
-          isStart=false
+          numMap=nil
+  playMap=nil
+  dynamicMap=nil
+  timer=maxTimer
+  readyPlayerList={}
+  isStart=false
+  PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/timer",status="close"})
+  PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/pickUpCoin",status="close"})
+  PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/playUI",status="close"})
       end
     end
   return true

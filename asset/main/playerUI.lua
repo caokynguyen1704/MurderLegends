@@ -5,6 +5,11 @@ function self:onOpen(packet)
     self.BG.numCoin:setText(packet.packet.data.totalCoin)
     self.BG.numLevel:setText(packet.packet.data.lv)
   end
+  if(packet.packet.showBalo)then
+    self.BaloBtn:setVisible(false)
+  else
+    self.BaloBtn:setVisible(true)
+  end
   self.ShopBtn.onMouseClick=function()
     closeAll()
     PackageHandlers.sendClientHandler("openShop")
