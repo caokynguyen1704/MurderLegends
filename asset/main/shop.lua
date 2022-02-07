@@ -77,6 +77,12 @@ function self:onOpen(packet)
       if packet.packet.profile.totalCoin>=shopdata[i+1].price*1 then
         local updateWeapon=packet.packet.db.listWeapon
         updateWeapon[#updateWeapon+1]=shopdata[i+1]
+        local selectWP=packet.packet.db.selectWeapon
+        if shopdata[i+1].type=="knife" then
+          selectWP.murder=shopdata[i+1]
+        else
+          selectWP.sheriff=shopdata[i+1]
+        end
         PackageHandlers.sendClientHandler("buyItem",{
             profile={
               totalCoin=packet.packet.profile.totalCoin-shopdata[i+1].price*1,
@@ -85,7 +91,7 @@ function self:onOpen(packet)
             },
             weapon={
               listWeapon=updateWeapon,
-              selectWeapon=packet.packet.db.selectWeapon
+              selectWeapon=selectWP
             }
           })
       else

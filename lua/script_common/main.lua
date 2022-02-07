@@ -311,6 +311,7 @@ Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_ENTER", funct
       PackageHandlers.sendServerHandler(v,"UI",{nameUI="main/playUI",status="close"})
       v:setMapPos(map, Lib.v3(23,55,34))
       v:setRebirthPos(Lib.v3(23,55,34),map)
+      local teams= v:getTeam()
       teams:leaveEntity(v)
       local entityTrays = v:tray()
       local filterTB = {
