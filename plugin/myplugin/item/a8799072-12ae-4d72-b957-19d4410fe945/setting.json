@@ -4,7 +4,7 @@
   "canEquipPlural": true,
   "canUse": false,
   "handItemBoneName": "s_hand_r",
-  "icon": "@asset/Texture/Gui/icon_kinfe.png",
+  "icon": "@asset/icon/HighEnergyChainsaw.png",
   "itemintroduction": "95a96d9e-6e35-49f3-8c0f-c28f4b3bc08f",
   "itemname": "item_a8799072-12ae-4d72-b957-19d4410fe945",
   "mesh": "asset/Mesh/High Energy Chainsaw/gun_163.mesh",

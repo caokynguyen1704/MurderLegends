@@ -1,8 +1,8 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Gui/icon_gun.png",
-      "selector": "editor/MurderLegends/asset/Texture/Gui/icon_gun.png"
+      "asset": "asset/icon/LaserCanon.png",
+      "selector": "editor/MurderLegends/asset/icon/LaserCanon.png"
     },
     "item": {
       "base": {
@@ -26,7 +26,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "155ce51955aea2ab0d8eb45598ecf2ce",
+      "setting.json": "214d6d09e9ebe0c471751dfbcf9c0939",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

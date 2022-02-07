@@ -1,8 +1,8 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Gui/icon_gun.png",
-      "selector": "editor/MurderLegends/asset/Texture/Gui/icon_gun.png"
+      "asset": "asset/icon/BattleStreamerBow.png",
+      "selector": "editor/MurderLegends/asset/icon/BattleStreamerBow.png"
     },
     "item": {
       "base": {
@@ -25,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "56692e9b71affad41ebce3d53cff8683",
+      "setting.json": "b13779462a08634dadc42cf610fd1120",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

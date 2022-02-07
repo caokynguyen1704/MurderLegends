@@ -1,8 +1,8 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Gui/icon_kinfe.png",
-      "selector": "editor/MurderLegends/asset/Texture/Gui/icon_kinfe.png"
+      "asset": "asset/icon/GreenTailedPickaxe.png",
+      "selector": "editor/MurderLegends/asset/icon/GreenTailedPickaxe.png"
     },
     "item": {
       "base": {
@@ -26,7 +26,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6b14f0ddf04c37c959ab043a590d285e",
+      "setting.json": "d8be10ef164bb5d59a00cf7fcf34c1dc",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

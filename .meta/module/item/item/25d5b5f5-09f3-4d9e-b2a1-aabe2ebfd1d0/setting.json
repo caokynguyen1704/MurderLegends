@@ -1,8 +1,8 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Gui/icon_kinfe.png",
-      "selector": "editor/MurderLegends/asset/Texture/Gui/icon_kinfe.png"
+      "asset": "asset/icon/AwesomeAxe.png",
+      "selector": "editor/MurderLegends/asset/icon/AwesomeAxe.png"
     },
     "item": {
       "base": {
@@ -26,7 +26,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "602cf80dd6961591d009a336dc9de2c2",
+      "setting.json": "1c90e1325b0f83e9802eff5c546202a6",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

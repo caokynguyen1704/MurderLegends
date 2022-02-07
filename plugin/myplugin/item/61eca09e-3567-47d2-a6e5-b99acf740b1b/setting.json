@@ -4,7 +4,7 @@
   "canEquipPlural": true,
   "canUse": false,
   "handItemBoneName": "s_hand_r",
-  "icon": "@asset/Texture/Gui/icon_gun.png",
+  "icon": "@asset/icon/LaserCanon.png",
   "itemintroduction": "12b8c507-94a2-4453-a4be-9eff60ef5c87",
   "itemname": "item_61eca09e-3567-47d2-a6e5-b99acf740b1b",
   "mesh": "asset/Mesh/Laser Cannon/1700_ironman_weapon2.mesh",

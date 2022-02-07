@@ -1,8 +1,8 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Gui/icon_kinfe.png",
-      "selector": "editor/MurderLegends/asset/Texture/Gui/icon_kinfe.png"
+      "asset": "asset/icon/AssaultSword.png",
+      "selector": "editor/MurderLegends/asset/icon/AssaultSword.png"
     },
     "item": {
       "base": {
@@ -26,7 +26,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "faab7c41dc32222edc5d22ded38e4a6c",
+      "setting.json": "8aa6af5e3a4d70423dc406f84d7eb674",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -1,8 +1,8 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Gui/icon_kinfe.png",
-      "selector": "editor/MurderLegends/asset/Texture/Gui/icon_kinfe.png"
+      "asset": "asset/icon/EternalBoardsword.png",
+      "selector": "editor/MurderLegends/asset/icon/EternalBoardsword.png"
     },
     "item": {
       "base": {
@@ -26,7 +26,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e0652abd1e44d6924fb7ab4509151b05",
+      "setting.json": "21f78e48d5f9b62186e85dae5ab41014",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

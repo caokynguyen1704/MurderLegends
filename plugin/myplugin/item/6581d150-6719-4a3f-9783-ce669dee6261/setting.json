@@ -4,7 +4,7 @@
   "canEquipPlural": true,
   "canUse": false,
   "handItemBoneName": "s_hand_r",
-  "icon": "@asset/Texture/Gui/icon_kinfe.png",
+  "icon": "@asset/icon/EternalBoardsword.png",
   "itemintroduction": "cbf29cfe-059d-4867-8c9c-043fce61bb10",
   "itemname": "item_6581d150-6719-4a3f-9783-ce669dee6261",
   "mesh": "asset/Eternal Broadsword/1700_loki_weapon.mesh",
