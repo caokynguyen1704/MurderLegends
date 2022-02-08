@@ -30,7 +30,7 @@ e2db6b6c60ae613bfc798f72c76a6059 *asset/main/lastResult.lua
 f63fa5726b04f5f05cc78fa0efba5e55 *asset/main/pickUpCoin.lua
 e79ec415225bc2c94d1724ec46b33902 *asset/main/playUI.layout
 2b8e2c66760dbfbeb047e6c81ed565d6 *asset/main/playerUI.layout
-29bbbdd1de3576e3b997373b75b17834 *asset/main/playerUI.lua
+6a38c405c20abb62a0d00dcc1217cbf8 *asset/main/playerUI.lua
 f910d0891b80015d6eb3e48162e2d880 *asset/main/readyUI.layout
 bfdd5b62fcfa0512c83af09c57edf03b *asset/main/readyUI.lua
 d5f5873c46b652a6c23ebe5d1a155adf *asset/main/resultUI.layout
@@ -527,4 +527,4 @@ bfab6ee9d424adc5563ca4bafd1afd36 *plugin/myplugin/skill/3e2b6b2c-ad8c-48b9-a4ac-
 42a29f458dc10d9ea9b97f5506c55bf8 *plugin/myplugin/skill/e053d408-bc80-4b07-8e3b-fe3591e631d7/setting.json
 cf9f5bccfa76a5ed487ab4a74aeaa897 *setting.json
 393e9a440b900b5690986ec2b0e57be5 *shop.csv
-c1670a11ec38cfe6617382485e2c3594 *user_data.json
+a4b574f7be6a64a790d9c5f214bc9fc5 *user_data.json

@@ -7,8 +7,18 @@ function self:onOpen(packet)
   end
   if(packet.packet.showBalo)then
     self.BaloBtn:setVisible(false)
+    self.ShopBtn:setVisible(false)
+    self._28dayloginBtn:setVisible(false)
+    self.Achievement:setVisible(false)
+    self.PetBtn:setVisible(false)
+    self.sevendayloginBtn:setVisible(false)
   else
     self.BaloBtn:setVisible(true)
+    self.ShopBtn:setVisible(true)
+    self._28dayloginBtn:setVisible(true)
+    self.Achievement:setVisible(true)
+    self.PetBtn:setVisible(true)
+    self.sevendayloginBtn:setVisible(true)
   end
   self.ShopBtn.onMouseClick=function()
     closeAll()
