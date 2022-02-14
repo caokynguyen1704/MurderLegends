@@ -1,0 +1,21 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/icon/SeaTalk_IMG_1644488024.png",
+  "itemintroduction": "2274251a-8955-409e-95f0-0e8d81052831",
+  "itemname": "item_da643e61-fafe-42fa-8169-657abf6a2916",
+  "mesh": "asset/Mesh/Explosive Cyclone/gun_132.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/3e2b6b2c-ad8c-48b9-a4ac-80a923b08037"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

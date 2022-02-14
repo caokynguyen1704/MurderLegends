@@ -4,7 +4,7 @@
   "canEquipPlural": true,
   "canUse": false,
   "handItemBoneName": "s_hand_r",
-  "icon": "@asset/icon/BattleStreamerBow.png",
+  "icon": "@asset/icon/SeaTalk_IMG_1644487667.png",
   "itemintroduction": "1c3049e6-0ae6-46e0-8810-b0fb27297c06",
   "itemname": "item_95efae6b-1bcc-4567-bf42-1fbfd76dc277",
   "mesh": "asset/Battle Streamer Bow/g1008_bow_03_pulling_0.mesh",

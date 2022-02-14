@@ -1,8 +1,8 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/BattleStreamerBow.png",
-      "selector": "editor/MurderLegends/asset/icon/BattleStreamerBow.png"
+      "asset": "asset/icon/SeaTalk_IMG_1644487667.png",
+      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644487667.png"
     },
     "item": {
       "base": {
@@ -25,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b13779462a08634dadc42cf610fd1120",
+      "setting.json": "1c97122bbdb3c1efe8c33b55d0d88b61",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

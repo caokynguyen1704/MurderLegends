@@ -1,0 +1,34 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/icon/SeaTalk_IMG_1644488098.png",
+      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644488098.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/3e2b6b2c-ad8c-48b9-a4ac-80a923b08037"
+        ]
+      },
+      "type": "InHand"
+    },
+    "itemintroduction": {
+      "value": "0b9597ce-6f23-4e48-be42-9e83b4c52095"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Plasma Rail Gun/gun_133.mesh",
+      "selector": "editor/MurderLegends/asset/Mesh/Plasma Rail Gun/gun_133.mesh"
+    },
+    "name": {
+      "value": "item_7e1b374d-23c0-4d94-8a0e-3210fbd0bc4f"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a568845bd68a269fcc8072cb5c51cb88",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

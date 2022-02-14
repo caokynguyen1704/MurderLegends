@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/icon/SeaTalk_IMG_1644487978.png",
+  "itemintroduction": "8b8a28c7-55c6-42bf-a813-ab610a6cd6f2",
+  "itemname": "item_a408e5ef-e611-4251-84dc-0e28fb01ca4e",
+  "mesh": "asset/Mesh/Mediocre Hammer/1700_hulk_weapon.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
+    "myplugin/c0a27382-685f-4756-9c60-fe6600316e76"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

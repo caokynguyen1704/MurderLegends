@@ -12,7 +12,7 @@
         "__OBJ_TYPE": "Skill_Missile",
         "missile": [
           {
-            "missileCfg": "myplugin/a3524a79-5b6a-4f5b-bd29-3011c1e4f39d"
+            "missileCfg": "myplugin/ee923490-080f-49eb-86ad-ee9e6e4a1538"
           }
         ],
         "target": {
@@ -34,7 +34,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "214c0007978058e81685c5ff17d7fa1a",
+      "setting.json": "a5ee1c7aec83e4b63c01c955f1ebf0cf",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

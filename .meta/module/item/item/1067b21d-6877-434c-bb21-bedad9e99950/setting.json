@@ -1,0 +1,35 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/icon/SeaTalk_IMG_1644488154.png",
+      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644488154.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
+          "myplugin/13c16ee0-d9d7-45b4-9232-892502e4064c"
+        ]
+      },
+      "type": "InHand"
+    },
+    "itemintroduction": {
+      "value": "f27437a1-b215-4f53-911a-e2d80b345c42"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/King Sword/g2021_weapon_15.mesh",
+      "selector": "editor/MurderLegends/asset/Mesh/King Sword/g2021_weapon_15.mesh"
+    },
+    "name": {
+      "value": "item_1067b21d-6877-434c-bb21-bedad9e99950"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1d9adc8e17d3c95d767b042efc0b3e98",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

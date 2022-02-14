@@ -1,8 +1,8 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/EternalBoardsword.png",
-      "selector": "editor/MurderLegends/asset/icon/EternalBoardsword.png"
+      "asset": "asset/icon/SeaTalk_IMG_1644487493.png",
+      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644487493.png"
     },
     "item": {
       "base": {
@@ -26,7 +26,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "21f78e48d5f9b62186e85dae5ab41014",
+      "setting.json": "9f3ddb2863d60a99f00eaf96445990eb",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

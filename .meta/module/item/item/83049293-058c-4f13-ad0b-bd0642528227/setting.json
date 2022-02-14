@@ -1,8 +1,8 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/AssaultSword.png",
-      "selector": "editor/MurderLegends/asset/icon/AssaultSword.png"
+      "asset": "asset/icon/SeaTalk_IMG_1644487129.png",
+      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644487129.png"
     },
     "item": {
       "base": {
@@ -26,7 +26,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "8aa6af5e3a4d70423dc406f84d7eb674",
+      "setting.json": "910ceb25805200e421fe57d6741b3676",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

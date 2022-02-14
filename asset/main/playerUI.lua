@@ -2,7 +2,7 @@
 function self:onOpen(packet)
   self.BG.ActorWindow:setActorName(Me:getActorName())
   if(packet.packet)then
-    self.BG.numCoin:setText(packet.packet.data.totalCoin)
+    self.BG.numCoin:setText(math.floor(packet.packet.data.totalCoin))
     self.BG.numLevel:setText(packet.packet.data.lv)
   end
   if(packet.packet.showBalo)then

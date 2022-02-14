@@ -1,8 +1,8 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/BattleGoldenBow.png",
-      "selector": "editor/MurderLegends/asset/icon/BattleGoldenBow.png"
+      "asset": "asset/icon/SeaTalk_IMG_1644487616.png",
+      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644487616.png"
     },
     "item": {
       "base": {
@@ -25,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "7fe069661db3d955530a87d1a1850852",
+      "setting.json": "8205fff668153ea3ddc5ef8386bd0a1a",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

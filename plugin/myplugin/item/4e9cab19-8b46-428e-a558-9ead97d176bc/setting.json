@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/icon/SeaTalk_IMG_1644487736.png",
+  "itemintroduction": "9128ee3d-2224-4a5a-b8ef-a39f5f37821b",
+  "itemname": "item_4e9cab19-8b46-428e-a558-9ead97d176bc",
+  "mesh": "asset/Mesh/Claw Sword/1700_wolverine_weapon2.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
+    "myplugin/6ff6fa63-ceb1-4b40-92cd-28a03743531b"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

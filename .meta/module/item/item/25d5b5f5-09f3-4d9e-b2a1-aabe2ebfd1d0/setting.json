@@ -1,8 +1,8 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/AwesomeAxe.png",
-      "selector": "editor/MurderLegends/asset/icon/AwesomeAxe.png"
+      "asset": "asset/icon/SeaTalk_IMG_1644487238.png",
+      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644487238.png"
     },
     "item": {
       "base": {
@@ -26,7 +26,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "1c90e1325b0f83e9802eff5c546202a6",
+      "setting.json": "73aeebe549c639727e634cec02e5f9fd",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

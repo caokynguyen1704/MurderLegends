@@ -1,0 +1,21 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/icon/SeaTalk_IMG_1644488254.png",
+  "itemintroduction": "944a802f-ee54-47ed-b0c7-1a3cafece46f",
+  "itemname": "item_dc5d8da1-5051-45cf-828b-ac6634d6080a",
+  "mesh": "asset/Mesh/Gatling/gun_11.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/3e2b6b2c-ad8c-48b9-a4ac-80a923b08037"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

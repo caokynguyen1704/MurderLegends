@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/icon/SeaTalk_IMG_1644488154.png",
+  "itemintroduction": "f27437a1-b215-4f53-911a-e2d80b345c42",
+  "itemname": "item_1067b21d-6877-434c-bb21-bedad9e99950",
+  "mesh": "asset/Mesh/King Sword/g2021_weapon_15.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
+    "myplugin/13c16ee0-d9d7-45b4-9232-892502e4064c"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

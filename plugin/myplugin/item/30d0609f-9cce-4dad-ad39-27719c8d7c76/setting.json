@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/icon/SeaTalk_IMG_1644487913.png",
+  "itemintroduction": "4bc4032c-0836-4ed7-84da-12d3129666ea",
+  "itemname": "item_30d0609f-9cce-4dad-ad39-27719c8d7c76",
+  "mesh": "asset/Mesh/Blue Diamond Mallet/g1036_weapon_lvl3.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
+    "myplugin/1ebae3b1-f1b7-44a3-b168-c49355a891aa"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

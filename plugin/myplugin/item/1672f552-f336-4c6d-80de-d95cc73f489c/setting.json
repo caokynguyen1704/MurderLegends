@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/icon/SeaTalk_IMG_1644488200.png",
+  "itemintroduction": "31478f29-8fa4-423f-b3c3-fe86723d88c8",
+  "itemname": "item_1672f552-f336-4c6d-80de-d95cc73f489c",
+  "mesh": "asset/Mesh/Flying Sword/g1008_sword_19.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
+    "myplugin/45975c51-b685-47be-9332-ff640e573d3f"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

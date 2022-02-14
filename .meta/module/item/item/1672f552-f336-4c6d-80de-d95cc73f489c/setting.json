@@ -1,0 +1,35 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/icon/SeaTalk_IMG_1644488200.png",
+      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644488200.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
+          "myplugin/45975c51-b685-47be-9332-ff640e573d3f"
+        ]
+      },
+      "type": "InHand"
+    },
+    "itemintroduction": {
+      "value": "31478f29-8fa4-423f-b3c3-fe86723d88c8"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Flying Sword/g1008_sword_19.mesh",
+      "selector": "editor/MurderLegends/asset/Mesh/Flying Sword/g1008_sword_19.mesh"
+    },
+    "name": {
+      "value": "item_1672f552-f336-4c6d-80de-d95cc73f489c"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "84ec3501005375d727a267ac3154fbd2",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}
