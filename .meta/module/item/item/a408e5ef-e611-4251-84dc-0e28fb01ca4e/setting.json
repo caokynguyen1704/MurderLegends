@@ -1,15 +1,14 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/SeaTalk_IMG_1644487978.png",
-      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644487978.png"
+      "asset": "asset/icon/SeaTalk_IMG_1644487978.png"
     },
     "item": {
       "base": {
         "__OBJ_TYPE": "ItemInHand",
         "skill": [
           "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
-          "myplugin/c0a27382-685f-4756-9c60-fe6600316e76"
+          "myplugin/c9efa8a4-a217-44b8-8bf1-e35936a34e74"
         ]
       },
       "type": "InHand"
@@ -18,8 +17,7 @@
       "value": "8b8a28c7-55c6-42bf-a813-ab610a6cd6f2"
     },
     "mesh": {
-      "asset": "asset/Mesh/Mediocre Hammer/1700_hulk_weapon.mesh",
-      "selector": "editor/MurderLegends/asset/Mesh/Mediocre Hammer/1700_hulk_weapon.mesh"
+      "asset": "asset/Mesh/Mediocre Hammer/1700_hulk_weapon.mesh"
     },
     "name": {
       "value": "item_a408e5ef-e611-4251-84dc-0e28fb01ca4e"
@@ -27,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a0f59a103cb31cdbb817a63b7e93d6e5",
+      "setting.json": "1e57d8b086a516cc0c93b9751d6e812b",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

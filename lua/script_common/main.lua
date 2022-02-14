@@ -460,6 +460,7 @@ World.Timer(20,
       local players = Game.GetAllPlayers()
       
       if playMap==nil then
+        PackageHandlers.sendServerHandlerToAll("UI",{nameUI="loadingPage",status="open"})
         PackageHandlers.sendServerHandlerToAll("playSoundIngame")
         timer=maxTimer
         numMap=math.random(1,#mapName)

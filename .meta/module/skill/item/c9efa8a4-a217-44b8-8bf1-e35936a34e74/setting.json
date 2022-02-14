@@ -1,0 +1,41 @@
+{
+  "data": {
+    "cdTime": {
+      "value": 30
+    },
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "4c9dcc35-f162-41b2-b9df-f91db1440f83"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/bfedccff-9378-4e50-823d-ed429710700a"
+          }
+        ],
+        "target": {
+          "type": "Camera"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/main/skill1.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClick": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "22d99528d8179f572d5e5afcc8d31c6c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.18"
+  }
+}

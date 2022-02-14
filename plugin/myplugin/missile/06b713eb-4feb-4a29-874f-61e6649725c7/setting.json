@@ -39,7 +39,7 @@
   "lockRotateBodyPitch": 0,
   "lockRotateBodyRoll": 0,
   "lockRotateBodyYaw": 0,
-  "modelMesh": "asset/Mesh/Blue Diamond Mallet/g1036_weapon_lvl3.mesh",
+  "modelMesh": "asset/main/knife/kukri_grip_low.mesh",
   "moveAcc": 0.0,
   "moveSpeed": 2.0,
   "rotateFree": true,

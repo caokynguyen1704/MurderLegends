@@ -1,15 +1,14 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/SeaTalk_IMG_1644487913.png",
-      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644487913.png"
+      "asset": "asset/icon/SeaTalk_IMG_1644487913.png"
     },
     "item": {
       "base": {
         "__OBJ_TYPE": "ItemInHand",
         "skill": [
           "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
-          "myplugin/1ebae3b1-f1b7-44a3-b168-c49355a891aa"
+          "myplugin/3df45d1d-2819-48bf-a8cd-251f3f445973"
         ]
       },
       "type": "InHand"
@@ -18,8 +17,7 @@
       "value": "4bc4032c-0836-4ed7-84da-12d3129666ea"
     },
     "mesh": {
-      "asset": "asset/Mesh/Blue Diamond Mallet/g1036_weapon_lvl3.mesh",
-      "selector": "editor/MurderLegends/asset/Mesh/Blue Diamond Mallet/g1036_weapon_lvl3.mesh"
+      "asset": "asset/Mesh/Blue Diamond Mallet/g1036_weapon_lvl3.mesh"
     },
     "name": {
       "value": "item_30d0609f-9cce-4dad-ad39-27719c8d7c76"
@@ -27,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "0a336415a61821e31fe6f56ca0fe0f2f",
+      "setting.json": "958271384004bc710056e469eb1ec894",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

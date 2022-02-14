@@ -1,8 +1,7 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/SeaTalk_IMG_1644488254.png",
-      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644488254.png"
+      "asset": "asset/icon/SeaTalk_IMG_1644488254.png"
     },
     "item": {
       "base": {
@@ -17,8 +16,7 @@
       "value": "944a802f-ee54-47ed-b0c7-1a3cafece46f"
     },
     "mesh": {
-      "asset": "asset/Mesh/Gatling/gun_11.mesh",
-      "selector": "editor/MurderLegends/asset/Mesh/Gatling/gun_11.mesh"
+      "asset": "asset/Mesh/Gatling/gun_11.mesh"
     },
     "name": {
       "value": "item_dc5d8da1-5051-45cf-828b-ac6634d6080a"
@@ -26,7 +24,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3b3e6d4c722969d34f15a450a3e913a9",
+      "setting.json": "31b10bfe6f3d9f3f9727cc59c775dcd1",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

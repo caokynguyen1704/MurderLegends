@@ -1,15 +1,14 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/SeaTalk_IMG_1644487736.png",
-      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644487736.png"
+      "asset": "asset/icon/SeaTalk_IMG_1644487736.png"
     },
     "item": {
       "base": {
         "__OBJ_TYPE": "ItemInHand",
         "skill": [
           "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
-          "myplugin/6ff6fa63-ceb1-4b40-92cd-28a03743531b"
+          "myplugin/63301765-7811-4982-9010-fd6e5188df80"
         ]
       },
       "type": "InHand"
@@ -18,8 +17,7 @@
       "value": "9128ee3d-2224-4a5a-b8ef-a39f5f37821b"
     },
     "mesh": {
-      "asset": "asset/Mesh/Claw Sword/1700_wolverine_weapon2.mesh",
-      "selector": "editor/MurderLegends/asset/Mesh/Claw Sword/1700_wolverine_weapon2.mesh"
+      "asset": "asset/Mesh/Claw Sword/1700_wolverine_weapon2.mesh"
     },
     "name": {
       "value": "item_4e9cab19-8b46-428e-a558-9ead97d176bc"
@@ -27,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "43dd9e6c98135fcbdf17b764c4f481f5",
+      "setting.json": "dc21782ee83e4de0fa05731577431473",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

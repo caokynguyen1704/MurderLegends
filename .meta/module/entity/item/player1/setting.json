@@ -38,14 +38,14 @@
     },
     "isPlayer": true,
     "maxHp": 19,
-    "moveSpeed": 8,
+    "moveSpeed": 8.0,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "fb9e52601e55d12584a1879f1c264883",
+      "setting.json": "f4fb15ec84a515591e07ec9d20b019c1",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

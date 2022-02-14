@@ -1,15 +1,14 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/SeaTalk_IMG_1644487238.png",
-      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644487238.png"
+      "asset": "asset/icon/SeaTalk_IMG_1644487238.png"
     },
     "item": {
       "base": {
         "__OBJ_TYPE": "ItemInHand",
         "skill": [
           "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
-          "myplugin/bb4742d9-54a2-42c8-b2ed-7585c0bf0584"
+          "myplugin/36f574ed-acc0-42bf-82e0-c20cf37e303d"
         ]
       },
       "type": "InHand"
@@ -26,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "73aeebe549c639727e634cec02e5f9fd",
+      "setting.json": "d8aca7808404d7ada8000c964c5d65f7",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

@@ -1,15 +1,14 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/HighEnergyChainsaw.png",
-      "selector": "editor/MurderLegends/asset/icon/HighEnergyChainsaw.png"
+      "asset": "asset/icon/HighEnergyChainsaw.png"
     },
     "item": {
       "base": {
         "__OBJ_TYPE": "ItemInHand",
         "skill": [
           "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
-          "myplugin/e053d408-bc80-4b07-8e3b-fe3591e631d7"
+          "myplugin/56c0f5f2-ddff-411f-bdc6-a1fe930723fc"
         ]
       },
       "type": "InHand"
@@ -18,8 +17,7 @@
       "value": "95a96d9e-6e35-49f3-8c0f-c28f4b3bc08f"
     },
     "mesh": {
-      "asset": "asset/Mesh/High Energy Chainsaw/gun_163.mesh",
-      "selector": "editor/MurderLegends/asset/Mesh/High Energy Chainsaw/gun_163.mesh"
+      "asset": "asset/Mesh/High Energy Chainsaw/gun_163.mesh"
     },
     "name": {
       "value": "item_a8799072-12ae-4d72-b957-19d4410fe945"
@@ -27,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2505a42eff54dfb51830f94161d21622",
+      "setting.json": "4d972b692ae06085f848163748c676f8",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

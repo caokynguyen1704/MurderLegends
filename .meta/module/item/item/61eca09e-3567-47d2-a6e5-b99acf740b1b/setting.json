@@ -1,8 +1,7 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/LaserCanon.png",
-      "selector": "editor/MurderLegends/asset/icon/LaserCanon.png"
+      "asset": "asset/icon/LaserCanon.png"
     },
     "item": {
       "base": {
@@ -17,8 +16,7 @@
       "value": "12b8c507-94a2-4453-a4be-9eff60ef5c87"
     },
     "mesh": {
-      "asset": "asset/Mesh/Laser Cannon/1700_ironman_weapon2.mesh",
-      "selector": "editor/MurderLegends/asset/Mesh/Laser Cannon/1700_ironman_weapon2.mesh"
+      "asset": "asset/Mesh/Laser Cannon/1700_ironman_weapon2.mesh"
     },
     "name": {
       "value": "item_61eca09e-3567-47d2-a6e5-b99acf740b1b"

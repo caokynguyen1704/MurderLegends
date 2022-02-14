@@ -1,15 +1,14 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/SeaTalk_IMG_1644487829.png",
-      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644487829.png"
+      "asset": "asset/icon/SeaTalk_IMG_1644487829.png"
     },
     "item": {
       "base": {
         "__OBJ_TYPE": "ItemInHand",
         "skill": [
           "myplugin/4787f15d-7373-40d1-9aa5-a98bdde67149",
-          "myplugin/0a40eb2b-9179-40df-8cf4-35309c816862"
+          "myplugin/2b6c5b00-67ba-4f3d-a89d-89923abe1768"
         ]
       },
       "type": "InHand"
@@ -18,8 +17,7 @@
       "value": "5c7405c5-6129-42d5-a6d2-7952770c27c7"
     },
     "mesh": {
-      "asset": "asset/Mesh/Arc Double Axe/g1008_axe_10.mesh",
-      "selector": "editor/MurderLegends/asset/Mesh/Arc Double Axe/g1008_axe_10.mesh"
+      "asset": "asset/Mesh/Arc Double Axe/g1008_axe_10.mesh"
     },
     "name": {
       "value": "item_6ff5fe29-ef8d-4d81-9a91-71d1c0df4c95"
@@ -27,7 +25,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "afca577344985dc411eb1c8dd2b5b9d9",
+      "setting.json": "82c9240042110ff06ce855b8b649b4f3",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

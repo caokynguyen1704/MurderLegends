@@ -34,7 +34,6 @@
       "showTeamStatusBar": false,
       "team": [
         {
-          "ignorePlayerSkinEditor": false,
           "initPos": {
             "map": "lobby2",
             "pos": {
@@ -52,13 +51,10 @@
               "y": 58,
               "z": 31
             }
-          },
-          "use_init_pos": false,
-          "use_start_pos": false
+          }
         },
         {
           "id": 2,
-          "ignorePlayerSkinEditor": false,
           "initPos": {
             "map": "lobby2",
             "pos": {
@@ -76,18 +72,16 @@
               "y": 58,
               "z": 31
             }
-          },
-          "use_start_pos": false
+          }
         },
         {
           "id": 3,
-          "ignorePlayerSkinEditor": false,
           "initPos": {
-            "map": "map001",
+            "map": "lobby2",
             "pos": {
-              "x": 28,
-              "y": 54,
-              "z": 34
+              "x": 34,
+              "y": 58,
+              "z": 32
             }
           },
           "memberLimit": 6,
@@ -99,9 +93,7 @@
               "y": 58,
               "z": 31
             }
-          },
-          "use_init_pos": false,
-          "use_start_pos": false
+          }
         }
       ]
     },
@@ -122,7 +114,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "cf9f5bccfa76a5ed487ab4a74aeaa897",
+      "setting.json": "97d5d3f706ddab3e8ff240567ec25c93",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": ""
     },

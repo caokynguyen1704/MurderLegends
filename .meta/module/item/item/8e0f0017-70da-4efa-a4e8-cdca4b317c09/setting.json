@@ -1,8 +1,7 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Texture/Gui/icon_kinfe.png",
-      "selector": "editor/MurderLegends/asset/Texture/Gui/icon_kinfe.png"
+      "asset": "asset/Texture/Gui/icon_kinfe.png"
     },
     "item": {
       "base": {

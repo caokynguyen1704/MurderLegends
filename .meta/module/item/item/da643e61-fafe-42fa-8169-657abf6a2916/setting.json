@@ -1,8 +1,7 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/icon/SeaTalk_IMG_1644488024.png",
-      "selector": "editor/MurderLegends/asset/icon/SeaTalk_IMG_1644488024.png"
+      "asset": "asset/icon/SeaTalk_IMG_1644488024.png"
     },
     "item": {
       "base": {
@@ -17,8 +16,7 @@
       "value": "2274251a-8955-409e-95f0-0e8d81052831"
     },
     "mesh": {
-      "asset": "asset/Mesh/Explosive Cyclone/gun_132.mesh",
-      "selector": "editor/MurderLegends/asset/Mesh/Explosive Cyclone/gun_132.mesh"
+      "asset": "asset/Mesh/Explosive Cyclone/gun_132.mesh"
     },
     "name": {
       "value": "item_da643e61-fafe-42fa-8169-657abf6a2916"
@@ -26,7 +24,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2c076d4d4015b570625b9afb7a89acc3",
+      "setting.json": "6f32e4b25b782ee28ba6abbeaa877ff9",
       "triggers.bts": ""
     },
     "VERSION": "0.18"

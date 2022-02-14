@@ -1,13 +1,17 @@
 {
   "data": {
     "actorName": {
-      "asset": "asset/Actor/Blue Grid Baby Iron/elf_iron_blue.actor",
-      "selector": "editor/MurderLegends/asset/Actor/Blue Grid Baby Iron/elf_iron_blue.actor"
+      "asset": "asset/Actor/Blue Grid Baby Iron/elf_iron_blue.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
     },
     "enableAI": true,
     "girlactor": {
-      "asset": "asset/Actor/Blue Grid Baby Iron/elf_iron_blue.actor",
-      "selector": "editor/MurderLegends/asset/Actor/Blue Grid Baby Iron/elf_iron_blue.actor"
+      "asset": "asset/Actor/Blue Grid Baby Iron/elf_iron_blue.actor"
     },
     "hideName": true,
     "name": {
@@ -16,7 +20,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f8872fff5304a313b5159d3073732d39",
+      "setting.json": "289db7de22fcbd04ce9f096b069fbc08",
       "triggers.bts": ""
     },
     "VERSION": "0.18"
