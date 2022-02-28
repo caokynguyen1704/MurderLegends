@@ -31,7 +31,7 @@ e2db6b6c60ae613bfc798f72c76a6059 *asset/main/lastResult.lua
 f1c5dfe5661a1aa4e798305a53752fa9 *asset/main/pickUpCoin.layout
 92dafa424f034bb976577282b186e76b *asset/main/pickUpCoin.lua
 98d254a249d66097c02a1f74d174b8b8 *asset/main/playUI.layout
-b1644c6ec386f8b1bd73ceb7e877993e *asset/main/playerUI.layout
+953ea3baf1a707d8c1776bcd3a122fa0 *asset/main/playerUI.layout
 021d8dbe2a45a82b5c1fe72bc933adab *asset/main/playerUI.lua
 f910d0891b80015d6eb3e48162e2d880 *asset/main/readyUI.layout
 bfdd5b62fcfa0512c83af09c57edf03b *asset/main/readyUI.lua
@@ -45,13 +45,13 @@ f93d90a70ff72785f8173bc905785450 *asset/main/timer.layout
 8b050db2bc78b20b9136bd0727c463e4 *asset/main/timer.lua
 d751713988987e9331980363e24189ce *coin.json
 8b4680f579056d53a7459bda38f8d752 *commodity.csv
-93f3d6fa8b5f3b9d952413f392ae939d *game_res_config.txt
+57ad987a8d168f65c16b83e06470ede3 *game_res_config.txt
 7de6fe70def3b44d46e11e236ad728d8 *gui/CMakeLists.txt
 08a6935cda73d4dd6c3828937f883393 *id_mappings.json
 e89ac1329fc151cc2c4f291fc8e653ef *lang/lang.csv
 99a366a78ce928a3b42a4066e4311cc0 *lua/main.lua
 7e6e3d3b26fdc2935f7f6de54fd72b32 *lua/script_client/main.lua
-df4a2ce7ff16af3bdb0cf27e8061a961 *lua/script_common/main.lua
+71f1dbe11cfe88c3d42cdec68ba5432c *lua/script_common/main.lua
 cb811c09e3abfe90f6770447f914c7ca *lua/script_server/main.lua
 ecf292b3f4e2eb3627eeb67e95d965d7 *map/7b3/r.-1.-1.mca
 eea986c80a0e783d1ed14fcbf834cccb *map/7b3/r.-1.0.mca
@@ -558,4 +558,4 @@ e60713e6ae0b36c1a18c4f31ca7d53c3 *plugin/myplugin/skill/7ed36c52-66cb-4277-bd26-
 3c68a23cc3eb3d7191183e7a36ba2705 *plugin/myplugin/skill/d3fa0e67-572b-4fb7-87ce-5858c1553977/setting.json
 97d5d3f706ddab3e8ff240567ec25c93 *setting.json
 393e9a440b900b5690986ec2b0e57be5 *shop.csv
-2ffe660a705e81aaabce0d188234aaa6 *user_data.json
+3ecbcbb7c3e42cbb3f805e20e7934dc4 *user_data.json

@@ -330,9 +330,9 @@ Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_ENTER", funct
           _tray.tray:remove_item(i)
         end
       end
-    if(isStart==false)and(GameStart) then
-      PackageHandlers.sendServerHandler(p.obj1,"UI",{nameUI="main/readyUI",status="open"})
-      GameStart=true
+    PackageHandlers.sendServerHandler(p.obj1,"UI",{nameUI="main/readyUI",status="open"})
+    if(isStart==false) then
+      print("-------------------OPEN UI---------------")
     else
       World.CurWorld.SystemNotice(2, p.name.."is join. Please wait until game is end...", 40)
     end
