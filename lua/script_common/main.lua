@@ -303,41 +303,10 @@ Trigger.RegisterHandler(World.cfg, "GAME_START", function()
     PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/readyUI",status="open"})
     GameStart=true
 end)
-Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_ENTER", function(p)
-      local v=p.obj1
-      local map = World.CurWorld:getMap("lobby2")
-      PackageHandlers.sendServerHandler(v,"UI",{nameUI="main/timer",status="close"})
-      PackageHandlers.sendServerHandler(v,"UI",{nameUI="main/pickUpCoin",status="close"})
-      PackageHandlers.sendServerHandler(v,"UI",{nameUI="main/playUI",status="close"})
-      v:setMapPos(map, Lib.v3(23,55,34))
-      v:setRebirthPos(Lib.v3(23,55,34),map)
-      local teams= v:getTeam()
-      teams:leaveEntity(v)
-      local entityTrays = v:tray()
-      local filterTB = {
-        Define.TRAY_TYPE.HAND_BAG
-      }
-      local trayTb = entityTrays:query_trays(filterTB)
-      for tid, _tray in pairs(trayTb) do
-        local count=_tray.tray:count_item_num_by_fullname("myplugin/ad69ecbc-9f7e-4797-af2d-de9d802b6220")
-        local db = v:getValue("profile")
-        local profile = v:getValue("profile")
-        profile.totalCoin = db.totalCoin+count
-        profile.lv=db.lv
-        profile.exp=db.exp
-        v:setValue('profile',profile) 
-        for i=1,9 do
-          _tray.tray:remove_item(i)
-        end
-      end
-    PackageHandlers.sendServerHandler(p.obj1,"UI",{nameUI="main/readyUI",status="open"})
-    if(isStart==false) then
-      print("-------------------OPEN UI---------------")
-    else
-      World.CurWorld.SystemNotice(2, p.name.."is join. Please wait until game is end...", 40)
-    end
-end)
+
 Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_LEAVE", function(p)
+    print("--------------------OUT-----------------")
+    
     if(isStart==false)and(GameStart) then
       for k,v in pairs(readyPlayerList) do
         if v.name==p.obj1.name then
@@ -346,7 +315,17 @@ Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_LEAVE", funct
       end
     elseif isStart then
       if (p.obj1:getTeam()) then
-        if (p.obj1:getTeam().id==1) then
+        if (p.obj1:getTeam().id==2) then
+          local pos = p.obj1:getFrontPos(3, true, true) + Lib.v3(0, 0.2, 0)
+          local params = {
+            item = Item.CreateItem("myplugin/ff9513ee-8d9b-4f3f-bac8-d6bc050700ea", 1),
+            map = p.obj1.map,
+            pos = pos
+          }
+          local dropItem = DropItemServer.Create(params)
+        
+      elseif (p.obj1:getTeam().id==1) then
+        print("runnnnnnnnnnnnnnnnnnnnnnnn")
           local teamLose = Game.GetTeam(1, true)
           local teamWin = Game.GetTeam(2, true)
           local loseActor
@@ -358,16 +337,38 @@ Trigger.RegisterHandler(Entity.GetCfg("myplugin/player1"), "ENTITY_LEAVE", funct
             winActor=v.name
           end
           PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/lastResult",status="open",win=2,winActor=winActor,loseActor=loseActor})
-          endGame()
           numMap=nil
-  playMap=nil
-  dynamicMap=nil
-  timer=maxTimer
-  readyPlayerList={}
-  isStart=false
-  PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/timer",status="close"})
-  PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/pickUpCoin",status="close"})
-  PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/playUI",status="close"})
+          playMap=nil
+          dynamicMap=nil
+          timer=maxTimer
+          readyPlayerList={}
+          isStart=false
+          PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/timer",status="close"})
+          PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/pickUpCoin",status="close"})
+          PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/playUI",status="close"})
+          if team~=nil then
+            local map = World.CurWorld:getMap("lobby2")
+            v:setMapPos(map, Lib.v3(23,55,34))
+            v:setRebirthPos(Lib.v3(23,55,34),map)
+            team:leaveEntity(v)
+            local entityTrays = v:tray()
+            local filterTB = {
+              Define.TRAY_TYPE.HAND_BAG
+            }
+            local trayTb = entityTrays:query_trays(filterTB)
+            for tid, _tray in pairs(trayTb) do
+              local count=_tray.tray:count_item_num_by_fullname("myplugin/ad69ecbc-9f7e-4797-af2d-de9d802b6220")
+              local db = v:getValue("profile")
+              local profile = v:getValue("profile")
+              profile.totalCoin = db.totalCoin+count
+              profile.lv=db.lv
+              profile.exp=db.exp
+              v:setValue('profile',profile) 
+              for i=1,9 do
+              _tray.tray:remove_item(i)
+              end
+            end
+          end
         end
       end
     end
@@ -495,24 +496,29 @@ World.Timer(20,
             teamNum=teamNum+1
           end
           while (teamNum<numPlayerInTeam[index])and(numPlayerInTeam[1]+numPlayerInTeam[2]<playerNum) do
+            players = Game.GetAllPlayers()
             local player=players[math.random(1,#players)]
-            local team_1= player:getTeam()
-            while team_1.id~=3 do
-              player=players[math.random(1,#players)]
-              team_1= player:getTeam()
-            end
-            team_1:leaveEntity(player)
-            team:joinEntity(player)
-            local idItem=player:getValue("weapon")
-            if (index==1) then
-              
-              player:addItem("myplugin/"..idItem.selectWeapon.murder.idItem, 1, nil, "enter")
-            elseif index==2 then
-              player:addItem("myplugin/"..idItem.selectWeapon.sheriff.idItem, 1, nil, "enter")
-            end
-            teamNum=0
-            for kkk,vvv in pairs(team:getEntityList()) do
-              teamNum=teamNum+1
+            if player==nil then 
+              print("NILLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL")
+            else
+              local team_1= player:getTeam()
+              while team_1.id~=3 do
+                player=players[math.random(1,#players)]
+                team_1= player:getTeam()
+              end
+              team_1:leaveEntity(player)
+              team:joinEntity(player)
+              local idItem=player:getValue("weapon")
+              if (index==1) then
+                
+                player:addItem("myplugin/"..idItem.selectWeapon.murder.idItem, 1, nil, "enter")
+              elseif index==2 then
+                player:addItem("myplugin/"..idItem.selectWeapon.sheriff.idItem, 1, nil, "enter")
+              end
+              teamNum=0
+              for kkk,vvv in pairs(team:getEntityList()) do
+                teamNum=teamNum+1
+              end
             end
           end
         end
@@ -563,6 +569,18 @@ World.Timer(20,
         
       end
        local iteam=1
+       local teamID_police = Game.GetTeam(2,true)
+       if(teamID_police.playerCount==0)then
+         for k,v in pairs(teamID_police:getEntityList()) do
+            local pos = v:getFrontPos(3, true, true) + Lib.v3(0, 0.2, 0)
+            local params = {
+              item = Item.CreateItem("myplugin/ff9513ee-8d9b-4f3f-bac8-d6bc050700ea", 1),
+              map = v.map,
+              pos = pos
+            }
+            local dropItem = DropItemServer.Create(params)
+          end
+        end
         local teamID = Game.GetTeam(iteam,true)
         if(teamID.playerCount==0)then
           local teamLose = Game.GetTeam(iteam, true)

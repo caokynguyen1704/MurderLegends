@@ -51,7 +51,7 @@ d751713988987e9331980363e24189ce *coin.json
 e89ac1329fc151cc2c4f291fc8e653ef *lang/lang.csv
 99a366a78ce928a3b42a4066e4311cc0 *lua/main.lua
 7e6e3d3b26fdc2935f7f6de54fd72b32 *lua/script_client/main.lua
-71f1dbe11cfe88c3d42cdec68ba5432c *lua/script_common/main.lua
+500fa2f7ea1ddf21cb7c2f93fd1ac1a5 *lua/script_common/main.lua
 cb811c09e3abfe90f6770447f914c7ca *lua/script_server/main.lua
 ecf292b3f4e2eb3627eeb67e95d965d7 *map/7b3/r.-1.-1.mca
 eea986c80a0e783d1ed14fcbf834cccb *map/7b3/r.-1.0.mca
@@ -487,7 +487,7 @@ c183695c04ad0c7558f666876bc5c770 *plugin/myplugin/entity/7ad52f45-81ff-4d61-abb4
 419b47a0d15c7ccb0ceec5820773f94a *plugin/myplugin/entity/f4e7383c-228b-4337-8dc9-d81aa572922b/setting.json
 e5277f00cf47dadceb6725a91718adc0 *plugin/myplugin/entity/f7d0ee18-975c-489c-a64f-17d56a6ce82c/setting.json
 8e962cfb450e6516030f548cc87aae3f *plugin/myplugin/entity/player1/client/client_script.lua
-fc98c12ac11680575255129a541eb977 *plugin/myplugin/entity/player1/server/server_script.lua
+9df1fb0eb4a66b9ab1bec6df89521f8a *plugin/myplugin/entity/player1/server/server_script.lua
 f4fb15ec84a515591e07ec9d20b019c1 *plugin/myplugin/entity/player1/setting.json
 12faa9439a0a2775b22b57695101b603 *plugin/myplugin/frontsight/frontsight1/setting.json
 f8748fc2def3badb1725d769ca29551d *plugin/myplugin/item/1067b21d-6877-434c-bb21-bedad9e99950/setting.json
@@ -558,4 +558,4 @@ e60713e6ae0b36c1a18c4f31ca7d53c3 *plugin/myplugin/skill/7ed36c52-66cb-4277-bd26-
 3c68a23cc3eb3d7191183e7a36ba2705 *plugin/myplugin/skill/d3fa0e67-572b-4fb7-87ce-5858c1553977/setting.json
 97d5d3f706ddab3e8ff240567ec25c93 *setting.json
 393e9a440b900b5690986ec2b0e57be5 *shop.csv
-3ecbcbb7c3e42cbb3f805e20e7934dc4 *user_data.json
+0d3c2e3a452f389eae5ec90a353d6d01 *user_data.json
