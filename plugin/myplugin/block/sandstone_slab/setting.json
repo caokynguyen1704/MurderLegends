@@ -1,6 +1,6 @@
 {
   "breakTime": false,
-  "canClick": false,
+  "canClick": true,
   "candrop": false,
   "canSwim": false,
   "climbSpeed": 0.0,
@@ -184,11 +184,11 @@
   "recycleTime": 20,
   "spring": 0,
   "texture": [
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "/block/sandstone_slab",
+    "/block/sandstone_slab",
+    "/block/sandstone_slab",
+    "/block/sandstone_slab",
+    "/block/sandstone_slab",
+    "/block/sandstone_slab"
   ]
 }

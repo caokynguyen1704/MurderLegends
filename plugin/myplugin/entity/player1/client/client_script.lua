@@ -30,10 +30,25 @@ PackageHandlers.registerClientHandler("getTeam", function(player, packet)
     end
 end)
 PackageHandlers.registerClientHandler("UI", function(player, packet)
+    if packet.isLogin~=nil then
+      if (Me.platformUserId==packet.playerId) then
+        print("--------------------- THANH CONG --------------------")
+        PackageHandlers.sendClientHandler("resetPlayer_123")
+      end
+    end
     if(packet.status=="open") then
+      
+     
       UI:closeWindow(packet.nameUI)
-      UI:openWindow(packet.nameUI,packet.nameUI,"layouts",{packet=packet,team=teamID})
+      if packet.isLogin~=nil then
+        PackageHandlers.sendClientHandler("New player join, please wait for them to load the map...")
+        UI:openWindow(packet.nameUI,packet.nameUI,"layouts",{packet=packet,team=teamID})
+      else
+        UI:openWindow(packet.nameUI,packet.nameUI,"layouts",{packet=packet,team=teamID})
+      end
     elseif (packet.status=="close")then
       UI:closeWindow(packet.nameUI)
     end
+    
+    
 end)

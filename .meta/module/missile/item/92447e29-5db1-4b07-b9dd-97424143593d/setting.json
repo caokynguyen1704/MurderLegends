@@ -2,8 +2,7 @@
   "data": {
     "missileModel": {
       "modelMesh": {
-        "asset": "asset/Mesh/Assault Sword/gun_134.mesh",
-        "selector": "editor/MurderLegends/asset/Mesh/Assault Sword/gun_134.mesh"
+        "asset": "asset/Mesh/Assault Sword/gun_134.mesh"
       },
       "type": "mesh"
     },
@@ -97,7 +96,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6a891efe303e7a3adddaf1358617ec69",
+      "setting.json": "0a63d06b3791a761becdd1c314806f7a",
       "triggers.bts": "77246136c7169d38a8eaa4e824bc89af"
     },
     "VERSION": "0.18"

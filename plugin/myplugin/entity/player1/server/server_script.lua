@@ -24,10 +24,11 @@ Trigger.RegisterHandler(this:cfg(), "ENTITY_HITTED", function(context)
       local dropItem = DropItemServer.Create(params)
     end
 end)
+
+
 Trigger.RegisterHandler(this:cfg(), "ENTITY_ENTER", function(p)
-    World.CurWorld.SystemNotice(1, p.obj1.name.." login", 40) 
-    PackageHandlers.sendServerHandler(p.obj1,"UI",{nameUI="main/readyUI",status="open"})
-    print("RUN")
+    World.CurWorld.SystemNotice(1,"welcome "..p.obj1.name, 40) 
+    PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/readyUI",status="open",isLogin=1, playerId=p.obj1.platformUserId})
 end)
 Trigger.RegisterHandler(this:cfg(), "PRE_CHECK_PICK_ITEM", function(context)
     local it=context.item
