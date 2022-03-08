@@ -2,8 +2,7 @@
   "data": {
     "missileModel": {
       "modelMesh": {
-        "asset": "asset/main/knife/kukri_grip_low.mesh",
-        "selector": "editor/MurderLegends/asset/main/knife/kukri_grip_low.mesh"
+        "asset": "asset/main/knife/kukri_grip_low.mesh"
       },
       "type": "mesh"
     },
@@ -97,7 +96,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "374edb692e6aa3428c4d377171ea9b98",
+      "setting.json": "188776882a10ad52293489abef74944a",
       "triggers.bts": "77246136c7169d38a8eaa4e824bc89af"
     },
     "VERSION": "0.18"

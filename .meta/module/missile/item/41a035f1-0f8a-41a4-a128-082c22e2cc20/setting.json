@@ -2,8 +2,7 @@
   "data": {
     "missileModel": {
       "modelMesh": {
-        "asset": "asset/Battle Golden Bow/g1008_bow_01_pulling_0.mesh",
-        "selector": "editor/MurderLegends/asset/Battle Golden Bow/g1008_bow_01_pulling_0.mesh"
+        "asset": "asset/Battle Golden Bow/g1008_bow_01_pulling_0.mesh"
       },
       "type": "mesh"
     },
@@ -97,7 +96,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "0b969c33a803f2b4f4fcef775dab2cc3",
+      "setting.json": "d4907f00aa2ab83d6ae7680682b828bd",
       "triggers.bts": "77246136c7169d38a8eaa4e824bc89af"
     },
     "VERSION": "0.18"

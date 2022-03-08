@@ -2,8 +2,7 @@
   "data": {
     "missileModel": {
       "modelMesh": {
-        "asset": "asset/Mesh/Claw Sword/1700_wolverine_weapon2.mesh",
-        "selector": "editor/MurderLegends/asset/Mesh/Claw Sword/1700_wolverine_weapon2.mesh"
+        "asset": "asset/Mesh/Claw Sword/1700_wolverine_weapon2.mesh"
       },
       "type": "mesh"
     },
@@ -97,7 +96,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "018fe662b1615ba28300f59a9de79956",
+      "setting.json": "dd7297244936d1a534c4d231b0391213",
       "triggers.bts": "77246136c7169d38a8eaa4e824bc89af"
     },
     "VERSION": "0.18"

@@ -2,8 +2,7 @@
   "data": {
     "missileModel": {
       "modelMesh": {
-        "asset": "asset/Mesh/Mediocre Hammer/1700_hulk_weapon.mesh",
-        "selector": "editor/MurderLegends/asset/Mesh/Mediocre Hammer/1700_hulk_weapon.mesh"
+        "asset": "asset/Mesh/Mediocre Hammer/1700_hulk_weapon.mesh"
       },
       "type": "mesh"
     },
@@ -97,7 +96,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f1be17125c1e05839d3fc946c86b56a7",
+      "setting.json": "0d22ceb0023977038c9f149aa6889ad7",
       "triggers.bts": "77246136c7169d38a8eaa4e824bc89af"
     },
     "VERSION": "0.18"
