@@ -4,7 +4,7 @@ function self:onOpen(packet)
     if (packet.packet.thanhtuu)then
       self.Background.CoinCollect.Text:setText(packet.packet.thanhtuu.coin)
       self.Background.KillCollect.Text:setText(packet.packet.thanhtuu.kill)
-      if packet.packet.thanhtuu.coin>=50 then
+      if packet.packet.thanhtuu.coin>=0 then
         self.Background.taskCoin.Button:setVisible(true)
       end
       if packet.packet.thanhtuu.kill>=50 then

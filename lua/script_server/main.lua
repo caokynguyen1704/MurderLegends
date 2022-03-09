@@ -156,9 +156,12 @@ PackageHandlers.registerServerHandler("addCoinPlayer", function(player, packet)
 end)
 PackageHandlers.registerServerHandler("addEXPPlayer", function(player, packet)
     local profile=player:getValue("profile")
-    if lv[profile.lv+1]>=profile.exp+packet.exp then
+        print("exp can: ",lv[profile.lv+1])
+        print("exp hien tai: ",profile.exp)
+        print("exp nhan them: ",packet.exp)
+    if lv[profile.lv+1]<=profile.exp+packet.exp then
         profile.lv=profile.lv+1
-        profile.exp=profile.exp+packet.exp-lv[profile.lv+1]
+        profile.exp=profile.exp+packet.exp-lv[profile.lv]
       else
         profile.exp=profile.exp+packet.exp
       end
