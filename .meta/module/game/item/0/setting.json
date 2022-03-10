@@ -13,7 +13,6 @@
         "z": 32
       }
     },
-    "needSave": true,
     "nowTime": {
       "h": 16,
       "m": 40
@@ -114,7 +113,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ded5e9c0accbea6aaf90b51a714b2adc",
+      "setting.json": "f9a79dd092322432ea1c0b22e25d4a96",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": ""
     },

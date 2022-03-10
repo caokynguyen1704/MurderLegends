@@ -45,6 +45,7 @@ f93d90a70ff72785f8173bc905785450 *asset/main/timer.layout
 8b050db2bc78b20b9136bd0727c463e4 *asset/main/timer.lua
 d751713988987e9331980363e24189ce *coin.json
 8b4680f579056d53a7459bda38f8d752 *commodity.csv
+57ad987a8d168f65c16b83e06470ede3 *game_res_config.txt
 7de6fe70def3b44d46e11e236ad728d8 *gui/CMakeLists.txt
 08a6935cda73d4dd6c3828937f883393 *id_mappings.json
 e89ac1329fc151cc2c4f291fc8e653ef *lang/lang.csv

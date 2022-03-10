@@ -107,7 +107,7 @@
   "moveStateConfig": {
     "isShow": false
   },
-  "needSave": true,
+  "needSave": false,
   "noLoadHp": true,
   "notReadUserSettingCfgAtEditor": true,
   "nowTime": 10666.666666667,
