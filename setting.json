@@ -214,6 +214,7 @@
   ],
   "team": [
     {
+      "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
       "id": 1,
       "ignorePlayerSkin": true,
       "image": "asset/Texture/Team/flag/flag_1.png",
@@ -237,6 +238,7 @@
       ]
     },
     {
+      "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
       "id": 2,
       "ignorePlayerSkin": true,
       "image": "asset/Texture/Team/flag/flag_1.png",
@@ -260,6 +262,7 @@
       ]
     },
     {
+      "actorName": "asset/Actor/charactor/charactor_boy/character_boy.actor",
       "id": 3,
       "ignorePlayerSkin": true,
       "image": "asset/Texture/Team/flag/flag_1.png",

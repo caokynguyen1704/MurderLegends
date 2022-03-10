@@ -88,7 +88,7 @@ local endGame=function()
 end
 
 Entity.addValueDef('profile',{
-    totalCoin=5000,
+    totalCoin=0,
     lv=0,
     exp=0
 }
@@ -135,10 +135,21 @@ end)
 
 Entity.addValueDef('thanhtuu',{
     coin=0,
-    kill=0
+    isReCoin=false,
+    kill=0,
+    isReKill=false
 }
 ,false,false, true)
 
+PackageHandlers.registerServerHandler("editThanhTuu", function(player, packet)
+    local thanhtuu = player:getValue("thanhtuu")
+    if (packet.reCoin~=nil) then
+      thanhtuu.isReCoin=true
+    elseif (packet.reKill~=nil) then
+      thanhtuu.isReKill=true
+    end
+    player:setValue("thanhtuu",thanhtuu)
+end)
 PackageHandlers.registerServerHandler("addCoinThanhTuu", function(player, packet)
     local thanhtuu = player:getValue("thanhtuu")
     thanhtuu.coin=thanhtuu.coin+1
@@ -156,9 +167,12 @@ PackageHandlers.registerServerHandler("addCoinPlayer", function(player, packet)
 end)
 PackageHandlers.registerServerHandler("addEXPPlayer", function(player, packet)
     local profile=player:getValue("profile")
-    if lv[profile.lv+1]>=profile.exp+packet.exp then
+        print("exp can: ",lv[profile.lv+1])
+        print("exp hien tai: ",profile.exp)
+        print("exp nhan them: ",packet.exp)
+    if lv[profile.lv+1]<=profile.exp+packet.exp then
         profile.lv=profile.lv+1
-        profile.exp=profile.exp+packet.exp-lv[profile.lv+1]
+        profile.exp=profile.exp+packet.exp-lv[profile.lv]
       else
         profile.exp=profile.exp+packet.exp
       end
@@ -371,12 +385,14 @@ local random_elem=function (tb)
     return tb[keys[math.random(#keys)]]
 end
 PackageHandlers.registerServerHandler("resetPlayer_123", function(player, packet)
+    print("------------------RUN RESET-----------------")
     if (isStart and GameStart) then 
       print("Game Start")
     else
       World.CurWorld.SystemNotice(2,"New player just entered, get ready again", 40) 
-      
+      print("--------------------XOA-------------------------")
       readyPlayerList={}
+      PackageHandlers.sendServerHandlerToAll("UI",{nameUI="main/readyUI",status="open"})
     end
   
 end)
