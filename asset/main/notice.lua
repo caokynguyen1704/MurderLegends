@@ -1,7 +1,7 @@
 
 function self:onOpen(packet)
   
-    local i=3
+    local i=10
     World.Timer(20,function()
       if (i<=0) then
         UI:closeWindow(self)
