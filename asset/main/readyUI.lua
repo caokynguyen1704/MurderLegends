@@ -26,7 +26,7 @@ function self:onOpen(packet)
           isRun=isRun+1
           if isRun==1 then
               if self:getProperty("Visible")=="true" then
-      local k=20
+      local k=10
       World.Timer(20, function()
         w.Text:setText("Start in "..k.." seconds")
         k=k-1

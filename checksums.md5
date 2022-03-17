@@ -36,7 +36,7 @@ e79ec415225bc2c94d1724ec46b33902 *asset/main/playUI.layout
 f61dd7518e74541163d97fc5deefc6a1 *asset/main/playerUI.layout
 021d8dbe2a45a82b5c1fe72bc933adab *asset/main/playerUI.lua
 1e8e128a1cfbfb9acbfe2cf73405d392 *asset/main/readyUI.layout
-0b85c619af5e2515e7c69b88249c9534 *asset/main/readyUI.lua
+6885992f932f8216ba2723141d01e8cf *asset/main/readyUI.lua
 d5f5873c46b652a6c23ebe5d1a155adf *asset/main/resultUI.layout
 c9061de627e0445ce29156baa78fb116 *asset/main/resultUI.lua
 0250d0596586024131cc7cfc060bcfd0 *asset/main/shop.layout
@@ -47,7 +47,7 @@ a6a4b8d448dcbac226fdf7174ed34ffc *asset/main/shop.lua
 8b050db2bc78b20b9136bd0727c463e4 *asset/main/timer.lua
 d751713988987e9331980363e24189ce *coin.json
 8b4680f579056d53a7459bda38f8d752 *commodity.csv
-3ee093f01eb50817a0e7719e92844da0 *game_res_config.txt
+57ad987a8d168f65c16b83e06470ede3 *game_res_config.txt
 7de6fe70def3b44d46e11e236ad728d8 *gui/CMakeLists.txt
 08a6935cda73d4dd6c3828937f883393 *id_mappings.json
 e89ac1329fc151cc2c4f291fc8e653ef *lang/lang.csv
@@ -558,6 +558,6 @@ f6cf4cfda89c9875a3f956dbd043b1c7 *plugin/myplugin/skill/63301765-7811-4982-9010-
 89887675ea0e0ff6301cd52d196cc6c8 *plugin/myplugin/skill/a1c95442-730e-4e1a-99c0-494cecfbadb0/setting.json
 e68e62a0db9dfea1c932b3eb237f8d7e *plugin/myplugin/skill/c9efa8a4-a217-44b8-8bf1-e35936a34e74/setting.json
 1d34a1134f78d022491cc8e43a5610c7 *plugin/myplugin/skill/d3fa0e67-572b-4fb7-87ce-5858c1553977/setting.json
-f9a79dd092322432ea1c0b22e25d4a96 *setting.json
+ded5e9c0accbea6aaf90b51a714b2adc *setting.json
 393e9a440b900b5690986ec2b0e57be5 *shop.csv
-ba543665c999642235175e8080e0ba38 *user_data.json
+063fb6fb6786140be81152a98a9945e8 *user_data.json
